@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte des Écoles</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.css"/>
+    <script src="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.js"></script>
+    <style>
+        #map { width: 100%; height: 95vh; }
+        .popup-content { font-family: Arial, sans-serif; font-size: 14px; color: #333; }
+        .popup-title { font-weight: bold; font-size: 16px; margin-bottom: 5px; }
+        .rank-circle { display: inline-block; width: 24px; height: 24px; border-radius: 50%; color: white; font-size: 14px; text-align: center; line-height: 24px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        // Initialisation de la carte
+        const map = L.map('map').setView([45.5, -73.6], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+
+        // Fonction pour styliser les points selon le rang
+        function getColor(rang) {
+            return rang < 100 ? 'green' :
+                   rang <= 220 ? 'orange' :
+                   'red';
+        }
+
+        // Fonction pour créer un marqueur avec le rang au centre
+        function createRankMarker(feature, latlng) {
+            const rank = feature.properties.rang;
+            const rankColor = getColor(rank);
+            const iconHtml = `<div class="rank-circle" style="background-color: ${rankColor};">${rank}</div>`;
+            const icon = L.divIcon({
+                html: iconHtml,
+                className: '',
+                iconSize: [24, 24],
+                iconAnchor: [12, 12]
+            });
+            return L.marker(latlng, { icon: icon });
+        }
+
+        // Charger les données GeoJSON depuis le fichier externe
+        fetch('ecoles.geojson')
+            .then(response => response.json())
+            .then(data => {
+                const ecolesLayer = L.geoJSON(data, {
+                    pointToLayer: createRankMarker,
+                    onEachFeature: function (feature, layer) {
+                        const nom = feature.properties.nom;
+                        const rang = feature.properties.rang;
+                        const adresse = feature.properties.adresse || 'Adresse non disponible';
+                        const popupContent = `
+                            <div class="popup-content">
+                                <div class="popup-title">${nom}</div>
+                                <div><b>Rang:</b> ${rang}</div>
+                                <div><b>Adresse:</b> ${adresse}</div>
+                            </div>
+                        `;
+                        layer.bindPopup(popupContent);
+                    }
+                }).addTo(map);
+
+                // Ajouter un contrôle de recherche avec correspondance partielle
+                const searchControl = new L.Control.Search({
+                    layer: ecolesLayer,
+                    propertyName: 'nom', // Recherche par nom d'école
+                    marker: false,
+                    textPlaceholder: 'Rechercher une école...',
+                    initial: false,
+                    moveToLocation: function(latlng, title, map) {
+                        map.setView(latlng, 14); // Zoom sur le résultat trouvé
+                    },
+                    filterData: function(text, records) {
+                        const filteredData = {};
+                        const searchText = text.toLowerCase();
+
+                        for (const key in records) {
+                            if (key.toLowerCase().includes(searchText)) {
+                                filteredData[key] = records[key];
+                            }
+                        }
+                        return filteredData;
+                    }
+                });
+
+                map.addControl(searchControl);
+            })
+            .catch(error => console.error("Erreur de chargement du fichier GeoJSON :", error));
+    </script>
+</body>
+</html>
