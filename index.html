@@ -13,6 +13,40 @@
         .popup-content { font-family: Arial, sans-serif; font-size: 14px; color: #333; }
         .popup-title { font-weight: bold; font-size: 16px; margin-bottom: 5px; }
         .rank-circle { display: inline-block; width: 24px; height: 24px; border-radius: 50%; color: white; font-size: 14px; text-align: center; line-height: 24px; }
+        
+        /* Légende */
+        .legend {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .legend-title {
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .legend-color {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        .legend-text {
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -88,6 +122,29 @@
                 });
 
                 map.addControl(searchControl);
+
+                // Ajouter la légende
+                const legend = L.control({ position: 'bottomright' });
+                legend.onAdd = function(map) {
+                    const div = L.DomUtil.create('div', 'legend');
+                    div.innerHTML = `
+                        <div class="legend-title">Classement des écoles</div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: green;"></div>
+                            <span class="legend-text">Rang < 100 (Excellent)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: orange;"></div>
+                            <span class="legend-text">Rang 100-220 (Moyen)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: red;"></div>
+                            <span class="legend-text">Rang > 220 (À améliorer)</span>
+                        </div>
+                    `;
+                    return div;
+                };
+                legend.addTo(map);
             })
             .catch(error => console.error("Erreur de chargement du fichier GeoJSON :", error));
     </script>
