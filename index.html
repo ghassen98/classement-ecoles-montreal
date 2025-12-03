@@ -47,6 +47,26 @@
         .legend-text {
             color: #555;
         }
+        
+        /* Titre */
+        .map-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            min-width: 200px;
+        }
+        .map-title-subtitle {
+            font-size: 12px;
+            font-weight: normal;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -122,6 +142,18 @@
                 });
 
                 map.addControl(searchControl);
+
+                // Ajouter le titre
+                const titleControl = L.control({ position: 'topright' });
+                titleControl.onAdd = function(map) {
+                    const div = L.DomUtil.create('div', 'map-title');
+                    div.innerHTML = `
+                        Carte des Écoles de Montréal
+                        <div class="map-title-subtitle">Classement par rang académique</div>
+                    `;
+                    return div;
+                };
+                titleControl.addTo(map);
 
                 // Ajouter la légende
                 const legend = L.control({ position: 'bottomright' });
