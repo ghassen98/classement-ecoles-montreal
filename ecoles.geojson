@@ -2,351 +2,5195 @@
 "type": "FeatureCollection",
 "name": "ecoles",
 "features": [
-{ "type": "Feature", "properties": { "nom": "Bienville", "rang": "1", "adresse": "9275 25e Ave, Montréal, QC H1Z 4E2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6225104, 45.583387 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Noël‐Chabanel, Pavillon des Bâtisseurs", "rang": "2", "adresse": "8801 25e Ave, Montréal, QC H1Z 4B4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6134561, 45.579179 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Noël‐Chabanel, Pavillon des Découvreurs", "rang": "3", "adresse": "8777 Av. 24e, Montréal, QC H1Z 3Z8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6137487, 45.5781594 ] } },
-{ "type": "Feature", "properties": { "nom": "Jules‐Verne", "rang": "4", "adresse": "11811 Av. P M Favier, Montréal-Nord, QC H1G 5X4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6200629, 45.613569899999987 ] } },
-{ "type": "Feature", "properties": { "nom": "Adélard‐Desrosiers", "rang": "5", "adresse": "12600 Av. Fortin, Montréal-Nord, QC H1G 1G2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6288166, 45.6192055 ] } },
-{ "type": "Feature", "properties": { "nom": "Bedford", "rang": "6", "adresse": "3131 Rue Goyer, Montréal, QC H3S 1H7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6332538, 45.5073008 ] } },
-{ "type": "Feature", "properties": { "nom": "Barthélemy‐Vimont", "rang": "7", "adresse": "415 Rue Saint-Roch, Montréal, QC H3N 1K2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6285774, 45.5317312 ] } },
-{ "type": "Feature", "properties": { "nom": "Louisbourg", "rang": "8", "adresse": "11880 Rue Michel Sarrazin, Montréal, QC H4J 2G7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7098354, 45.5269157 ] } },
-{ "type": "Feature", "properties": { "nom": "Barthélemy‐Vimont, Annexe", "rang": "9", "adresse": "630 Rue Saint-Roch, Montréal, QC H3N 1K8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.629272, 45.5291686 ] } },
-{ "type": "Feature", "properties": { "nom": "Montcalm", "rang": "10", "adresse": "Parc-école Montcalm, 8800 12e Avenue, Montréal, QC H1Z 3J3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6225283, 45.5699887 ] } },
-{ "type": "Feature", "properties": { "nom": "Camille‐Laurin", "rang": "11", "adresse": "8000 Av. de l'Épée, Montréal, QC H3N 2E9" }, "geometry": { "type": "Point", "coordinates": [ -73.634250029541874, 45.530659057715845 ] } },
-{ "type": "Feature", "properties": { "nom": "Champlain", "rang": "12", "adresse": "2260 Rue Logan, Montréal, QC H2K 4K7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5511439, 45.528067 ] } },
-{ "type": "Feature", "properties": { "nom": "Victor‐Rousselot", "rang": "13", "adresse": "3525 Rue Sainte-Émilie, Montréal, QC H4C 1Z3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.578792, 45.479363 ] } },
-{ "type": "Feature", "properties": { "nom": "De la Fraternité", "rang": "14", "adresse": "11241 Av. Drapeau, Montréal-Nord, QC H1H 3K3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6333068, 45.59718 ] } },
-{ "type": "Feature", "properties": { "nom": "Barclay", "rang": "15", "adresse": "7941 Av. Wiseman, Montréal, QC H3N 2P2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6353876, 45.5290331 ] } },
-{ "type": "Feature", "properties": { "nom": "Le Carignan", "rang": "16", "adresse": "11480 Bd Rolland, Montréal-Nord, QC H1G 3T9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6145653, 45.6105869 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Vincent‐Marie", "rang": "17", "adresse": "4601 Rue de Castille, Montréal-Nord, QC H1H 1Y4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.63252361272032, 45.593959897827283 ] } },
-{ "type": "Feature", "properties": { "nom": "Enfant‐Soleil", "rang": "18", "adresse": "1615 Rue Tassé, Saint-Laurent, QC H4L 1R1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6898538, 45.5163901 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Lucie", "rang": "19", "adresse": "8901 Bd Saint-Michel, Montréal, QC H1Z 3G3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6247963, 45.5709391 ] } },
-{ "type": "Feature", "properties": { "nom": "Martin‐Bélanger, Édifice Bélanger", "rang": "20", "adresse": "29 Av. Ouellette, Lachine, QC H8R 1C9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.645484958628828, 45.446039962219331 ] } },
-{ "type": "Feature", "properties": { "nom": "Martin‐Bélanger, Édifice Martin", "rang": "21", "adresse": "29 Av. Ouellette, Lachine, QC H8R 1C9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.64508240679632, 45.44594075672974 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Odile, Annexe", "rang": "22", "adresse": "12330 Rue Lavigne, Montréal, QC H4J 1Y4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7126063, 45.5366289 ] } },
-{ "type": "Feature", "properties": { "nom": "Paul‐Jarry", "rang": "23", "adresse": "676 11e Avenue, Lachine, QC H8S 3G9" }, "geometry": { "type": "Point", "coordinates": [ -73.673656219940568, 45.44181614849775 ] } },
-{ "type": "Feature", "properties": { "nom": "Martin‐Bélanger, Édifice de la Petite‐Maison", "rang": "24", "adresse": "29 Av. Ouellette, Lachine, QC H8R 1C9" }, "geometry": { "type": "Point", "coordinates": [ -73.644671657468024, 45.446451549865699 ] } },
-{ "type": "Feature", "properties": { "nom": "Jean‐Nicolet, Annexe", "rang": "25", "adresse": "11135 Av. Alfred, Montréal-Nord, QC H1G 5B6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6246662, 45.6007587 ] } },
-{ "type": "Feature", "properties": { "nom": "Jean‐Nicolet", "rang": "26", "adresse": "11135 Av. Alfred, Montréal-Nord, QC H1G 5B6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6246662, 45.6007587 ] } },
-{ "type": "Feature", "properties": { "nom": "Sinclair Laird", "rang": "27", "adresse": "Parc-école Sinclair-Laird, Av. Wiseman, Montréal, QC H3N 2P6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6413695, 45.530079699999987 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Rémi", "rang": "28", "adresse": "10152 Av. de Rome, Montréal-Nord, QC H1H 4N5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6361764, 45.5824491 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Rémi, Annexe", "rang": "29", "adresse": "4041 Rue Monselet, Montréal-Nord, QC H1H 2C6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6375091, 45.589925 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Catherine‐Labouré", "rang": "30", "adresse": "441 Rue Trudeau, LaSalle, QC H8R 3C3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6401333, 45.4315562 ] } },
-{ "type": "Feature", "properties": { "nom": "De la Petite‐Bourgogne", "rang": "31", "adresse": "555 Rue des Seigneurs, Montréal, QC H3J 1Y1" }, "geometry": { "type": "Point", "coordinates": [ -73.570030742873953, 45.48874746137114 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Colette", "rang": "32", "adresse": "12001 Av. Jean-Paul-Cardinal, Montréal-Nord, QC H1G 4V1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6301746, 45.6102555 ] } },
-{ "type": "Feature", "properties": { "nom": "Laurentide", "rang": "33", "adresse": "465 Rue Cardinal, Montréal, QC H4L 3C5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6750394, 45.5066796 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Joseph", "rang": "34", "adresse": "4080 Av. De Lorimier, Montréal, QC H2K 3X7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5665602, 45.5319817 ] } },
-{ "type": "Feature", "properties": { "nom": "Henri‐Beaulieu", "rang": "35", "adresse": "235 Rue Bleignier, Saint-Laurent, QC H4N 1B1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6734143, 45.5292086 ] } },
-{ "type": "Feature", "properties": { "nom": "Lucille‐Teasdale", "rang": "36", "adresse": "3975 Rue Bouchette, Montréal, QC H3S 2X1" }, "geometry": { "type": "Point", "coordinates": [ -73.639716424296168, 45.499958298336402 ] } },
-{ "type": "Feature", "properties": { "nom": "René‐Guénette", "rang": "37", "adresse": "11070 Av. de Rome, Montréal-Nord, QC H1H 4P6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6443902, 45.5901743 ] } },
-{ "type": "Feature", "properties": { "nom": "Baril", "rang": "38", "adresse": "3603 Rue Adam, Montréal, QC H1W 1Z1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5411546, 45.5441946 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Nations", "rang": "39", "adresse": "4860 Rue Vézina, Montréal, QC H3W 1C1" }, "geometry": { "type": "Point", "coordinates": [ -73.643866370339879, 45.495964625798372 ] } },
-{ "type": "Feature", "properties": { "nom": "Simonne‐Monet", "rang": "40", "adresse": "3850 Av. Dupuis, Montréal, QC H3T 1E6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6275775, 45.4961878 ] } },
-{ "type": "Feature", "properties": { "nom": "Bois‐Franc‐Aquarelle, Édifice Aquarelle", "rang": "41", "adresse": "2080 Rue de Londres, Saint-Laurent, QC H4L 3A5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6992304, 45.522324 ] } },
-{ "type": "Feature", "properties": { "nom": "Léonard‐De Vinci, Annexe (préscol. et 1er cycle)", "rang": "42", "adresse": "7630 22e Av., Montréal, QC H2A 2H9" }, "geometry": { "type": "Point", "coordinates": [ -73.599042133391208, 45.56879919502547 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Bernardin, Annexe", "rang": "43", "adresse": "7900 8e Avenue, Montréal, QC H1Z 2V9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6094769, 45.5609173 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Bernardin", "rang": "44", "adresse": "2950 Rue Jarry E, Montréal, QC H1Z 2C8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.611061, 45.561435 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Colette, Annexe", "rang": "45", "adresse": "11960 Bd Sainte-Colette, Montréal-Nord, QC H1G 4V1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6287932, 45.6092923 ] } },
-{ "type": "Feature", "properties": { "nom": "Alice‐Parizeau", "rang": "46", "adresse": "11715 Rue Filion, Montréal, QC H4J 1T2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.697245, 45.530435 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐du‐Perpétuel‐Secours", "rang": "47", "adresse": "6025 Rue Beaulieu, Montréal, QC H4E 3E7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.597516, 45.4578474 ] } },
-{ "type": "Feature", "properties": { "nom": "Harfang‐des‐Neiges, Édifice Lauzon", "rang": "48", "adresse": "4770 Rue Pierre-Lauzon, Pierrefonds, QC H8Y 2C5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7830532, 45.5054524 ] } },
-{ "type": "Feature", "properties": { "nom": "Jeanne‐LeBer", "rang": "49", "adresse": "2120 Rue Favard, Montréal, QC H3K 1Z7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5562669, 45.4772679 ] } },
-{ "type": "Feature", "properties": { "nom": "Alphonse‐Pesant", "rang": "50", "adresse": "4600 Rue de Compiègne, Montréal, QC H1R 1S7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6034225, 45.5795704 ] } },
-{ "type": "Feature", "properties": { "nom": "Léonard‐De Vinci (2e et 3e cycles)", "rang": "51", "adresse": "7575 19e Avenue, Montréal, QC H2A 2M2" }, "geometry": { "type": "Point", "coordinates": [ -73.59898034614605, 45.567167991701368 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Bernadette‐Soubirous, Annexe", "rang": "52", "adresse": "6855 16e Avenue, Montréal, QC H1X 2T5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.588879, 45.5604763 ] } },
-{ "type": "Feature", "properties": { "nom": "Du Petit‐Chapiteau", "rang": "53", "adresse": "9343 Rue Jean-Milot, LaSalle, QC H8R 1Y7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.641117, 45.4294776 ] } },
-{ "type": "Feature", "properties": { "nom": "Bois‐Franc‐Aquarelle, Édifice Bois‐Franc", "rang": "54", "adresse": "2080 Rue de Londres, Saint-Laurent, QC H4L 3A5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6992304, 45.522324 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Pascal‐Baylon", "rang": "55", "adresse": "6320 Chem. de la Côte-des-Neiges, Montréal, QC H3S 2A4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.634375100000014, 45.5016034 ] } },
-{ "type": "Feature", "properties": { "nom": "Laurendeau‐Dunton", "rang": "56", "adresse": "1515 Rue Rancourt, Lasalle, Quebec H8N 1R7 Rue Rancourt, LaSalle, QC H8N 1R7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6264173, 45.4286473 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐François‐d'Assise", "rang": "57", "adresse": "2150 Rue Liébert, Montréal, QC H1L 5R1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5183088, 45.5940596 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Raymond", "rang": "58", "adresse": "2055 Av d'Oxford, Montréal, QC H4A 2X6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6101029, 45.4693234 ] } },
-{ "type": "Feature", "properties": { "nom": "Coronation", "rang": "59", "adresse": "4810 Av. Van Horne, Montréal, QC H3W 1J3" }, "geometry": { "type": "Point", "coordinates": [ -73.637488025261902, 45.493734542872922 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Bernadette‐Soubirous", "rang": "60", "adresse": "6855 16e Avenue, Montréal, QC H1X 2T5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.588879, 45.5604763 ] } },
-{ "type": "Feature", "properties": { "nom": "Marie‐de‐l'Incarnation", "rang": "61", "adresse": "5446 Rue Angers, Montréal, QC H4E 4A3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.584376, 45.464211 ] } },
-{ "type": "Feature", "properties": { "nom": "Harfang‐des‐Neiges, Édifice Gouin", "rang": "62", "adresse": "9506 Boul Gouin O, Pierrefonds - Roxboro, QC H8Y 1T8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7756214, 45.5053365 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Gertrude", "rang": "63", "adresse": "11813 Bd Sainte-Gertrude, Montréal-Nord, QC H1G 5P8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6341242, 45.604609 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Simon‐Apôtre", "rang": "64", "adresse": "195 Rue de Beauharnois O, Montréal, QC H2N 1K1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6471348, 45.539655 ] } },
-{ "type": "Feature", "properties": { "nom": "Pie XII", "rang": "65", "adresse": "5455 Rue Dujarié, Saint-Léonard, QC H1R 1K4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6047119, 45.5908995 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Grands‐Êtres", "rang": "66", "adresse": "1150 Rue Deguire, Saint-Laurent, QC H4L 1M2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6866946, 45.521795399999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Général Vanier", "rang": "67", "adresse": "4555 Rue Buies, Saint-Léonard, QC H1S 1J2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.590311, 45.572049 ] } },
-{ "type": "Feature", "properties": { "nom": "Lambert‐Closse", "rang": "68", "adresse": "5840 Rue Saint-Urbain, Montréal, QC H2T 2X5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6038102, 45.5262557 ] } },
-{ "type": "Feature", "properties": { "nom": "L'Eau‐Vive", "rang": "69", "adresse": "171 Av. Orchard, LaSalle, QC H8R 0A2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6474576, 45.4222755 ] } },
-{ "type": "Feature", "properties": { "nom": "Pierre‐de‐Coubertin", "rang": "70", "adresse": "4660 Rue de Charleroi, Montréal-Nord, QC H1H 1T7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6326171, 45.5954168 ] } },
-{ "type": "Feature", "properties": { "nom": "Les‐Enfants‐du‐Monde", "rang": "71", "adresse": "2915 Rue Marcel, Saint-Laurent, QC H4R 1B2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7253883, 45.5150863 ] } },
-{ "type": "Feature", "properties": { "nom": "Très‐Saint‐Sacrement, Édifice de l'Avenir", "rang": "72", "adresse": "704 5e Avenue, Lachine, QC H8S 2W4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6683086, 45.4421779 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Zotique", "rang": "73", "adresse": "4841 Av. Palm, Montréal, QC H4C 1Y1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.589256400000011, 45.4712164 ] } },
-{ "type": "Feature", "properties": { "nom": "Marie‐Rivier, Pavillon Louvain", "rang": "74", "adresse": "9200 8e Avenue, Montréal, QC H1Z 2Y5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6313649, 45.570815200000013 ] } },
-{ "type": "Feature", "properties": { "nom": "Marie‐Rivier, Pavillon Legendre", "rang": "75", "adresse": "9066 8e Avenue, Montréal, QC H1Z 2Y5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6292882, 45.5700408 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐des‐Neiges", "rang": "76", "adresse": "14425 Rue Notre Dame E, Pointe-aux-Trembles, QC H1A 1V6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.493781, 45.6734617 ] } },
-{ "type": "Feature", "properties": { "nom": "Philippe‐Morin", "rang": "77", "adresse": "1825 Rue Provost, Lachine, QC H8S 1P5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.680447, 45.4417434 ] } },
-{ "type": "Feature", "properties": { "nom": "Ludger‐Duvernay", "rang": "78", "adresse": "770 Rue du Couvent, Montréal, QC H4C 2R6" }, "geometry": { "type": "Point", "coordinates": [ -73.586295731001314, 45.478728722949846 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Clément", "rang": "79", "adresse": "4770 Rue la Fontaine, Montréal, QC H1V 3B4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5340906, 45.5565803 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Odile", "rang": "80", "adresse": "12055 Rue Dépatie, Montréal, QC H4J 1W9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7069544, 45.5345171 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Berges‐de‐Lachine", "rang": "81", "adresse": "50 34e Avenue, Lachine, QC H8T 1Z2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6937341, 45.4340627 ] } },
-{ "type": "Feature", "properties": { "nom": "Perce‐Neige", "rang": "82", "adresse": "4770 Bd Lalande, Pierrefonds - Roxboro, QC H8Y 1V2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7813474, 45.5062667 ] } },
-{ "type": "Feature", "properties": { "nom": "Louis‐Dupire", "rang": "83", "adresse": "1S4, 6400 Pierre-de Coubertin Ave, Montreal, QC H1N 1S4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5359967, 45.577869799999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Our Lady of Pompei", "rang": "84", "adresse": "9944 Bd Saint-Michel, Montréal-Nord, QC H1H 5G8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6398389, 45.5768798 ] } },
-{ "type": "Feature", "properties": { "nom": "Charles‐Lemoyne", "rang": "85", "adresse": "2001 Rue Mullins, Montréal, QC H3K 1N9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5616277, 45.4809967 ] } },
-{ "type": "Feature", "properties": { "nom": "François‐La‐Bernarde", "rang": "86", "adresse": "950 Rue Pierre Lacroix, Pointe-aux-Trembles, QC H1B 3C8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.4950482, 45.6467803 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Benoît", "rang": "87", "adresse": "500 Av. du Mont Cassin, Montréal, QC H3L 1W6" }, "geometry": { "type": "Point", "coordinates": [ -73.66730520489422, 45.541639307197997 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Marguerite‐Bourgeoys", "rang": "88", "adresse": "11625 Rue de la Gauchetière, Pointe-aux-Trembles, QC H1B 2H8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5001069, 45.635885 ] } },
-{ "type": "Feature", "properties": { "nom": "La Dauversière", "rang": "89", "adresse": "5485 Rue Jean-Talon E, Montréal, QC H1S 9Y9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.581335, 45.5810421 ] } },
-{ "type": "Feature", "properties": { "nom": "Gerald McShane", "rang": "90", "adresse": "6111 Bd Maurice-Duplessis, Montréal-Nord, QC H1G 1Y6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6204053, 45.6151204 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Gabriel‐Lalemant", "rang": "91", "adresse": "7350 Rue Garnier, Montréal, QC H2E 2A3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6114888, 45.5470923 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Germaine‐Cousin", "rang": "92", "adresse": "1880 48e Avenue, Rivière-des-Prairies - Pointe-aux-Trembles, QC H1A 2Y5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5013832, 45.6676385 ] } },
-{ "type": "Feature", "properties": { "nom": "Félix‐Leclerc", "rang": "93", "adresse": "1750 Bd du Tricentenaire, Montréal, QC H1B 3B1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5041619, 45.651296 ] } },
-{ "type": "Feature", "properties": { "nom": "Félix‐Leclerc, Occupation transitoire", "rang": "94", "adresse": "1750 Bd du Tricentenaire, Montréal, QC H1B 3B1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5041619, 45.651296 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Jean‐de‐Matha, Édifice Coeur‐Immaculé‐de‐Marie", "rang": "95", "adresse": "1975 Bd Desmarchais, Montréal, QC H4E 2B9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5966111, 45.4484013 ] } },
-{ "type": "Feature", "properties": { "nom": "Terre‐des‐Jeunes", "rang": "96", "adresse": "7900 Rue Doyle, LaSalle, QC H8N 0E9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6302584, 45.438328299999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Jean‐Grou", "rang": "97", "adresse": "805 Rue Tassé, Saint-Laurent, QC H4L 1N8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6802162, 45.5236779 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint Gabriel", "rang": "98", "adresse": "600 Rue de Dublin, Montréal, QC H3K 2S4" }, "geometry": { "type": "Point", "coordinates": [ -73.559010166505828, 45.476965289513025 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Jean‐de‐Matha, Édifice Honoré‐Mercier", "rang": "99", "adresse": "1975 Bd Desmarchais, Montréal, QC H4E 2B9" }, "geometry": { "type": "Point", "coordinates": [ -73.596283792988729, 45.448042185450987 ] } },
-{ "type": "Feature", "properties": { "nom": "Cardinal‐Léger", "rang": "100", "adresse": "2000 Rue Decelles, Saint-Laurent, QC H4M 1B3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.687688400000013, 45.506679899999988 ] } },
-{ "type": "Feature", "properties": { "nom": "De la Mosaïque", "rang": "101", "adresse": "5621 Av. McMurray, Côte Saint-Luc, QC H4W 2G1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6655638, 45.4631924 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Mathieu", "rang": "102", "adresse": "7230 8e Avenue, Montréal, QC H2A 3C7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6001424, 45.5568877 ] } },
-{ "type": "Feature", "properties": { "nom": "Garneau", "rang": "103", "adresse": "1808 Av. Papineau, Montréal, QC H2K 4J1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5574341, 45.5245915 ] } },
-{ "type": "Feature", "properties": { "nom": "Très‐Saint‐Sacrement, Édifice du Savoir", "rang": "104", "adresse": "704 5e Avenue, Lachine, QC H8S 2W4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6683086, 45.4421779 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Octave", "rang": "105", "adresse": "11171 Rue Notre Dame E, Montréal-Est, QC H1B 2V7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.4991146, 45.6291295 ] } },
-{ "type": "Feature", "properties": { "nom": "Wilfrid‐Bastien", "rang": "106", "adresse": "8155 Rue Collerette, Saint-Léonard, QC H1P 2V6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5926379, 45.585614199999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Jacques‐Rousseau, Chénier", "rang": "107", "adresse": "7455 Rue Jarry E, Anjou, QC H1J 1H3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5733815, 45.6055472 ] } },
-{ "type": "Feature", "properties": { "nom": "LaSalle Elementary Senior", "rang": "108", "adresse": "1555 Rue Rancourt, LaSalle, QC H8N 1R7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6275656, 45.4291002 ] } },
-{ "type": "Feature", "properties": { "nom": "LaSalle Elementary Junior", "rang": "109", "adresse": "8340 Rue David-Boyer, LaSalle, QC H8N 2A1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6262362, 45.432488 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Nom‐de‐Jésus", "rang": "110", "adresse": "4131 Rue Adam, Montréal, QC H1V 1S8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5371602, 45.5495159 ] } },
-{ "type": "Feature", "properties": { "nom": "Ferland", "rang": "111", "adresse": "8755 Rue Belcourt, Saint-Léonard, QC H1P 2L9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5981093, 45.5951069 ] } },
-{ "type": "Feature", "properties": { "nom": "Denise‐Pelletier", "rang": "112", "adresse": "12160 27e Avenue, Montréal, QC H1E 1Z5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.589798, 45.63777 ] } },
-{ "type": "Feature", "properties": { "nom": "Pierre‐Rémy", "rang": "113", "adresse": "360 Av. 80e, LaSalle, QC H8R 2T3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6365512, 45.41955 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Roseraies", "rang": "114", "adresse": "6440 Bd des Galeries d'Anjou, Anjou, QC H1M 1W2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5542599, 45.5940373 ] } },
-{ "type": "Feature", "properties": { "nom": "Victor‐Lavigne", "rang": "115", "adresse": "5400 Bd Couture, Saint-Léonard, QC H1R 1C7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6104317, 45.592517 ] } },
-{ "type": "Feature", "properties": { "nom": "Dollard‐des‐Ormeaux", "rang": "116", "adresse": "35 Av. Anselme-Lavigne, Dollard-des-Ormeaux, QC H9A 1N5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8200289, 45.5005537 ] } },
-{ "type": "Feature", "properties": { "nom": "Parkdale", "rang": "117", "adresse": "1475 Rue Deguire, Saint-Laurent, QC H4L 1M4" }, "geometry": { "type": "Point", "coordinates": [ -73.690619839862237, 45.520196721816752 ] } },
-{ "type": "Feature", "properties": { "nom": "Gabrielle‐Roy", "rang": "118", "adresse": "5950 Rue Honoré Mercier, Saint-Léonard, QC H1P 3E4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6017465, 45.5971728 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Anselme", "rang": "119", "adresse": "2743 Rue de Rouen, Montréal, QC H2K 1N2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.55483670000001, 45.5362914 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Mathieu, Annexe", "rang": "120", "adresse": "7110 8e Avenue, Montréal, QC H2A 3C4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5987192, 45.5562319 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Catherine‐de‐Sienne", "rang": "121", "adresse": "7055 Av. Somerled, Montréal, QC H4V 1V8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6440051, 45.4611611 ] } },
-{ "type": "Feature", "properties": { "nom": "Marguerite‐Bourgeoys", "rang": "122", "adresse": "2070 Rue Plessis, Montréal, QC H2L 2Y3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.561949, 45.523950199999987 ] } },
-{ "type": "Feature", "properties": { "nom": "Maple Grove", "rang": "123", "adresse": "740 52e Avenue, Lachine, QC H8T 2X6" }, "geometry": { "type": "Point", "coordinates": [ -73.715442532280065, 45.444619764588417 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Grégoire‐le‐Grand", "rang": "124", "adresse": "7950 R. Cartier, Montréal, QC H2E 2K2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6167293, 45.552805199999987 ] } },
-{ "type": "Feature", "properties": { "nom": "Armand‐Lavergne", "rang": "125", "adresse": "2600 Av. Fletcher, Montréal, QC H1L 4C5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5177263, 45.6090263 ] } },
-{ "type": "Feature", "properties": { "nom": "Jean‐Baptiste‐Meilleur", "rang": "126", "adresse": "2237 Rue Fullum, Montréal, QC H2K 3P1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5579646, 45.5320839 ] } },
-{ "type": "Feature", "properties": { "nom": "Fernand‐Gauthier", "rang": "127", "adresse": "12600 Av. Paul-Dufault, Montréal, QC H1E 2B6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5920105, 45.6433265 ] } },
-{ "type": "Feature", "properties": { "nom": "Marc‐Favreau, Annexe", "rang": "128", "adresse": "4635 Pl. Borden, Montréal, QC H4B 1A1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6354284, 45.4680648 ] } },
-{ "type": "Feature", "properties": { "nom": "Gilles‐Vigneault", "rang": "129", "adresse": "11400 Av. de Poutrincourt, Montréal, QC H3M 1Z7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6921595, 45.5318878 ] } },
-{ "type": "Feature", "properties": { "nom": "St. Monica", "rang": "130", "adresse": "6440 Rue de Terrebonne, Montréal, QC H4B 1B1" }, "geometry": { "type": "Point", "coordinates": [ -73.634236687372876, 45.467153974784523 ] } },
-{ "type": "Feature", "properties": { "nom": "Maisonneuve", "rang": "131", "adresse": "1680 Av Morgan, Montréal, QC H1V 2P9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5365695, 45.5521379 ] } },
-{ "type": "Feature", "properties": { "nom": "Nesbitt", "rang": "132", "adresse": "6108 8e Avenue, Montréal, QC H1Y 2M2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.583498, 45.551676 ] } },
-{ "type": "Feature", "properties": { "nom": "Du Petit‐Collège", "rang": "133", "adresse": "9343 Rue Jean-Milot, LaSalle, QC H8R 1Y7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.641117, 45.4294776 ] } },
-{ "type": "Feature", "properties": { "nom": "Judith‐Jasmin", "rang": "134", "adresse": "4575 Av. Mariette, Montréal, QC H4B 2G3" }, "geometry": { "type": "Point", "coordinates": [ -73.640253005907965, 45.463058522255935 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Antoine‐Marie‐Claret", "rang": "135", "adresse": "10600 Av. Larose, Montréal, QC H2B 1Z3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6496698, 45.5798275 ] } },
-{ "type": "Feature", "properties": { "nom": "Gilles‐Vigneault, Annexe temporaire", "rang": "136", "adresse": "2005 Rue Victor Doré, Montréal, QC H3M 1S4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6891467, 45.5362745 ] } },
-{ "type": "Feature", "properties": { "nom": "Jacques‐Rousseau", "rang": "137", "adresse": "7455 Rue Jarry E, Anjou, QC H1J 1H3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5733815, 45.6055472 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐de‐l'Assomption", "rang": "138", "adresse": "2430 Rue Darling, Montréal, QC H1W 2X1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.55236690000001, 45.5439928 ] } },
-{ "type": "Feature", "properties": { "nom": "Westmount Park", "rang": "139", "adresse": "Westmount, QC, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5956993, 45.485718899999988 ] } },
-{ "type": "Feature", "properties": { "nom": "François‐de‐Laval, Annexe", "rang": "140", "adresse": "12020 Ave de Bois-de-Boulogne, Montreal, Quebec H3M 1K3" }, "geometry": { "type": "Point", "coordinates": [ -73.694670852592651, 45.542666052806389 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐de‐Lourdes", "rang": "141", "adresse": "504 5e Avenue, Verdun, QC H4G 2Z1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5717796, 45.456182299999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Cardinal‐Léger", "rang": "142", "adresse": "2000 Rue Decelles, Saint-Laurent, QC H4M 1B3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.687688400000013, 45.506679899999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐des‐Victoires", "rang": "143", "adresse": "2720 Rue Bossuet, Montréal, QC H1N 2S6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5401782, 45.5737819 ] } },
-{ "type": "Feature", "properties": { "nom": "Dalkeith", "rang": "144", "adresse": "7951 Av. de Dalkeith, Anjou, QC H1K 3X6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5505924, 45.6025905 ] } },
-{ "type": "Feature", "properties": { "nom": "Guillaume‐Couture", "rang": "145", "adresse": "6300 Av. Albani, Montréal, QC H1M 2R8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5605798, 45.583106699999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Verdun", "rang": "146", "adresse": "5290 Rue de Verdun, Verdun, QC H4H 1K1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.571901, 45.4540663 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐des‐Victoires, Annexe", "rang": "147", "adresse": "6120 Rue la Fontaine, Montréal, QC H1N 2C1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.524462, 45.5711376 ] } },
-{ "type": "Feature", "properties": { "nom": "Le Plateau", "rang": "148", "adresse": "3700 Av. Calixa-Lavallée, Montréal, QC H2L 3A8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5672906, 45.5253668 ] } },
-{ "type": "Feature", "properties": { "nom": "François‐de‐Laval", "rang": "149", "adresse": "12050 Ave de Bois-de-Boulogne, Montreal, Quebec H3M 2X9" }, "geometry": { "type": "Point", "coordinates": [ -73.695992742959831, 45.543111827144912 ] } },
-{ "type": "Feature", "properties": { "nom": "Iona", "rang": "150", "adresse": "5000 Av. Iona, Montréal, QC H3W 2A2" }, "geometry": { "type": "Point", "coordinates": [ -73.624822881344627, 45.484791910835945 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐François‐Solano", "rang": "151", "adresse": "3580 Rue Dandurand, Montréal, QC H1X 1N6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5740798, 45.5551112 ] } },
-{ "type": "Feature", "properties": { "nom": "Lévis‐Sauvé", "rang": "152", "adresse": "655 Rue Willibrord, Verdun, QC H4G 2T8" }, "geometry": { "type": "Point", "coordinates": [ -73.572283517296626, 45.459771542373055 ] } },
-{ "type": "Feature", "properties": { "nom": "Du Bois‐de‐Liesse", "rang": "153", "adresse": "175 Rue Sonata, Dollard-des-Ormeaux, QC H9B 2M6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7868075, 45.493261 ] } },
-{ "type": "Feature", "properties": { "nom": "Dante", "rang": "154", "adresse": "6090 Rue de Lachenaie, Saint-Léonard, QC H1S 1P1" }, "geometry": { "type": "Point", "coordinates": [ -73.575768222926314, 45.587300980019947 ] } },
-{ "type": "Feature", "properties": { "nom": "Cedarcrest", "rang": "155", "adresse": "1505 Rue Muir, Saint-Laurent, QC H4L 4T1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6802489, 45.5265159 ] } },
-{ "type": "Feature", "properties": { "nom": "Katimavik, Édifice Katimavik", "rang": "156", "adresse": "1700 Rue Decelles, Saint-Laurent, QC H4L 0B9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6819085, 45.5106912 ] } },
-{ "type": "Feature", "properties": { "nom": "Du Grand‐Héron", "rang": "157", "adresse": "7676 Rue Centrale, LaSalle, QC H8P 1L5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5970993, 45.4304962 ] } },
-{ "type": "Feature", "properties": { "nom": "Henri‐Forest", "rang": "158", "adresse": "100 Av. du Trésor Caché, LaSalle, QC H8R 3K3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6527558, 45.4253513 ] } },
-{ "type": "Feature", "properties": { "nom": "John Caboto Academy", "rang": "159", "adresse": "8955 Rue Meunier, Montréal, QC H2N 1W3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6483615, 45.5393491 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Cinq‐Continents, Pavillon Dupuis", "rang": "160", "adresse": "5530 Av. Dupuis, Montréal, QC H3X 1N8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6383963, 45.4837548 ] } },
-{ "type": "Feature", "properties": { "nom": "École internationale Wilfrid‐Pelletier, Édifice W‐P", "rang": "161", "adresse": "8301 Bd Wilfrid Pelletier, Anjou, QC H1K 1M2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5531686, 45.6074244 ] } },
-{ "type": "Feature", "properties": { "nom": "Saints‐Martyrs‐Canadiens", "rang": "162", "adresse": "9920 Rue Parthenais, Montréal, QC H2B 2L4" }, "geometry": { "type": "Point", "coordinates": [ -73.645739734025, 45.570383796889367 ] } },
-{ "type": "Feature", "properties": { "nom": "Pierre‐de‐Coubertin", "rang": "163", "adresse": "4660 Rue de Charleroi, Montréal-Nord, QC H1H 1T7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6326171, 45.5954168 ] } },
-{ "type": "Feature", "properties": { "nom": "Édouard‐Laurin", "rang": "164", "adresse": "1085 Rue Tassé, Saint-Laurent, QC H4L 1P7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6838141, 45.521078800000012 ] } },
-{ "type": "Feature", "properties": { "nom": "Elizabeth Ballantyne", "rang": "165", "adresse": "314 Rue Northview, Montréal-Ouest, QC H4X 1E2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6544476, 45.4546564 ] } },
-{ "type": "Feature", "properties": { "nom": "Philippe‐Labarre", "rang": "166", "adresse": "3125 Av. Fletcher, Montréal, QC H1L 4E2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5239861, 45.6105961 ] } },
-{ "type": "Feature", "properties": { "nom": "La Visitation", "rang": "167", "adresse": "10591 Rue Séguin, Montréal, QC H2B 2B8" }, "geometry": { "type": "Point", "coordinates": [ -73.655825965600926, 45.570729048764015 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐des‐Rapides", "rang": "168", "adresse": "8585 Rue George, LaSalle, QC H8P 1G5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6191682, 45.4206192 ] } },
-{ "type": "Feature", "properties": { "nom": "École internationale Wilfrid‐Pelletier, Annexe", "rang": "169", "adresse": "7741 Av. du Ronceray, Anjou, QC H1K 3W7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5602096, 45.6062175 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐de‐la‐Paix", "rang": "170", "adresse": "454 CAISSE AVE, Verdun, QC H4G 2C8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.569057, 45.4702652 ] } },
-{ "type": "Feature", "properties": { "nom": "Saints‐Martyrs‐Canadiens, Annexe", "rang": "171", "adresse": "10000 Rue Parthenais, Montréal, QC H2B 2L4" }, "geometry": { "type": "Point", "coordinates": [ -73.646697242649736, 45.57083277692994 ] } },
-{ "type": "Feature", "properties": { "nom": "Marc‐Aurèle‐Fortin", "rang": "172", "adresse": "12230 Av. Fernand-Gauthier, Montréal, QC H1E 5N4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6005958, 45.6320169 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Jean‐Baptiste‐de‐la‐Salle", "rang": "173", "adresse": "2355 Bd Pie-IX, Montréal, QC H1V 2E6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5468021, 45.5525822 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Découvreurs", "rang": "174", "adresse": "845 39e Avenue, LaSalle, QC H8P 2Y6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6141102, 45.4212401 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Monarques, Annexe Marie‐Rollet (36e Avenue)", "rang": "175", "adresse": "6405 30 Ave, Montreal, QC H1T 3G3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5745716, 45.567044499999987 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐des‐Sept‐Douleurs", "rang": "176", "adresse": "4155 Rue Wellington, Verdun, QC H4G 1V8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5672858, 45.4625098 ] } },
-{ "type": "Feature", "properties": { "nom": "Edward Murphy", "rang": "177", "adresse": "6800 Av. Pierre-De Coubertin, Montréal, QC H1N 1M5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5337898, 45.5821105 ] } },
-{ "type": "Feature", "properties": { "nom": "Riverview", "rang": "178", "adresse": "971 Ave Riverview, Verdun, Quebec H4H 2C3" }, "geometry": { "type": "Point", "coordinates": [ -73.578107503242521, 45.447269874807006 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Justin, Annexe temporaire", "rang": "179", "adresse": "5005 Rue Mousseau, Montréal, QC H1K 2V8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.532853, 45.6063236 ] } },
-{ "type": "Feature", "properties": { "nom": "Marc‐Favreau", "rang": "180", "adresse": "6310 Av. Somerled, Montréal, QC H3X 2B8" }, "geometry": { "type": "Point", "coordinates": [ -73.635990519903373, 45.469527166640184 ] } },
-{ "type": "Feature", "properties": { "nom": "Carlyle", "rang": "181", "adresse": "109 Av. Carlyle, Mont-Royal, QC H3R 1S8" }, "geometry": { "type": "Point", "coordinates": [ -73.646446966165698, 45.513254807515139 ] } },
-{ "type": "Feature", "properties": { "nom": "Marc‐Aurèle‐Fortin, Annexe", "rang": "182", "adresse": "12550 Av. Fernand-Gauthier, Montréal, QC H1E 1S8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6050336, 45.6357242 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Monarques, Annexe Marie‐Rollet (Beaubien)", "rang": "183", "adresse": "4335 Rue Beaubien E, Montréal, QC H1T 1S8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5781414, 45.5647088 ] } },
-{ "type": "Feature", "properties": { "nom": "Boucher‐De La Bruère", "rang": "184", "adresse": "7760 Rue la Fontaine, Montréal, QC H1L 3H2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5133214, 45.5881749 ] } },
-{ "type": "Feature", "properties": { "nom": "Chanoine‐Joseph‐Théorêt", "rang": "185", "adresse": "990 5e Avenue, Verdun, QC H4G 2Z6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5771748, 45.456387 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Donat", "rang": "186", "adresse": "3155 Rue Desautels, Montréal, QC H1N 3B8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5394891, 45.583720199999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Cinq‐Continents, Pavillon Saint‐Antonin", "rang": "187", "adresse": "5325 Av. Macdonald, Montréal, QC H3X 2W6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6360707, 45.4823965 ] } },
-{ "type": "Feature", "properties": { "nom": "Alphonse‐Desjardins, Annexe temporaire", "rang": "188", "adresse": "6650 39e Avenue, Montréal, QC H1T 2W8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.573755, 45.5730075 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Justin, Annexe", "rang": "189", "adresse": "5005 Rue Mousseau, Montréal, QC H1K 2V8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.532853, 45.6063236 ] } },
-{ "type": "Feature", "properties": { "nom": "Atelier", "rang": "190", "adresse": "10055 Rue J J Gagnier, Montréal, QC H2B 2Z7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6412305, 45.5775162 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Jeanne‐d'Arc", "rang": "191", "adresse": "3700 R. Sherbrooke E, Montréal, QC H1X 1Z8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5544284, 45.5491379 ] } },
-{ "type": "Feature", "properties": { "nom": "Chénier", "rang": "192", "adresse": "5800 Avenue St Donat, Montréal, QC H1K 3P7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5426374, 45.604576 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Monarques, Annexe St‐Jean‐Vianney", "rang": "193", "adresse": "6455 27e Avenue, Montréal, QC H1T 3J8" }, "geometry": { "type": "Point", "coordinates": [ -73.576568903544, 45.565678527328124 ] } },
-{ "type": "Feature", "properties": { "nom": "Children's World Academy", "rang": "194", "adresse": "2241 Rue Ménard, LaSalle, QC H8N 1J4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6295717, 45.4379974 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Geneviève Ouest", "rang": "195", "adresse": "35 Rue Sainte-Anne, Sainte-Geneviève, QC H9H 2Z2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8719308, 45.4778217 ] } },
-{ "type": "Feature", "properties": { "nom": "Du Grand‐Chêne", "rang": "196", "adresse": "5080 Rue de Savoie, Pierrefonds, QC H8Z 1C2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8300509, 45.5106986 ] } },
-{ "type": "Feature", "properties": { "nom": "Alphonse‐Desjardins", "rang": "197", "adresse": "6600 Rue Lemay, Montréal, QC H1T 2L7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5701421, 45.5774499 ] } },
-{ "type": "Feature", "properties": { "nom": "Au Pied‐de‐la‐Montagne, Pavillon SJB", "rang": "198", "adresse": "4265 Av. Laval, Montréal, QC H2W 2J5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5807439, 45.5210523 ] } },
-{ "type": "Feature", "properties": { "nom": "Jardin‐Des‐Saints‐Anges", "rang": "199", "adresse": "1225 Rue Saint-Louis, Lachine, QC H8S 2K6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6750513, 45.4333733 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐de‐Fatima", "rang": "200", "adresse": "12200 Av. René Masson, Montréal, QC H1E 4T4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5746107, 45.6470211 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Louise‐de‐Marillac, Annexe", "rang": "201", "adresse": "8100 Rue de Marseille, Montréal, QC H1L 1P3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5294105, 45.5967603 ] } },
-{ "type": "Feature", "properties": { "nom": "Allion", "rang": "202", "adresse": "140 9e Av, LaSalle, QC H8P 2N9" }, "geometry": { "type": "Point", "coordinates": [ -73.600418654959455, 45.428322138670019 ] } },
-{ "type": "Feature", "properties": { "nom": "Montmartre", "rang": "203", "adresse": "1855 59e Avenue, Pointe-aux-Trembles, QC H1A 2P2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.4986021, 45.6754494 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Justin", "rang": "204", "adresse": "5005 Rue Mousseau, Montréal, QC H1K 2V8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.532853, 45.6063236 ] } },
-{ "type": "Feature", "properties": { "nom": "FACE", "rang": "205", "adresse": "3449 Rue University, Montréal, QC H3A 2A8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5748935, 45.5061048 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame", "rang": "206", "adresse": "14425 Rue Notre Dame E, Pointe-aux-Trembles, QC H1A 1V6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.493781, 45.6734617 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Marcel", "rang": "207", "adresse": "1470 16e Avenue, Pointe-aux-Trembles, QC H1B 3N6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5038669, 45.6453437 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Isaac‐Jogues", "rang": "208", "adresse": "9355 Av. de Galinée, Montréal, QC H2M 2A7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6429962, 45.5594903 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Claire", "rang": "209", "adresse": "8500 Rue Sainte-Claire, Montréal, QC H1L 1X7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5250622, 45.6001824 ] } },
-{ "type": "Feature", "properties": { "nom": "Beau‐Séjour, Édifice Sud", "rang": "210", "adresse": "3600 Rue Beauséjour, Saint-Laurent, QC H4K 1W7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7314431, 45.522743899999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Albert‐le‐Grand", "rang": "211", "adresse": "5050 18E Ave, Montreal, QC H1X 2N9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5656262, 45.5542334 ] } },
-{ "type": "Feature", "properties": { "nom": "De l’Orée‐du‐Parc", "rang": "212", "adresse": "7500 Rue Jean-Chevalier, LaSalle, QC H8N 2J4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6117274, 45.4377053 ] } },
-{ "type": "Feature", "properties": { "nom": "Honoré‐Mercier", "rang": "213", "adresse": "Rue Honoré Mercier, Montréal, QC, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6033736, 45.5969097 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Saules‐Rieurs", "rang": "214", "adresse": "1050 5e Avenue, Verdun, QC H4G 2Z6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5781093, 45.4563415 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐du‐Foyer", "rang": "215", "adresse": "5955 41e Avenue, Montréal, QC H1T 2T7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5646787, 45.5722144 ] } },
-{ "type": "Feature", "properties": { "nom": "Beau‐Séjour, Édifice Nord", "rang": "216", "adresse": "3600 Rue Beauséjour, Saint-Laurent, QC H4K 1W7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7314431, 45.522743899999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Léon‐de‐Westmount", "rang": "217", "adresse": "360 Av. Clarke, Westmount, QC H3Z 2E6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5930865, 45.4860096 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Barthélemy, Pavillon Sagard", "rang": "218", "adresse": "7400 Rue Sagard, Montréal, QC H2E 2S9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6075706, 45.5526044 ] } },
-{ "type": "Feature", "properties": { "nom": "La Vérendrye", "rang": "219", "adresse": "3055 Rue Mousseau, Montréal, QC H1L 4W1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5263132, 45.6044987 ] } },
-{ "type": "Feature", "properties": { "nom": "Marie‐Favery", "rang": "220", "adresse": "7750 Av. Christophe Colomb, Montréal, QC H2R 2S9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6205618, 45.5460207 ] } },
-{ "type": "Feature", "properties": { "nom": "Félix‐Leclerc", "rang": "221", "adresse": "1750 Bd du Tricentenaire, Montréal, QC H1B 3B1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5041619, 45.651296 ] } },
-{ "type": "Feature", "properties": { "nom": "Springdale", "rang": "222", "adresse": "150 Rue Hyman Drive, Dollard-des-Ormeaux, QC H9B 1L6" }, "geometry": { "type": "Point", "coordinates": [ -73.796149140357926, 45.493677319972186 ] } },
-{ "type": "Feature", "properties": { "nom": "Hampstead", "rang": "223", "adresse": "83 Rue Thurlow, Hampstead, QC H3X 3G8" }, "geometry": { "type": "Point", "coordinates": [ -73.642927146113195, 45.479918725812098 ] } },
-{ "type": "Feature", "properties": { "nom": "Sans‐Frontières", "rang": "224", "adresse": "5937 10e Avenue, Montréal, QC H1Y 2K4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.582325, 45.5524141 ] } },
-{ "type": "Feature", "properties": { "nom": "Fernand‐Seguin, Pavillon Hubert‐Reeves", "rang": "225", "adresse": "10050 Av. Durham, Montréal, QC H2C 2G4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6570883, 45.5541843 ] } },
-{ "type": "Feature", "properties": { "nom": "Jonathan", "rang": "226", "adresse": "705 Bd Décarie, Saint-Laurent, QC H4L 3L3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6769345, 45.5110407 ] } },
-{ "type": "Feature", "properties": { "nom": "Coeur‐Immaculé‐de‐Marie", "rang": "227", "adresse": "1845 Bd Desmarchais, Montréal, QC H4E 2B7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5896634, 45.4558442 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Amis‐du‐Monde", "rang": "228", "adresse": "8205 Chem. Mackle, Côte Saint-Luc, QC H4W 1B1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6781438, 45.459275700000013 ] } },
-{ "type": "Feature", "properties": { "nom": "F.A.C.E.", "rang": "229", "adresse": "3449 Rue University, Montréal, QC H3A 2A8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5748935, 45.5061048 ] } },
-{ "type": "Feature", "properties": { "nom": "Lajoie", "rang": "230", "adresse": "1276 Av. Lajoie, Outremont, QC H2V 1P3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6106871, 45.5202412 ] } },
-{ "type": "Feature", "properties": { "nom": "Maîtrise Petits Chanteurs du Mont‐Royal", "rang": "231", "adresse": "4300 Chem. Queen Mary, Montréal, QC H3V 1A6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.620647, 45.4913903 ] } },
-{ "type": "Feature", "properties": { "nom": "Rose‐des‐Vents", "rang": "232", "adresse": "3000 Rue Beaubien E, Montréal, QC H1Y 1H2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5881761, 45.5525224 ] } },
-{ "type": "Feature", "properties": { "nom": "Internationale de Montréal", "rang": "233", "adresse": "3641 Av. Prud'homme, Montréal, QC H4A 3H6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.613371, 45.4754941 ] } },
-{ "type": "Feature", "properties": { "nom": "Lajoie, Sainte‐Mary‐Magdalen", "rang": "234", "adresse": "1276 Av. Lajoie, Outremont, QC H2V 1P3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6106871, 45.5202412 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Barthélemy, Pavillon des Érables", "rang": "235", "adresse": "7081 Av. des Érables, Montréal, QC H2E 2R1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6031143, 45.550344300000013 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Louise‐de‐Marillac", "rang": "236", "adresse": "8100 Rue de Marseille, Montréal, QC H1L 1P3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5294105, 45.5967603 ] } },
-{ "type": "Feature", "properties": { "nom": "Sunshine Academy", "rang": "237", "adresse": "65 Rue Sunshine, Dollard-des-Ormeaux, QC H9B 1G9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7992212, 45.4962578 ] } },
-{ "type": "Feature", "properties": { "nom": "Christ‐Roi", "rang": "238", "adresse": "525 Rue de Louvain East, Montréal, QC H2M 1A1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.651611, 45.5501278 ] } },
-{ "type": "Feature", "properties": { "nom": "Pierre Elliott Trudeau", "rang": "239", "adresse": "6855 R. Cartier, Montréal, QC H2G 2W1" }, "geometry": { "type": "Point", "coordinates": [ -73.601892785831936, 45.546758125374801 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Jean‐de‐la‐Lande", "rang": "240", "adresse": "3120 Avenue Laurier E, Montréal, QC H1Y 1Z6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.570504, 45.5482434 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Donat, Annexe", "rang": "241", "adresse": "3155 Rue Desautels, Montréal, QC H1N 3B8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5394891, 45.583720199999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Paul‐de‐la‐Croix", "rang": "242", "adresse": "10495 Av. Georges-Baril, Montréal, QC H2C 2N1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6613076, 45.5593504 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Jean‐de‐la‐Lande, Annexe", "rang": "243", "adresse": "3120 Avenue Laurier E, Montréal, QC H1Y 1Z6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.570504, 45.5482434 ] } },
-{ "type": "Feature", "properties": { "nom": "Élan", "rang": "244", "adresse": "3450 Av. De Lorimier, Montréal, QC H2K 3X6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5640909, 45.5309915 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Enfant‐Jésus", "rang": "245", "adresse": "75 Rue Villeneuve E, Montréal, QC H2T 1L1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5890556, 45.5224468 ] } },
-{ "type": "Feature", "properties": { "nom": "Louis‐Colin", "rang": "246", "adresse": "10122 Bd Olympia, Montréal, QC H2C 2V9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6544557, 45.5609572 ] } },
-{ "type": "Feature", "properties": { "nom": "Dunrae Gardens", "rang": "247", "adresse": "235 Av. Dunrae, Mont-Royal, QC H3P 1T5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6375661, 45.5214326 ] } },
-{ "type": "Feature", "properties": { "nom": "Île‐des‐Soeurs", "rang": "248", "adresse": "530 Rue de Gaspé, Verdun, QC H3E 1E7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5492773, 45.456966 ] } },
-{ "type": "Feature", "properties": { "nom": "Ahuntsic, Pavillon Julie‐Payette", "rang": "249", "adresse": "10085 Av. Durham, Montréal, QC H2C 2G3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6572297, 45.554772 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Jean‐de‐Brébeuf", "rang": "250", "adresse": "2870 Rue Dandurand, Montréal, QC H1Y 1T5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5777917, 45.548699199999987 ] } },
-{ "type": "Feature", "properties": { "nom": "La Petite‐Patrie, Pavillon NDD", "rang": "251", "adresse": "6841 Av. Henri-Julien, Montréal, QC H2S 2V3" }, "geometry": { "type": "Point", "coordinates": [ -73.611274552775413, 45.535501999083863 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Étienne", "rang": "252", "adresse": "5959 Av. Christophe Colomb, Montréal, QC H2S 2G3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5965393, 45.5359433 ] } },
-{ "type": "Feature", "properties": { "nom": "Roslyn", "rang": "253", "adresse": "4699 Av. Westmount, Westmount, QC H3Y 1X5" }, "geometry": { "type": "Point", "coordinates": [ -73.609331910690472, 45.483175626925089 ] } },
-{ "type": "Feature", "properties": { "nom": "Ahuntsic, Pavillon Hubert‐Reeves", "rang": "254", "adresse": "9900 Av. d'Auteuil, Montréal, QC H3L 2K1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6586916, 45.5494958 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Geneviève Sud", "rang": "255", "adresse": "7520 Rue Édouard, LaSalle, QC H8P 1S2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5928898, 45.4343112 ] } },
-{ "type": "Feature", "properties": { "nom": "Dollard‐Des Ormeaux", "rang": "256", "adresse": "35 Av. Anselme-Lavigne, Dollard-des-Ormeaux, QC H9A 1N5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8200289, 45.5005537 ] } },
-{ "type": "Feature", "properties": { "nom": "Albatros", "rang": "257", "adresse": "6440 Bd des Galeries d'Anjou, Anjou, QC H1M 1W2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.553979, 45.5940853 ] } },
-{ "type": "Feature", "properties": { "nom": "Lambert‐Closse", "rang": "258", "adresse": "5840 Rue Saint-Urbain, Montréal, QC H2T 2X5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6038102, 45.5262557 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Gérard", "rang": "259", "adresse": "505 Rue de Liège E, Montréal, QC H2P 1J9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6352167, 45.5452778 ] } },
-{ "type": "Feature", "properties": { "nom": "Ahuntsic, Annexe", "rang": "260", "adresse": "9900 Av. d'Auteuil, Montréal, QC H3L 2K1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6586916, 45.5494958 ] } },
-{ "type": "Feature", "properties": { "nom": "Simone‐Desjardins, Pavillon Gouin", "rang": "261", "adresse": "10004 Boul. Gouin E, Montréal, QC H1C 1A8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5618782, 45.6606671 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Marguerite, Édifice de la Grande‐Marguerite", "rang": "262", "adresse": "100 Bd de l'Île-des-Soeurs, Montréal, QC H3E 0C7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5443508, 45.4653953 ] } },
-{ "type": "Feature", "properties": { "nom": "Leonardo‐da‐Vinci Academy", "rang": "263", "adresse": "12025 Av. André-Dumas, Montréal, QC H1E 4G2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5839161, 45.6375659 ] } },
-{ "type": "Feature", "properties": { "nom": "Bancroft", "rang": "264", "adresse": "4563 Rue Saint-Urbain, Montréal, QC H2T 2V9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5883072, 45.5194933 ] } },
-{ "type": "Feature", "properties": { "nom": "Kingsdale Academy", "rang": "265", "adresse": "4381 Rue King, Pierrefonds, QC H9H 2E6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8532234, 45.4799967 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐de‐la‐Garde", "rang": "266", "adresse": "755 Rue Brault, Verdun, QC H4H 2B3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.575439, 45.4482467 ] } },
-{ "type": "Feature", "properties": { "nom": "Michelangelo International", "rang": "267", "adresse": "9360 5e Rue, Montréal, QC H1E 1K1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.568433, 45.6505494 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Louis‐de‐Gonzague, Annexe", "rang": "268", "adresse": "2430 Terr. Mercure, Montréal, QC H2H 1P2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5648333, 45.5361784 ] } },
-{ "type": "Feature", "properties": { "nom": "Madeleine‐de‐Verchères", "rang": "269", "adresse": "6017 R. Cartier, Montréal, QC H2G 2V4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.59217, 45.5418652 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Louis‐de‐Gonzague", "rang": "270", "adresse": "2430 Terr. Mercure, Montréal, QC H2H 1P2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5648333, 45.5361784 ] } },
-{ "type": "Feature", "properties": { "nom": "Le Vitrail", "rang": "271", "adresse": "5927 Rue Boyer, Montréal, QC H2S 2H8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.597114300000015, 45.5349419 ] } },
-{ "type": "Feature", "properties": { "nom": "De la Belle‐Rive, Pavillon des Trembles", "rang": "272", "adresse": "16360 Rue Bureau, Rivière-des-Prairies - Pointe-aux-Trembles, QC H1A 1Z5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.4797142, 45.700748 ] } },
-{ "type": "Feature", "properties": { "nom": "De l'Odyssée", "rang": "273", "adresse": "4348 Rue Alain, Pierrefonds - Roxboro, QC H9H 2T7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8608714, 45.474789 ] } },
-{ "type": "Feature", "properties": { "nom": "Lalande", "rang": "274", "adresse": "50 Av. 3e S, Roxboro, QC H8Y 2L5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8030281, 45.508624 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐de‐la‐Garde, Édifice Richard", "rang": "275", "adresse": "755 Rue Brault, Verdun, QC H4H 2B3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.575439, 45.4482467 ] } },
-{ "type": "Feature", "properties": { "nom": "De la Belle‐Rive, Pavillon de la Pointe", "rang": "276", "adresse": "16360 Rue Bureau, Rivière-des-Prairies - Pointe-aux-Trembles, QC H1A 1Z5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.4797142, 45.700748 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Luc", "rang": "277", "adresse": "98 Rue Fredmir, Dollard-des-Ormeaux, QC H9A 2R3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8300466, 45.4913692 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint Charles", "rang": "278", "adresse": "4331 Rue Sainte-Anne, Pierrefonds - Roxboro, QC H9H 4G7" }, "geometry": { "type": "Point", "coordinates": [ -73.866061202574002, 45.472576545834073 ] } },
-{ "type": "Feature", "properties": { "nom": "Nouvelle‐Querbes", "rang": "279", "adresse": "215 Av. Bloomfield, Outremont, QC H2V 3R6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6008384, 45.5175781 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Cécile", "rang": "280", "adresse": "7230 Av. de Gaspé, Montréal, QC H2R 1Z6, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6178994, 45.5368066 ] } },
-{ "type": "Feature", "properties": { "nom": "Willingdon", "rang": "281", "adresse": "5870 Rue de Terrebonne, Montréal, QC H4A 1B5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6286865, 45.4736333 ] } },
-{ "type": "Feature", "properties": { "nom": "Simone‐Desjardins, Pavillon Perras", "rang": "282", "adresse": "9955 Bd Perras, Montréal, QC H1C 1V8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.563006, 45.659814 ] } },
-{ "type": "Feature", "properties": { "nom": "Enfants‐du‐Monde", "rang": "283", "adresse": "2915 Rue Marcel, Saint-Laurent, QC H4R 1B2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7253883, 45.5150863 ] } },
-{ "type": "Feature", "properties": { "nom": "Royal Vale", "rang": "284", "adresse": "5851 Av. Somerled, Montréal, QC H3X 2A5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.63255, 45.475216 ] } },
-{ "type": "Feature", "properties": { "nom": "Sainte‐Bibiane", "rang": "285", "adresse": "5755 13e Ave., Montréal, QC H1X 2Y3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5776757, 45.5539305 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Gérard", "rang": "286", "adresse": "505 Rue de Liège E, Montréal, QC H2P 1J9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6352167, 45.5452778 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Fabien, Annexe Rosalie‐Jetté", "rang": "287", "adresse": "6500 Av. de Renty, Montréal, QC H1M 1M4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5500937, 45.5836525 ] } },
-{ "type": "Feature", "properties": { "nom": "Notre‐Dame‐de‐Grâce", "rang": "288", "adresse": "5435 Av. Notre-Dame-de-Grâce, Montréal, QC H4A 1L2" }, "geometry": { "type": "Point", "coordinates": [ -73.617524293378381, 45.475887992530041 ] } },
-{ "type": "Feature", "properties": { "nom": "Guy‐Drummond", "rang": "289", "adresse": "1475 Av. Lajoie, Outremont, QC H2V 1P9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6135885, 45.518462799999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Arsène", "rang": "290", "adresse": "6972 Av. Christophe Colomb, Montréal, QC H2S 2H5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6101407, 45.5413635 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Marguerite", "rang": "291", "adresse": "100 Bd de l'Île-des-Soeurs, Montréal, QC H3E 0C7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5443508, 45.4653953 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Fabien", "rang": "292", "adresse": "6500 Av. de Renty, Montréal, QC H1M 1M4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5500937, 45.5836525 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Ambroise, Annexe", "rang": "293", "adresse": "6555 Rue de Normanville, Montréal, QC H2G 3B9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6012396, 45.5402478 ] } },
-{ "type": "Feature", "properties": { "nom": "East Hill", "rang": "294", "adresse": "10350 Bd Perras, Montréal, QC H1C 2H1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.553951, 45.663837 ] } },
-{ "type": "Feature", "properties": { "nom": "Murielle‐Dumont", "rang": "295", "adresse": "5005 Rue Valois, Pierrefonds - Roxboro, QC H8Z 2G8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8345234, 45.5065165 ] } },
-{ "type": "Feature", "properties": { "nom": "Au Pied‐de‐la‐Montagne, Pavillon JJO", "rang": "297", "adresse": "4265 Av. Laval, Montréal, QC H2W 2J5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5807439, 45.5210523 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Ambroise", "rang": "298", "adresse": "6555 Rue de Normanville, Montréal, QC H2G 3B9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6012396, 45.5402478 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Clément‐Ouest", "rang": "299", "adresse": "555 Av. Mitchell, Mont-Royal, QC H3R 1L5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.655817, 45.5083667 ] } },
-{ "type": "Feature", "properties": { "nom": "Merton", "rang": "300", "adresse": "5554 Av. Robinson, Côte Saint-Luc, QC H4V 2P8" }, "geometry": { "type": "Point", "coordinates": [ -73.65153312685969, 45.47239256746802 ] } },
-{ "type": "Feature", "properties": { "nom": "Edinburgh", "rang": "301", "adresse": "500 Av. Hudson, Montréal-Ouest, QC H4X 1X1" }, "geometry": { "type": "Point", "coordinates": [ -73.659817161303764, 45.457453906835802 ] } },
-{ "type": "Feature", "properties": { "nom": "Arc‐en‐Ciel", "rang": "302", "adresse": "4265 Av. Laval, Montréal, QC H2W 1E4, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5807438, 45.5210523 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Pierre‐Claver", "rang": "303", "adresse": "2110 Bd Saint-Joseph E, Montréal, QC H2H 1E7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.57675, 45.5376261 ] } },
-{ "type": "Feature", "properties": { "nom": "Gardenview", "rang": "304", "adresse": "700 Rue Brunet, Saint-Laurent, QC H4M 1Y2" }, "geometry": { "type": "Point", "coordinates": [ -73.689189420711486, 45.500732780886942 ] } },
-{ "type": "Feature", "properties": { "nom": "Étoile‐Filante", "rang": "305", "adresse": "5619 Chem. de la Côte-Saint-Antoine, Montréal, QC H4A 1R5" }, "geometry": { "type": "Point", "coordinates": [ -73.616926746519994, 45.472631964886375 ] } },
-{ "type": "Feature", "properties": { "nom": "Gentilly, Édifice Fénelon", "rang": "306", "adresse": "355 Bd Fénelon, Dorval, QC H9S 1M2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7492779, 45.444876 ] } },
-{ "type": "Feature", "properties": { "nom": "Académie Saint‐Clément", "rang": "307", "adresse": "1345 Chem. Regent, Mont-Royal, QC H3P 2K8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6428, 45.5178736 ] } },
-{ "type": "Feature", "properties": { "nom": "Gentilly, Édifice de la Présentation", "rang": "308", "adresse": "244 Av. de la Présentation, Dorval, QC H9S 1R1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7366612, 45.4418997 ] } },
-{ "type": "Feature", "properties": { "nom": "Terry Fox", "rang": "309", "adresse": "13350 Rue Purcell, Pierrefonds, QC H8Z 1P7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8460696, 45.5026441 ] } },
-{ "type": "Feature", "properties": { "nom": "La Mennais", "rang": "310", "adresse": "6521 R. Saint-Denis, Montréal, QC H2S 2S1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6057824, 45.5347008 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint Anthony", "rang": "313", "adresse": "17750 Rue Meloche, Pierrefonds, QC H9J 3P9" }, "geometry": { "type": "Point", "coordinates": [ -73.88347615735718, 45.458263069306192 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Clément‐Est", "rang": "314", "adresse": "1560 Boul Laird, Mont-Royal, QC H3P 2T5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6448014, 45.5194977 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Émile", "rang": "315", "adresse": "3450 Rue Davidson, Montréal, QC H1W 2Z5, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5573933, 45.5459805 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Louis", "rang": "316", "adresse": "151 Av. Winthrop, Pointe-Claire, QC H9R 3W8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.808319, 45.464398 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐André‐Apôtre, Annexe", "rang": "317", "adresse": "215 Rue Prieur O, Montréal, QC H3L 1R7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6703267, 45.546506099999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint Patrick", "rang": "318", "adresse": "261 Rue Shamrock, Pincourt, QC J7W 3W5" }, "geometry": { "type": "Point", "coordinates": [ -73.985049230561998, 45.378282317254353 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐André‐Apôtre", "rang": "319", "adresse": "215 Rue Prieur O, Montréal, QC H3L 1R7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6703267, 45.546506099999988 ] } },
-{ "type": "Feature", "properties": { "nom": "Dorval", "rang": "320", "adresse": "355 Bd Fénelon, Dorval, QC H9S 1M2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7492779, 45.444876 ] } },
-{ "type": "Feature", "properties": { "nom": "Beechwood", "rang": "321", "adresse": "13155 Rue Shelborne, Pierrefonds - Roxboro, QC H9A 1L4" }, "geometry": { "type": "Point", "coordinates": [ -73.836470838475449, 45.495170014100026 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Marc", "rang": "322", "adresse": "6365 Av. 1re, Montréal, QC H1Y 3A9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5887592, 45.5498038 ] } },
-{ "type": "Feature", "properties": { "nom": "Louis‐Hippolyte‐Lafontaine", "rang": "323", "adresse": "4245 Rue Berri, Montréal, QC H2J 2P9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5779986, 45.5234029 ] } },
-{ "type": "Feature", "properties": { "nom": "Hélène‐Boullé", "rang": "324", "adresse": "8050 Av. de Gaspé, Montréal, QC H2R 2A7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6294595, 45.5402596 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint‐Germain‐d'Outremont", "rang": "325", "adresse": "46 Av. Vincent-D'Indy, Outremont, QC H2V 2S9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.6132674, 45.5109678 ] } },
-{ "type": "Feature", "properties": { "nom": "Dorset", "rang": "326", "adresse": "106 Rue Dorset, Baie-d'Urfé, QC H9X 2Z6" }, "geometry": { "type": "Point", "coordinates": [ -73.920226607841997, 45.413804577589062 ] } },
-{ "type": "Feature", "properties": { "nom": "Victor‐Thérien", "rang": "327", "adresse": "305 43e Avenue, Lachine, QC H8T 1V2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7034742, 45.4376375 ] } },
-{ "type": "Feature", "properties": { "nom": "Pointe‐Claire", "rang": "328", "adresse": "93 Av. Douglas-Shand, Pointe-Claire, QC H9R 2A7, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8145394, 45.4512914 ] } },
-{ "type": "Feature", "properties": { "nom": "Wilder Penfield", "rang": "329", "adresse": "551 Rue Westminster, Dollard-des-Ormeaux, QC H9G 1E8" }, "geometry": { "type": "Point", "coordinates": [ -73.846749208294426, 45.471935340653857 ] } },
-{ "type": "Feature", "properties": { "nom": "Joseph‐Henrico", "rang": "330", "adresse": "20 Rue Maughan, Baie-d'Urfé, QC H9X 3C9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.9085293, 45.4140103 ] } },
-{ "type": "Feature", "properties": { "nom": "Christmas Park", "rang": "331", "adresse": "422 Bd Beaconsfield, Beaconsfield, QC H9W 4B7" }, "geometry": { "type": "Point", "coordinates": [ -73.876715082789744, 45.419544217063546 ] } },
-{ "type": "Feature", "properties": { "nom": "Clearpoint", "rang": "332", "adresse": "17 Av. Cedar, Pointe-Claire, QC H9S 4X9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.815177, 45.4354552 ] } },
-{ "type": "Feature", "properties": { "nom": "Birchwood", "rang": "333", "adresse": "1325 Rue Jolicoeur, Saint-Lazare, QC J7T 1Z4" }, "geometry": { "type": "Point", "coordinates": [ -74.111077852387808, 45.39220176860406 ] } },
-{ "type": "Feature", "properties": { "nom": "Evergreen", "rang": "334", "adresse": "2625 Rue du Bordelais, Saint-Lazare, QC J7T 2Z9" }, "geometry": { "type": "Point", "coordinates": [ -74.147930945874322, 45.430112746063308 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint John Fisher Junior", "rang": "335", "adresse": "121 Av. Summerhill, Pointe-Claire, QC H9R 2L8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7952894, 45.4563192 ] } },
-{ "type": "Feature", "properties": { "nom": "Laurier", "rang": "336", "adresse": "505 Avenue Laurier E, Montréal, QC H2J 1E9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.588587, 45.5285749 ] } },
-{ "type": "Feature", "properties": { "nom": "Jacques‐Bizard", "rang": "337", "adresse": "515 Mnt de l'Église, L'Île-Bizard, QC H9C 1H1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8810882, 45.4889023 ] } },
-{ "type": "Feature", "properties": { "nom": "Au Trésor‐du‐Boisé", "rang": "338", "adresse": "3925 Rue Claude-Henri-Grignon, Saint-Laurent, QC H4R 3K2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7182527, 45.5091518 ] } },
-{ "type": "Feature", "properties": { "nom": "Westpark", "rang": "339", "adresse": "6 Rue Howard, Dollard-des-Ormeaux, QC H9A 2L2" }, "geometry": { "type": "Point", "coordinates": [ -73.824661204844759, 45.497373298812001 ] } },
-{ "type": "Feature", "properties": { "nom": "Edgewater", "rang": "340", "adresse": "220 Bd Cardinal Léger, Pincourt, QC J7W 3Y5" }, "geometry": { "type": "Point", "coordinates": [ -73.990342950108698, 45.380153955665889 ] } },
-{ "type": "Feature", "properties": { "nom": "Saint John Fisher Senior", "rang": "341", "adresse": "121 Av. Summerhill, Pointe-Claire, QC H9R 2L8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7952894, 45.4563192 ] } },
-{ "type": "Feature", "properties": { "nom": "Forest Hill Senior", "rang": "342", "adresse": "1449 Av. Bédard, Saint-Lazare, QC J7T 3B4" }, "geometry": { "type": "Point", "coordinates": [ -74.139848539404142, 45.397965918044882 ] } },
-{ "type": "Feature", "properties": { "nom": "Lanaudière", "rang": "344", "adresse": "4300 R.de Lanaudière, Montréal, QC H2J 3N9, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.574178800000013, 45.5288062 ] } },
-{ "type": "Feature", "properties": { "nom": "Marguerite‐Bourgeoys", "rang": "345", "adresse": "2070 Rue Plessis, Montréal, QC H2L 2Y3, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.561949, 45.523950199999987 ] } },
-{ "type": "Feature", "properties": { "nom": "Émile‐Nelligan", "rang": "346", "adresse": "101 Rue Charlevoix, Kirkland, QC H9J 3E2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.8804012, 45.4494075 ] } },
-{ "type": "Feature", "properties": { "nom": "Paul‐Bruchési", "rang": "347", "adresse": "1310 Bd Saint-Joseph E, Montréal, QC H2J 1M2, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5818792, 45.5321878 ] } },
-{ "type": "Feature", "properties": { "nom": "Mount Pleasant", "rang": "348", "adresse": "97 Rue Mount Pleasant, Hudson, Quebec J0P 1H0" }, "geometry": { "type": "Point", "coordinates": [ -74.141632915570668, 45.45132846868713 ] } },
-{ "type": "Feature", "properties": { "nom": "Catherine‐Soumillard", "rang": "349", "adresse": "250 48e Avenue, Lachine, QC H8T 2R8, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.7093685, 45.4402591 ] } },
-{ "type": "Feature", "properties": { "nom": "Des Coquelicots", "rang": "350", "adresse": "7301 Rue Churchill, Verdun, QC H4H 2L1, Canada" }, "geometry": { "type": "Point", "coordinates": [ -73.5873847, 45.4378214 ] } }
+{
+"type": "Feature",
+"properties": {
+"nom": "Bienville",
+"rang": "1",
+"adresse": "9275 25e Ave, Montreal, QC H1Z 4E2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6225104,
+45.583387
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Noël-Chabanel, Pavillon des Bâtisseurs",
+"rang": "2",
+"adresse": "8801 25e Ave, Montreal, QC H1Z 4B4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6134561,
+45.579179
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Noël-Chabanel, Pavillon des Decouvreurs",
+"rang": "3",
+"adresse": "8777 Av. 24e, Montreal, QC H1Z 3Z8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6137487,
+45.5781594
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jules-Verne",
+"rang": "4",
+"adresse": "11811 Av. P M Favier, Montreal-Nord, QC H1G 5X4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6200629,
+45.61356989999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Adelard-Desrosiers",
+"rang": "5",
+"adresse": "12600 Av. Fortin, Montreal-Nord, QC H1G 1G2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6288166,
+45.6192055
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Bedford",
+"rang": "6",
+"adresse": "3131 Rue Goyer, Montreal, QC H3S 1H7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6332538,
+45.5073008
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Barthelemy-Vimont",
+"rang": "7",
+"adresse": "415 Rue Saint-Roch, Montreal, QC H3N 1K2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6285774,
+45.5317312
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Louisbourg",
+"rang": "8",
+"adresse": "11880 Rue Michel Sarrazin, Montreal, QC H4J 2G7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7098354,
+45.5269157
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Barthelemy-Vimont, Annexe",
+"rang": "9",
+"adresse": "630 Rue Saint-Roch, Montreal, QC H3N 1K8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.629272,
+45.5291686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Montcalm",
+"rang": "10",
+"adresse": "Parc-ecole Montcalm, 8800 12e Avenue, Montreal, QC H1Z 3J3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6225283,
+45.5699887
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Camille-Laurin",
+"rang": "11",
+"adresse": "8000 Av. de l'Épee, Montreal, QC H3N 2E9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.63425002954187,
+45.530659057715845
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Champlain",
+"rang": "12",
+"adresse": "2260 Rue Logan, Montreal, QC H2K 4K7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5511439,
+45.528067
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Victor-Rousselot",
+"rang": "13",
+"adresse": "3525 Rue Sainte-Émilie, Montreal, QC H4C 1Z3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.578792,
+45.479363
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "De la Fraternite",
+"rang": "14",
+"adresse": "11241 Av. Drapeau, Montreal-Nord, QC H1H 3K3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6333068,
+45.59718
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Barclay",
+"rang": "15",
+"adresse": "7941 Av. Wiseman, Montreal, QC H3N 2P2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6353876,
+45.5290331
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Le Carignan",
+"rang": "16",
+"adresse": "11480 Bd Rolland, Montreal-Nord, QC H1G 3T9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6145653,
+45.6105869
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Vincent-Marie",
+"rang": "17",
+"adresse": "4601 Rue de Castille, Montreal-Nord, QC H1H 1Y4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.63252361272032,
+45.59395989782728
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Enfant-Soleil",
+"rang": "18",
+"adresse": "1615 Rue Tasse, Saint-Laurent, QC H4L 1R1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6898538,
+45.5163901
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Lucie",
+"rang": "19",
+"adresse": "8901 Bd Saint-Michel, Montreal, QC H1Z 3G3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6247963,
+45.5709391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Martin-Belanger, Édifice Belanger",
+"rang": "20",
+"adresse": "29 Av. Ouellette, Lachine, QC H8R 1C9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.64548495862883,
+45.44603996221933
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Martin-Belanger, Édifice Martin",
+"rang": "21",
+"adresse": "29 Av. Ouellette, Lachine, QC H8R 1C9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.64508240679632,
+45.44594075672974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Odile, Annexe",
+"rang": "22",
+"adresse": "12330 Rue Lavigne, Montreal, QC H4J 1Y4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7126063,
+45.5366289
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Paul-Jarry",
+"rang": "23",
+"adresse": "676 11e Avenue, Lachine, QC H8S 3G9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.67365621994057,
+45.44181614849775
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Martin-Belanger, Édifice de la Petite-Maison",
+"rang": "24",
+"adresse": "29 Av. Ouellette, Lachine, QC H8R 1C9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.64467165746802,
+45.4464515498657
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jean-Nicolet, Annexe",
+"rang": "25",
+"adresse": "11135 Av. Alfred, Montreal-Nord, QC H1G 5B6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6246662,
+45.6007587
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jean-Nicolet",
+"rang": "26",
+"adresse": "11135 Av. Alfred, Montreal-Nord, QC H1G 5B6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6246662,
+45.6007587
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sinclair Laird",
+"rang": "27",
+"adresse": "Parc-ecole Sinclair-Laird, Av. Wiseman, Montreal, QC H3N 2P6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6413695,
+45.53007969999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Remi",
+"rang": "28",
+"adresse": "10152 Av. de Rome, Montreal-Nord, QC H1H 4N5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6361764,
+45.5824491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Remi, Annexe",
+"rang": "29",
+"adresse": "4041 Rue Monselet, Montreal-Nord, QC H1H 2C6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6375091,
+45.589925
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Catherine-Laboure",
+"rang": "30",
+"adresse": "441 Rue Trudeau, LaSalle, QC H8R 3C3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6401333,
+45.4315562
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "De la Petite-Bourgogne",
+"rang": "31",
+"adresse": "555 Rue des Seigneurs, Montreal, QC H3J 1Y1"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.57003074287395,
+45.48874746137114
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Colette",
+"rang": "32",
+"adresse": "12001 Av. Jean-Paul-Cardinal, Montreal-Nord, QC H1G 4V1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6301746,
+45.6102555
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Laurentide",
+"rang": "33",
+"adresse": "465 Rue Cardinal, Montreal, QC H4L 3C5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6750394,
+45.5066796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Joseph",
+"rang": "34",
+"adresse": "4080 Av. De Lorimier, Montreal, QC H2K 3X7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5665602,
+45.5319817
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Henri-Beaulieu",
+"rang": "35",
+"adresse": "235 Rue Bleignier, Saint-Laurent, QC H4N 1B1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6734143,
+45.5292086
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Lucille-Teasdale",
+"rang": "36",
+"adresse": "3975 Rue Bouchette, Montreal, QC H3S 2X1"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.63971642429617,
+45.4999582983364
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Rene-Guenette",
+"rang": "37",
+"adresse": "11070 Av. de Rome, Montreal-Nord, QC H1H 4P6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6443902,
+45.5901743
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Baril",
+"rang": "38",
+"adresse": "3603 Rue Adam, Montreal, QC H1W 1Z1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5411546,
+45.5441946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Nations",
+"rang": "39",
+"adresse": "4860 Rue Vezina, Montreal, QC H3W 1C1"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.64386637033988,
+45.49596462579837
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Simonne-Monet",
+"rang": "40",
+"adresse": "3850 Av. Dupuis, Montreal, QC H3T 1E6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6275775,
+45.4961878
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Bois-Franc-Aquarelle, Édifice Aquarelle",
+"rang": "41",
+"adresse": "2080 Rue de Londres, Saint-Laurent, QC H4L 3A5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6992304,
+45.522324
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Leonard-De Vinci, Annexe (prescol. et 1er cycle)",
+"rang": "42",
+"adresse": "7630 22e Av., Montreal, QC H2A 2H9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.59904213339121,
+45.56879919502547
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Bernardin, Annexe",
+"rang": "43",
+"adresse": "7900 8e Avenue, Montreal, QC H1Z 2V9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6094769,
+45.5609173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Bernardin",
+"rang": "44",
+"adresse": "2950 Rue Jarry E, Montreal, QC H1Z 2C8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.611061,
+45.561435
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Colette, Annexe",
+"rang": "45",
+"adresse": "11960 Bd Sainte-Colette, Montreal-Nord, QC H1G 4V1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6287932,
+45.6092923
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Alice-Parizeau",
+"rang": "46",
+"adresse": "11715 Rue Filion, Montreal, QC H4J 1T2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.697245,
+45.530435
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-du-Perpetuel-Secours",
+"rang": "47",
+"adresse": "6025 Rue Beaulieu, Montreal, QC H4E 3E7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.597516,
+45.4578474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Harfang-des-Neiges, Édifice Lauzon",
+"rang": "48",
+"adresse": "4770 Rue Pierre-Lauzon, Pierrefonds, QC H8Y 2C5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7830532,
+45.5054524
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jeanne-LeBer",
+"rang": "49",
+"adresse": "2120 Rue Favard, Montreal, QC H3K 1Z7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5562669,
+45.4772679
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Alphonse-Pesant",
+"rang": "50",
+"adresse": "4600 Rue de Compiègne, Montreal, QC H1R 1S7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6034225,
+45.5795704
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Leonard-De Vinci (2e et 3e cycles)",
+"rang": "51",
+"adresse": "7575 19e Avenue, Montreal, QC H2A 2M2"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.59898034614605,
+45.56716799170137
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Bernadette-Soubirous, Annexe",
+"rang": "52",
+"adresse": "6855 16e Avenue, Montreal, QC H1X 2T5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.588879,
+45.5604763
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Du Petit-Chapiteau",
+"rang": "53",
+"adresse": "9343 Rue Jean-Milot, LaSalle, QC H8R 1Y7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.641117,
+45.4294776
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Bois-Franc-Aquarelle, Édifice Bois-Franc",
+"rang": "54",
+"adresse": "2080 Rue de Londres, Saint-Laurent, QC H4L 3A5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6992304,
+45.522324
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Pascal-Baylon",
+"rang": "55",
+"adresse": "6320 Chem. de la Côte-des-Neiges, Montreal, QC H3S 2A4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.63437510000001,
+45.5016034
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Laurendeau-Dunton",
+"rang": "56",
+"adresse": "1515 Rue Rancourt, Lasalle, Quebec H8N 1R7 Rue Rancourt, LaSalle, QC H8N 1R7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6264173,
+45.4286473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-François-d'Assise",
+"rang": "57",
+"adresse": "2150 Rue Liebert, Montreal, QC H1L 5R1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5183088,
+45.5940596
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Raymond",
+"rang": "58",
+"adresse": "2055 Av d'Oxford, Montreal, QC H4A 2X6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6101029,
+45.4693234
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Coronation",
+"rang": "59",
+"adresse": "4810 Av. Van Horne, Montreal, QC H3W 1J3"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6374880252619,
+45.49373454287292
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Bernadette-Soubirous",
+"rang": "60",
+"adresse": "6855 16e Avenue, Montreal, QC H1X 2T5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.588879,
+45.5604763
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marie-de-l'Incarnation",
+"rang": "61",
+"adresse": "5446 Rue Angers, Montreal, QC H4E 4A3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.584376,
+45.464211
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Harfang-des-Neiges, Édifice Gouin",
+"rang": "62",
+"adresse": "9506 Boul Gouin O, Pierrefonds - Roxboro, QC H8Y 1T8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7756214,
+45.5053365
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Gertrude",
+"rang": "63",
+"adresse": "11813 Bd Sainte-Gertrude, Montreal-Nord, QC H1G 5P8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6341242,
+45.604609
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Simon-Apôtre",
+"rang": "64",
+"adresse": "195 Rue de Beauharnois O, Montreal, QC H2N 1K1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6471348,
+45.539655
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Pie XII",
+"rang": "65",
+"adresse": "5455 Rue Dujarie, Saint-Leonard, QC H1R 1K4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6047119,
+45.5908995
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Grands-Êtres",
+"rang": "66",
+"adresse": "1150 Rue Deguire, Saint-Laurent, QC H4L 1M2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6866946,
+45.52179539999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "General Vanier",
+"rang": "67",
+"adresse": "4555 Rue Buies, Saint-Leonard, QC H1S 1J2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.590311,
+45.572049
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Lambert-Closse",
+"rang": "68",
+"adresse": "5840 Rue Saint-Urbain, Montreal, QC H2T 2X5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6038102,
+45.5262557
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "L'Eau-Vive",
+"rang": "69",
+"adresse": "171 Av. Orchard, LaSalle, QC H8R 0A2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6474576,
+45.4222755
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Pierre-de-Coubertin",
+"rang": "70",
+"adresse": "4660 Rue de Charleroi, Montreal-Nord, QC H1H 1T7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6326171,
+45.5954168
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Les-Enfants-du-Monde",
+"rang": "71",
+"adresse": "2915 Rue Marcel, Saint-Laurent, QC H4R 1B2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7253883,
+45.5150863
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Très-Saint-Sacrement, Édifice de l'Avenir",
+"rang": "72",
+"adresse": "704 5e Avenue, Lachine, QC H8S 2W4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6683086,
+45.4421779
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Zotique",
+"rang": "73",
+"adresse": "4841 Av. Palm, Montreal, QC H4C 1Y1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.58925640000001,
+45.4712164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marie-Rivier, Pavillon Louvain",
+"rang": "74",
+"adresse": "9200 8e Avenue, Montreal, QC H1Z 2Y5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6313649,
+45.57081520000001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marie-Rivier, Pavillon Legendre",
+"rang": "75",
+"adresse": "9066 8e Avenue, Montreal, QC H1Z 2Y5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6292882,
+45.5700408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-des-Neiges",
+"rang": "76",
+"adresse": "14425 Rue Notre Dame E, Pointe-aux-Trembles, QC H1A 1V6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.493781,
+45.6734617
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Philippe-Morin",
+"rang": "77",
+"adresse": "1825 Rue Provost, Lachine, QC H8S 1P5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.680447,
+45.4417434
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Ludger-Duvernay",
+"rang": "78",
+"adresse": "770 Rue du Couvent, Montreal, QC H4C 2R6"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.58629573100131,
+45.478728722949846
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Clement",
+"rang": "79",
+"adresse": "4770 Rue la Fontaine, Montreal, QC H1V 3B4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5340906,
+45.5565803
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Odile",
+"rang": "80",
+"adresse": "12055 Rue Depatie, Montreal, QC H4J 1W9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7069544,
+45.5345171
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Berges-de-Lachine",
+"rang": "81",
+"adresse": "50 34e Avenue, Lachine, QC H8T 1Z2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6937341,
+45.4340627
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Perce-Neige",
+"rang": "82",
+"adresse": "4770 Bd Lalande, Pierrefonds - Roxboro, QC H8Y 1V2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7813474,
+45.5062667
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Louis-Dupire",
+"rang": "83",
+"adresse": "1S4, 6400 Pierre-de Coubertin Ave, Montreal, QC H1N 1S4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5359967,
+45.57786979999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Our Lady of Pompei",
+"rang": "84",
+"adresse": "9944 Bd Saint-Michel, Montreal-Nord, QC H1H 5G8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6398389,
+45.5768798
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Charles-Lemoyne",
+"rang": "85",
+"adresse": "2001 Rue Mullins, Montreal, QC H3K 1N9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5616277,
+45.4809967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "François-La-Bernarde",
+"rang": "86",
+"adresse": "950 Rue Pierre Lacroix, Pointe-aux-Trembles, QC H1B 3C8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.4950482,
+45.6467803
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Benoît",
+"rang": "87",
+"adresse": "500 Av. du Mont Cassin, Montreal, QC H3L 1W6"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.66730520489422,
+45.541639307198
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Marguerite-Bourgeoys",
+"rang": "88",
+"adresse": "11625 Rue de la Gauchetière, Pointe-aux-Trembles, QC H1B 2H8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5001069,
+45.635885
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "La Dauversière",
+"rang": "89",
+"adresse": "5485 Rue Jean-Talon E, Montreal, QC H1S 9Y9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.581335,
+45.5810421
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Gerald McShane",
+"rang": "90",
+"adresse": "6111 Bd Maurice-Duplessis, Montreal-Nord, QC H1G 1Y6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6204053,
+45.6151204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Gabriel-Lalemant",
+"rang": "91",
+"adresse": "7350 Rue Garnier, Montreal, QC H2E 2A3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6114888,
+45.5470923
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Germaine-Cousin",
+"rang": "92",
+"adresse": "1880 48e Avenue, Rivière-des-Prairies - Pointe-aux-Trembles, QC H1A 2Y5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5013832,
+45.6676385
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Felix-Leclerc",
+"rang": "93",
+"adresse": "1750 Bd du Tricentenaire, Montreal, QC H1B 3B1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5041619,
+45.651296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Felix-Leclerc, Occupation transitoire",
+"rang": "94",
+"adresse": "1750 Bd du Tricentenaire, Montreal, QC H1B 3B1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5041619,
+45.651296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Jean-de-Matha, Édifice Coeur-Immacule-de-Marie",
+"rang": "95",
+"adresse": "1975 Bd Desmarchais, Montreal, QC H4E 2B9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5966111,
+45.4484013
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Terre-des-Jeunes",
+"rang": "96",
+"adresse": "7900 Rue Doyle, LaSalle, QC H8N 0E9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6302584,
+45.43832829999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jean-Grou",
+"rang": "97",
+"adresse": "805 Rue Tasse, Saint-Laurent, QC H4L 1N8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6802162,
+45.5236779
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint Gabriel",
+"rang": "98",
+"adresse": "600 Rue de Dublin, Montreal, QC H3K 2S4"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.55901016650583,
+45.476965289513025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Jean-de-Matha, Édifice Honore-Mercier",
+"rang": "99",
+"adresse": "1975 Bd Desmarchais, Montreal, QC H4E 2B9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.59628379298873,
+45.44804218545099
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Cardinal-Leger",
+"rang": "100",
+"adresse": "2000 Rue Decelles, Saint-Laurent, QC H4M 1B3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.68768840000001,
+45.50667989999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "De la Mosaïque",
+"rang": "101",
+"adresse": "5621 Av. McMurray, Côte Saint-Luc, QC H4W 2G1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6655638,
+45.4631924
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Mathieu",
+"rang": "102",
+"adresse": "7230 8e Avenue, Montreal, QC H2A 3C7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6001424,
+45.5568877
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Garneau",
+"rang": "103",
+"adresse": "1808 Av. Papineau, Montreal, QC H2K 4J1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5574341,
+45.5245915
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Très-Saint-Sacrement, Édifice du Savoir",
+"rang": "104",
+"adresse": "704 5e Avenue, Lachine, QC H8S 2W4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6683086,
+45.4421779
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Octave",
+"rang": "105",
+"adresse": "11171 Rue Notre Dame E, Montreal-Est, QC H1B 2V7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.4991146,
+45.6291295
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Wilfrid-Bastien",
+"rang": "106",
+"adresse": "8155 Rue Collerette, Saint-Leonard, QC H1P 2V6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5926379,
+45.58561419999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jacques-Rousseau, Chenier",
+"rang": "107",
+"adresse": "7455 Rue Jarry E, Anjou, QC H1J 1H3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5733815,
+45.6055472
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "LaSalle Elementary Senior",
+"rang": "108",
+"adresse": "1555 Rue Rancourt, LaSalle, QC H8N 1R7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6275656,
+45.4291002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "LaSalle Elementary Junior",
+"rang": "109",
+"adresse": "8340 Rue David-Boyer, LaSalle, QC H8N 2A1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6262362,
+45.432488
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Nom-de-Jesus",
+"rang": "110",
+"adresse": "4131 Rue Adam, Montreal, QC H1V 1S8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5371602,
+45.5495159
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Ferland",
+"rang": "111",
+"adresse": "8755 Rue Belcourt, Saint-Leonard, QC H1P 2L9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5981093,
+45.5951069
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Denise-Pelletier",
+"rang": "112",
+"adresse": "12160 27e Avenue, Montreal, QC H1E 1Z5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.589798,
+45.63777
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Pierre-Remy",
+"rang": "113",
+"adresse": "360 Av. 80e, LaSalle, QC H8R 2T3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6365512,
+45.41955
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Roseraies",
+"rang": "114",
+"adresse": "6440 Bd des Galeries d'Anjou, Anjou, QC H1M 1W2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5542599,
+45.5940373
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Victor-Lavigne",
+"rang": "115",
+"adresse": "5400 Bd Couture, Saint-Leonard, QC H1R 1C7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6104317,
+45.592517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Dollard-des-Ormeaux",
+"rang": "116",
+"adresse": "35 Av. Anselme-Lavigne, Dollard-des-Ormeaux, QC H9A 1N5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8200289,
+45.5005537
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Parkdale",
+"rang": "117",
+"adresse": "1475 Rue Deguire, Saint-Laurent, QC H4L 1M4"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.69061983986224,
+45.52019672181675
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Gabrielle-Roy",
+"rang": "118",
+"adresse": "5950 Rue Honore Mercier, Saint-Leonard, QC H1P 3E4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6017465,
+45.5971728
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Anselme",
+"rang": "119",
+"adresse": "2743 Rue de Rouen, Montreal, QC H2K 1N2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.55483670000001,
+45.5362914
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Mathieu, Annexe",
+"rang": "120",
+"adresse": "7110 8e Avenue, Montreal, QC H2A 3C4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5987192,
+45.5562319
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Catherine-de-Sienne",
+"rang": "121",
+"adresse": "7055 Av. Somerled, Montreal, QC H4V 1V8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6440051,
+45.4611611
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marguerite-Bourgeoys",
+"rang": "122",
+"adresse": "2070 Rue Plessis, Montreal, QC H2L 2Y3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.561949,
+45.52395019999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Maple Grove",
+"rang": "123",
+"adresse": "740 52e Avenue, Lachine, QC H8T 2X6"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.71544253228006,
+45.44461976458842
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Gregoire-le-Grand",
+"rang": "124",
+"adresse": "7950 R. Cartier, Montreal, QC H2E 2K2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6167293,
+45.55280519999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Armand-Lavergne",
+"rang": "125",
+"adresse": "2600 Av. Fletcher, Montreal, QC H1L 4C5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5177263,
+45.6090263
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jean-Baptiste-Meilleur",
+"rang": "126",
+"adresse": "2237 Rue Fullum, Montreal, QC H2K 3P1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5579646,
+45.5320839
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Fernand-Gauthier",
+"rang": "127",
+"adresse": "12600 Av. Paul-Dufault, Montreal, QC H1E 2B6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5920105,
+45.6433265
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marc-Favreau, Annexe",
+"rang": "128",
+"adresse": "4635 Pl. Borden, Montreal, QC H4B 1A1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6354284,
+45.4680648
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Gilles-Vigneault",
+"rang": "129",
+"adresse": "11400 Av. de Poutrincourt, Montreal, QC H3M 1Z7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6921595,
+45.5318878
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "St. Monica",
+"rang": "130",
+"adresse": "6440 Rue de Terrebonne, Montreal, QC H4B 1B1"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.63423668737288,
+45.46715397478452
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Maisonneuve",
+"rang": "131",
+"adresse": "1680 Av Morgan, Montreal, QC H1V 2P9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5365695,
+45.5521379
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Nesbitt",
+"rang": "132",
+"adresse": "6108 8e Avenue, Montreal, QC H1Y 2M2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.583498,
+45.551676
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Du Petit-Collège",
+"rang": "133",
+"adresse": "9343 Rue Jean-Milot, LaSalle, QC H8R 1Y7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.641117,
+45.4294776
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Judith-Jasmin",
+"rang": "134",
+"adresse": "4575 Av. Mariette, Montreal, QC H4B 2G3"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.64025300590797,
+45.463058522255935
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Antoine-Marie-Claret",
+"rang": "135",
+"adresse": "10600 Av. Larose, Montreal, QC H2B 1Z3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6496698,
+45.5798275
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Gilles-Vigneault, Annexe temporaire",
+"rang": "136",
+"adresse": "2005 Rue Victor Dore, Montreal, QC H3M 1S4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6891467,
+45.5362745
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jacques-Rousseau",
+"rang": "137",
+"adresse": "7455 Rue Jarry E, Anjou, QC H1J 1H3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5733815,
+45.6055472
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-de-l'Assomption",
+"rang": "138",
+"adresse": "2430 Rue Darling, Montreal, QC H1W 2X1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.55236690000001,
+45.5439928
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Westmount Park",
+"rang": "139",
+"adresse": "Westmount, QC, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5956993,
+45.48571889999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "François-de-Laval, Annexe",
+"rang": "140",
+"adresse": "12020 Ave de Bois-de-Boulogne, Montreal, Quebec H3M 1K3"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.69467085259265,
+45.54266605280639
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-de-Lourdes",
+"rang": "141",
+"adresse": "504 5e Avenue, Verdun, QC H4G 2Z1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5717796,
+45.45618229999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Cardinal-Leger",
+"rang": "142",
+"adresse": "2000 Rue Decelles, Saint-Laurent, QC H4M 1B3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.68768840000001,
+45.50667989999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-des-Victoires",
+"rang": "143",
+"adresse": "2720 Rue Bossuet, Montreal, QC H1N 2S6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5401782,
+45.5737819
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Dalkeith",
+"rang": "144",
+"adresse": "7951 Av. de Dalkeith, Anjou, QC H1K 3X6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5505924,
+45.6025905
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Guillaume-Couture",
+"rang": "145",
+"adresse": "6300 Av. Albani, Montreal, QC H1M 2R8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5605798,
+45.58310669999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Verdun",
+"rang": "146",
+"adresse": "5290 Rue de Verdun, Verdun, QC H4H 1K1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.571901,
+45.4540663
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-des-Victoires, Annexe",
+"rang": "147",
+"adresse": "6120 Rue la Fontaine, Montreal, QC H1N 2C1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.524462,
+45.5711376
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Le Plateau",
+"rang": "148",
+"adresse": "3700 Av. Calixa-Lavallee, Montreal, QC H2L 3A8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5672906,
+45.5253668
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "François-de-Laval",
+"rang": "149",
+"adresse": "12050 Ave de Bois-de-Boulogne, Montreal, Quebec H3M 2X9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.69599274295983,
+45.54311182714491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Iona",
+"rang": "150",
+"adresse": "5000 Av. Iona, Montreal, QC H3W 2A2"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.62482288134463,
+45.484791910835945
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-François-Solano",
+"rang": "151",
+"adresse": "3580 Rue Dandurand, Montreal, QC H1X 1N6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5740798,
+45.5551112
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Levis-Sauve",
+"rang": "152",
+"adresse": "655 Rue Willibrord, Verdun, QC H4G 2T8"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.57228351729663,
+45.459771542373055
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Du Bois-de-Liesse",
+"rang": "153",
+"adresse": "175 Rue Sonata, Dollard-des-Ormeaux, QC H9B 2M6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7868075,
+45.493261
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Dante",
+"rang": "154",
+"adresse": "6090 Rue de Lachenaie, Saint-Leonard, QC H1S 1P1"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.57576822292631,
+45.58730098001995
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Cedarcrest",
+"rang": "155",
+"adresse": "1505 Rue Muir, Saint-Laurent, QC H4L 4T1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6802489,
+45.5265159
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Katimavik, Édifice Katimavik",
+"rang": "156",
+"adresse": "1700 Rue Decelles, Saint-Laurent, QC H4L 0B9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6819085,
+45.5106912
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Du Grand-Heron",
+"rang": "157",
+"adresse": "7676 Rue Centrale, LaSalle, QC H8P 1L5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5970993,
+45.4304962
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Henri-Forest",
+"rang": "158",
+"adresse": "100 Av. du Tresor Cache, LaSalle, QC H8R 3K3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6527558,
+45.4253513
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "John Caboto Academy",
+"rang": "159",
+"adresse": "8955 Rue Meunier, Montreal, QC H2N 1W3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6483615,
+45.5393491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Cinq-Continents, Pavillon Dupuis",
+"rang": "160",
+"adresse": "5530 Av. Dupuis, Montreal, QC H3X 1N8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6383963,
+45.4837548
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "École internationale Wilfrid-Pelletier, Édifice W-P",
+"rang": "161",
+"adresse": "8301 Bd Wilfrid Pelletier, Anjou, QC H1K 1M2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5531686,
+45.6074244
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saints-Martyrs-Canadiens",
+"rang": "162",
+"adresse": "9920 Rue Parthenais, Montreal, QC H2B 2L4"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.645739734025,
+45.57038379688937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Pierre-de-Coubertin",
+"rang": "163",
+"adresse": "4660 Rue de Charleroi, Montreal-Nord, QC H1H 1T7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6326171,
+45.5954168
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Édouard-Laurin",
+"rang": "164",
+"adresse": "1085 Rue Tasse, Saint-Laurent, QC H4L 1P7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6838141,
+45.52107880000001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Elizabeth Ballantyne",
+"rang": "165",
+"adresse": "314 Rue Northview, Montreal-Ouest, QC H4X 1E2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6544476,
+45.4546564
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Philippe-Labarre",
+"rang": "166",
+"adresse": "3125 Av. Fletcher, Montreal, QC H1L 4E2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5239861,
+45.6105961
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "La Visitation",
+"rang": "167",
+"adresse": "10591 Rue Seguin, Montreal, QC H2B 2B8"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.65582596560093,
+45.570729048764015
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-des-Rapides",
+"rang": "168",
+"adresse": "8585 Rue George, LaSalle, QC H8P 1G5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6191682,
+45.4206192
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "École internationale Wilfrid-Pelletier, Annexe",
+"rang": "169",
+"adresse": "7741 Av. du Ronceray, Anjou, QC H1K 3W7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5602096,
+45.6062175
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-de-la-Paix",
+"rang": "170",
+"adresse": "454 CAISSE AVE, Verdun, QC H4G 2C8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.569057,
+45.4702652
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saints-Martyrs-Canadiens, Annexe",
+"rang": "171",
+"adresse": "10000 Rue Parthenais, Montreal, QC H2B 2L4"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.64669724264974,
+45.57083277692994
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marc-Aurèle-Fortin",
+"rang": "172",
+"adresse": "12230 Av. Fernand-Gauthier, Montreal, QC H1E 5N4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6005958,
+45.6320169
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Jean-Baptiste-de-la-Salle",
+"rang": "173",
+"adresse": "2355 Bd Pie-IX, Montreal, QC H1V 2E6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5468021,
+45.5525822
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Decouvreurs",
+"rang": "174",
+"adresse": "845 39e Avenue, LaSalle, QC H8P 2Y6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6141102,
+45.4212401
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Monarques, Annexe Marie-Rollet (36e Avenue)",
+"rang": "175",
+"adresse": "6405 30 Ave, Montreal, QC H1T 3G3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5745716,
+45.56704449999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-des-Sept-Douleurs",
+"rang": "176",
+"adresse": "4155 Rue Wellington, Verdun, QC H4G 1V8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5672858,
+45.4625098
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Edward Murphy",
+"rang": "177",
+"adresse": "6800 Av. Pierre-De Coubertin, Montreal, QC H1N 1M5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5337898,
+45.5821105
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Riverview",
+"rang": "178",
+"adresse": "971 Ave Riverview, Verdun, Quebec H4H 2C3"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.57810750324252,
+45.447269874807006
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Justin, Annexe temporaire",
+"rang": "179",
+"adresse": "5005 Rue Mousseau, Montreal, QC H1K 2V8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.532853,
+45.6063236
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marc-Favreau",
+"rang": "180",
+"adresse": "6310 Av. Somerled, Montreal, QC H3X 2B8"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.63599051990337,
+45.469527166640184
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Carlyle",
+"rang": "181",
+"adresse": "109 Av. Carlyle, Mont-Royal, QC H3R 1S8"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6464469661657,
+45.51325480751514
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marc-Aurèle-Fortin, Annexe",
+"rang": "182",
+"adresse": "12550 Av. Fernand-Gauthier, Montreal, QC H1E 1S8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6050336,
+45.6357242
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Monarques, Annexe Marie-Rollet (Beaubien)",
+"rang": "183",
+"adresse": "4335 Rue Beaubien E, Montreal, QC H1T 1S8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5781414,
+45.5647088
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Boucher-De La Bruère",
+"rang": "184",
+"adresse": "7760 Rue la Fontaine, Montreal, QC H1L 3H2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5133214,
+45.5881749
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Chanoine-Joseph-Theorêt",
+"rang": "185",
+"adresse": "990 5e Avenue, Verdun, QC H4G 2Z6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5771748,
+45.456387
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Donat",
+"rang": "186",
+"adresse": "3155 Rue Desautels, Montreal, QC H1N 3B8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5394891,
+45.58372019999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Cinq-Continents, Pavillon Saint-Antonin",
+"rang": "187",
+"adresse": "5325 Av. Macdonald, Montreal, QC H3X 2W6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6360707,
+45.4823965
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Alphonse-Desjardins, Annexe temporaire",
+"rang": "188",
+"adresse": "6650 39e Avenue, Montreal, QC H1T 2W8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.573755,
+45.5730075
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Justin, Annexe",
+"rang": "189",
+"adresse": "5005 Rue Mousseau, Montreal, QC H1K 2V8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.532853,
+45.6063236
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Atelier",
+"rang": "190",
+"adresse": "10055 Rue J J Gagnier, Montreal, QC H2B 2Z7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6412305,
+45.5775162
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Jeanne-d'Arc",
+"rang": "191",
+"adresse": "3700 R. Sherbrooke E, Montreal, QC H1X 1Z8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5544284,
+45.5491379
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Chenier",
+"rang": "192",
+"adresse": "5800 Avenue St Donat, Montreal, QC H1K 3P7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5426374,
+45.604576
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Monarques, Annexe St-Jean-Vianney",
+"rang": "193",
+"adresse": "6455 27e Avenue, Montreal, QC H1T 3J8"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.576568903544,
+45.565678527328124
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Children's World Academy",
+"rang": "194",
+"adresse": "2241 Rue Menard, LaSalle, QC H8N 1J4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6295717,
+45.4379974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Geneviève Ouest",
+"rang": "195",
+"adresse": "35 Rue Sainte-Anne, Sainte-Geneviève, QC H9H 2Z2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8719308,
+45.4778217
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Du Grand-Chêne",
+"rang": "196",
+"adresse": "5080 Rue de Savoie, Pierrefonds, QC H8Z 1C2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8300509,
+45.5106986
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Alphonse-Desjardins",
+"rang": "197",
+"adresse": "6600 Rue Lemay, Montreal, QC H1T 2L7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5701421,
+45.5774499
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Au Pied-de-la-Montagne, Pavillon SJB",
+"rang": "198",
+"adresse": "4265 Av. Laval, Montreal, QC H2W 2J5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5807439,
+45.5210523
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jardin-Des-Saints-Anges",
+"rang": "199",
+"adresse": "1225 Rue Saint-Louis, Lachine, QC H8S 2K6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6750513,
+45.4333733
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-de-Fatima",
+"rang": "200",
+"adresse": "12200 Av. Rene Masson, Montreal, QC H1E 4T4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5746107,
+45.6470211
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Louise-de-Marillac, Annexe",
+"rang": "201",
+"adresse": "8100 Rue de Marseille, Montreal, QC H1L 1P3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5294105,
+45.5967603
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Allion",
+"rang": "202",
+"adresse": "140 9e Av, LaSalle, QC H8P 2N9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.60041865495946,
+45.42832213867002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Montmartre",
+"rang": "203",
+"adresse": "1855 59e Avenue, Pointe-aux-Trembles, QC H1A 2P2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.4986021,
+45.6754494
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Justin",
+"rang": "204",
+"adresse": "5005 Rue Mousseau, Montreal, QC H1K 2V8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.532853,
+45.6063236
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "FACE",
+"rang": "205",
+"adresse": "3449 Rue University, Montreal, QC H3A 2A8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5748935,
+45.5061048
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame",
+"rang": "206",
+"adresse": "14425 Rue Notre Dame E, Pointe-aux-Trembles, QC H1A 1V6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.493781,
+45.6734617
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Marcel",
+"rang": "207",
+"adresse": "1470 16e Avenue, Pointe-aux-Trembles, QC H1B 3N6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5038669,
+45.6453437
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Isaac-Jogues",
+"rang": "208",
+"adresse": "9355 Av. de Galinee, Montreal, QC H2M 2A7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6429962,
+45.5594903
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Claire",
+"rang": "209",
+"adresse": "8500 Rue Sainte-Claire, Montreal, QC H1L 1X7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5250622,
+45.6001824
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Beau-Sejour, Édifice Sud",
+"rang": "210",
+"adresse": "3600 Rue Beausejour, Saint-Laurent, QC H4K 1W7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7314431,
+45.52274389999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Albert-le-Grand",
+"rang": "211",
+"adresse": "5050 18E Ave, Montreal, QC H1X 2N9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5656262,
+45.5542334
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "De l’Oree-du-Parc",
+"rang": "212",
+"adresse": "7500 Rue Jean-Chevalier, LaSalle, QC H8N 2J4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6117274,
+45.4377053
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Honore-Mercier",
+"rang": "213",
+"adresse": "Rue Honore Mercier, Montreal, QC, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6033736,
+45.5969097
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Saules-Rieurs",
+"rang": "214",
+"adresse": "1050 5e Avenue, Verdun, QC H4G 2Z6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5781093,
+45.4563415
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-du-Foyer",
+"rang": "215",
+"adresse": "5955 41e Avenue, Montreal, QC H1T 2T7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5646787,
+45.5722144
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Beau-Sejour, Édifice Nord",
+"rang": "216",
+"adresse": "3600 Rue Beausejour, Saint-Laurent, QC H4K 1W7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7314431,
+45.52274389999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Leon-de-Westmount",
+"rang": "217",
+"adresse": "360 Av. Clarke, Westmount, QC H3Z 2E6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5930865,
+45.4860096
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Barthelemy, Pavillon Sagard",
+"rang": "218",
+"adresse": "7400 Rue Sagard, Montreal, QC H2E 2S9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6075706,
+45.5526044
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "La Verendrye",
+"rang": "219",
+"adresse": "3055 Rue Mousseau, Montreal, QC H1L 4W1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5263132,
+45.6044987
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marie-Favery",
+"rang": "220",
+"adresse": "7750 Av. Christophe Colomb, Montreal, QC H2R 2S9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6205618,
+45.5460207
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Felix-Leclerc",
+"rang": "221",
+"adresse": "1750 Bd du Tricentenaire, Montreal, QC H1B 3B1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5041619,
+45.651296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Springdale",
+"rang": "222",
+"adresse": "150 Rue Hyman Drive, Dollard-des-Ormeaux, QC H9B 1L6"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.79614914035793,
+45.493677319972186
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Hampstead",
+"rang": "223",
+"adresse": "83 Rue Thurlow, Hampstead, QC H3X 3G8"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6429271461132,
+45.4799187258121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sans-Frontières",
+"rang": "224",
+"adresse": "5937 10e Avenue, Montreal, QC H1Y 2K4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.582325,
+45.5524141
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Fernand-Seguin, Pavillon Hubert-Reeves",
+"rang": "225",
+"adresse": "10050 Av. Durham, Montreal, QC H2C 2G4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6570883,
+45.5541843
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jonathan",
+"rang": "226",
+"adresse": "705 Bd Decarie, Saint-Laurent, QC H4L 3L3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6769345,
+45.5110407
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Coeur-Immacule-de-Marie",
+"rang": "227",
+"adresse": "1845 Bd Desmarchais, Montreal, QC H4E 2B7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5896634,
+45.4558442
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Amis-du-Monde",
+"rang": "228",
+"adresse": "8205 Chem. Mackle, Côte Saint-Luc, QC H4W 1B1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6781438,
+45.45927570000001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "F.A.C.E.",
+"rang": "229",
+"adresse": "3449 Rue University, Montreal, QC H3A 2A8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5748935,
+45.5061048
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Lajoie",
+"rang": "230",
+"adresse": "1276 Av. Lajoie, Outremont, QC H2V 1P3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6106871,
+45.5202412
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Maîtrise Petits Chanteurs du Mont-Royal",
+"rang": "231",
+"adresse": "4300 Chem. Queen Mary, Montreal, QC H3V 1A6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.620647,
+45.4913903
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Rose-des-Vents",
+"rang": "232",
+"adresse": "3000 Rue Beaubien E, Montreal, QC H1Y 1H2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5881761,
+45.5525224
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Internationale de Montreal",
+"rang": "233",
+"adresse": "3641 Av. Prud'homme, Montreal, QC H4A 3H6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.613371,
+45.4754941
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Lajoie, Sainte-Mary-Magdalen",
+"rang": "234",
+"adresse": "1276 Av. Lajoie, Outremont, QC H2V 1P3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6106871,
+45.5202412
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Barthelemy, Pavillon des Érables",
+"rang": "235",
+"adresse": "7081 Av. des Érables, Montreal, QC H2E 2R1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6031143,
+45.55034430000001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Louise-de-Marillac",
+"rang": "236",
+"adresse": "8100 Rue de Marseille, Montreal, QC H1L 1P3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5294105,
+45.5967603
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sunshine Academy",
+"rang": "237",
+"adresse": "65 Rue Sunshine, Dollard-des-Ormeaux, QC H9B 1G9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7992212,
+45.4962578
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Christ-Roi",
+"rang": "238",
+"adresse": "525 Rue de Louvain East, Montreal, QC H2M 1A1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.651611,
+45.5501278
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Pierre Elliott Trudeau",
+"rang": "239",
+"adresse": "6855 R. Cartier, Montreal, QC H2G 2W1"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.60189278583194,
+45.5467581253748
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Jean-de-la-Lande",
+"rang": "240",
+"adresse": "3120 Avenue Laurier E, Montreal, QC H1Y 1Z6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.570504,
+45.5482434
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Donat, Annexe",
+"rang": "241",
+"adresse": "3155 Rue Desautels, Montreal, QC H1N 3B8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5394891,
+45.58372019999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Paul-de-la-Croix",
+"rang": "242",
+"adresse": "10495 Av. Georges-Baril, Montreal, QC H2C 2N1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6613076,
+45.5593504
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Jean-de-la-Lande, Annexe",
+"rang": "243",
+"adresse": "3120 Avenue Laurier E, Montreal, QC H1Y 1Z6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.570504,
+45.5482434
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Élan",
+"rang": "244",
+"adresse": "3450 Av. De Lorimier, Montreal, QC H2K 3X6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5640909,
+45.5309915
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Enfant-Jesus",
+"rang": "245",
+"adresse": "75 Rue Villeneuve E, Montreal, QC H2T 1L1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5890556,
+45.5224468
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Louis-Colin",
+"rang": "246",
+"adresse": "10122 Bd Olympia, Montreal, QC H2C 2V9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6544557,
+45.5609572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Dunrae Gardens",
+"rang": "247",
+"adresse": "235 Av. Dunrae, Mont-Royal, QC H3P 1T5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6375661,
+45.5214326
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Île-des-Soeurs",
+"rang": "248",
+"adresse": "530 Rue de Gaspe, Verdun, QC H3E 1E7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5492773,
+45.456966
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Ahuntsic, Pavillon Julie-Payette",
+"rang": "249",
+"adresse": "10085 Av. Durham, Montreal, QC H2C 2G3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6572297,
+45.554772
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Jean-de-Brebeuf",
+"rang": "250",
+"adresse": "2870 Rue Dandurand, Montreal, QC H1Y 1T5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5777917,
+45.54869919999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "La Petite-Patrie, Pavillon NDD",
+"rang": "251",
+"adresse": "6841 Av. Henri-Julien, Montreal, QC H2S 2V3"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.61127455277541,
+45.53550199908386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Étienne",
+"rang": "252",
+"adresse": "5959 Av. Christophe Colomb, Montreal, QC H2S 2G3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5965393,
+45.5359433
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Roslyn",
+"rang": "253",
+"adresse": "4699 Av. Westmount, Westmount, QC H3Y 1X5"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.60933191069047,
+45.48317562692509
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Ahuntsic, Pavillon Hubert-Reeves",
+"rang": "254",
+"adresse": "9900 Av. d'Auteuil, Montreal, QC H3L 2K1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6586916,
+45.5494958
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Geneviève Sud",
+"rang": "255",
+"adresse": "7520 Rue Édouard, LaSalle, QC H8P 1S2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5928898,
+45.4343112
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Dollard-Des Ormeaux",
+"rang": "256",
+"adresse": "35 Av. Anselme-Lavigne, Dollard-des-Ormeaux, QC H9A 1N5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8200289,
+45.5005537
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Albatros",
+"rang": "257",
+"adresse": "6440 Bd des Galeries d'Anjou, Anjou, QC H1M 1W2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.553979,
+45.5940853
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Lambert-Closse",
+"rang": "258",
+"adresse": "5840 Rue Saint-Urbain, Montreal, QC H2T 2X5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6038102,
+45.5262557
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Gerard",
+"rang": "259",
+"adresse": "505 Rue de Liège E, Montreal, QC H2P 1J9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6352167,
+45.5452778
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Ahuntsic, Annexe",
+"rang": "260",
+"adresse": "9900 Av. d'Auteuil, Montreal, QC H3L 2K1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6586916,
+45.5494958
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Simone-Desjardins, Pavillon Gouin",
+"rang": "261",
+"adresse": "10004 Boul. Gouin E, Montreal, QC H1C 1A8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5618782,
+45.6606671
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Marguerite, Édifice de la Grande-Marguerite",
+"rang": "262",
+"adresse": "100 Bd de l'Île-des-Soeurs, Montreal, QC H3E 0C7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5443508,
+45.4653953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Leonardo-da-Vinci Academy",
+"rang": "263",
+"adresse": "12025 Av. Andre-Dumas, Montreal, QC H1E 4G2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5839161,
+45.6375659
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Bancroft",
+"rang": "264",
+"adresse": "4563 Rue Saint-Urbain, Montreal, QC H2T 2V9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5883072,
+45.5194933
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Kingsdale Academy",
+"rang": "265",
+"adresse": "4381 Rue King, Pierrefonds, QC H9H 2E6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8532234,
+45.4799967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-de-la-Garde",
+"rang": "266",
+"adresse": "755 Rue Brault, Verdun, QC H4H 2B3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.575439,
+45.4482467
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Michelangelo International",
+"rang": "267",
+"adresse": "9360 5e Rue, Montreal, QC H1E 1K1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.568433,
+45.6505494
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Louis-de-Gonzague, Annexe",
+"rang": "268",
+"adresse": "2430 Terr. Mercure, Montreal, QC H2H 1P2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5648333,
+45.5361784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Madeleine-de-Verchères",
+"rang": "269",
+"adresse": "6017 R. Cartier, Montreal, QC H2G 2V4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.59217,
+45.5418652
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Louis-de-Gonzague",
+"rang": "270",
+"adresse": "2430 Terr. Mercure, Montreal, QC H2H 1P2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5648333,
+45.5361784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Le Vitrail",
+"rang": "271",
+"adresse": "5927 Rue Boyer, Montreal, QC H2S 2H8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.59711430000002,
+45.5349419
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "De la Belle-Rive, Pavillon des Trembles",
+"rang": "272",
+"adresse": "16360 Rue Bureau, Rivière-des-Prairies - Pointe-aux-Trembles, QC H1A 1Z5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.4797142,
+45.700748
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "De l'Odyssee",
+"rang": "273",
+"adresse": "4348 Rue Alain, Pierrefonds - Roxboro, QC H9H 2T7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8608714,
+45.474789
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Lalande",
+"rang": "274",
+"adresse": "50 Av. 3e S, Roxboro, QC H8Y 2L5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8030281,
+45.508624
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-de-la-Garde, Édifice Richard",
+"rang": "275",
+"adresse": "755 Rue Brault, Verdun, QC H4H 2B3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.575439,
+45.4482467
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "De la Belle-Rive, Pavillon de la Pointe",
+"rang": "276",
+"adresse": "16360 Rue Bureau, Rivière-des-Prairies - Pointe-aux-Trembles, QC H1A 1Z5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.4797142,
+45.700748
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Luc",
+"rang": "277",
+"adresse": "98 Rue Fredmir, Dollard-des-Ormeaux, QC H9A 2R3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8300466,
+45.4913692
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint Charles",
+"rang": "278",
+"adresse": "4331 Rue Sainte-Anne, Pierrefonds - Roxboro, QC H9H 4G7"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.866061202574,
+45.47257654583407
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Nouvelle-Querbes",
+"rang": "279",
+"adresse": "215 Av. Bloomfield, Outremont, QC H2V 3R6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6008384,
+45.5175781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Cecile",
+"rang": "280",
+"adresse": "7230 Av. de Gaspe, Montreal, QC H2R 1Z6, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6178994,
+45.5368066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Willingdon",
+"rang": "281",
+"adresse": "5870 Rue de Terrebonne, Montreal, QC H4A 1B5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6286865,
+45.4736333
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Simone-Desjardins, Pavillon Perras",
+"rang": "282",
+"adresse": "9955 Bd Perras, Montreal, QC H1C 1V8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.563006,
+45.659814
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Enfants-du-Monde",
+"rang": "283",
+"adresse": "2915 Rue Marcel, Saint-Laurent, QC H4R 1B2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7253883,
+45.5150863
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Royal Vale",
+"rang": "284",
+"adresse": "5851 Av. Somerled, Montreal, QC H3X 2A5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.63255,
+45.475216
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Sainte-Bibiane",
+"rang": "285",
+"adresse": "5755 13e Ave., Montreal, QC H1X 2Y3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5776757,
+45.5539305
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Gerard",
+"rang": "286",
+"adresse": "505 Rue de Liège E, Montreal, QC H2P 1J9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6352167,
+45.5452778
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Fabien, Annexe Rosalie-Jette",
+"rang": "287",
+"adresse": "6500 Av. de Renty, Montreal, QC H1M 1M4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5500937,
+45.5836525
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Notre-Dame-de-Grâce",
+"rang": "288",
+"adresse": "5435 Av. Notre-Dame-de-Grâce, Montreal, QC H4A 1L2"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.61752429337838,
+45.47588799253004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Guy-Drummond",
+"rang": "289",
+"adresse": "1475 Av. Lajoie, Outremont, QC H2V 1P9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6135885,
+45.51846279999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Arsène",
+"rang": "290",
+"adresse": "6972 Av. Christophe Colomb, Montreal, QC H2S 2H5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6101407,
+45.5413635
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Marguerite",
+"rang": "291",
+"adresse": "100 Bd de l'Île-des-Soeurs, Montreal, QC H3E 0C7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5443508,
+45.4653953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Fabien",
+"rang": "292",
+"adresse": "6500 Av. de Renty, Montreal, QC H1M 1M4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5500937,
+45.5836525
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Ambroise, Annexe",
+"rang": "293",
+"adresse": "6555 Rue de Normanville, Montreal, QC H2G 3B9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6012396,
+45.5402478
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "East Hill",
+"rang": "294",
+"adresse": "10350 Bd Perras, Montreal, QC H1C 2H1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.553951,
+45.663837
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Murielle-Dumont",
+"rang": "295",
+"adresse": "5005 Rue Valois, Pierrefonds - Roxboro, QC H8Z 2G8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8345234,
+45.5065165
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Au Pied-de-la-Montagne, Pavillon JJO",
+"rang": "297",
+"adresse": "4265 Av. Laval, Montreal, QC H2W 2J5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5807439,
+45.5210523
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Ambroise",
+"rang": "298",
+"adresse": "6555 Rue de Normanville, Montreal, QC H2G 3B9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6012396,
+45.5402478
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Clement-Ouest",
+"rang": "299",
+"adresse": "555 Av. Mitchell, Mont-Royal, QC H3R 1L5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.655817,
+45.5083667
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Merton",
+"rang": "300",
+"adresse": "5554 Av. Robinson, Côte Saint-Luc, QC H4V 2P8"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.65153312685969,
+45.47239256746802
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Edinburgh",
+"rang": "301",
+"adresse": "500 Av. Hudson, Montreal-Ouest, QC H4X 1X1"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.65981716130376,
+45.4574539068358
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Arc-en-Ciel",
+"rang": "302",
+"adresse": "4265 Av. Laval, Montreal, QC H2W 1E4, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5807438,
+45.5210523
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Pierre-Claver",
+"rang": "303",
+"adresse": "2110 Bd Saint-Joseph E, Montreal, QC H2H 1E7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.57675,
+45.5376261
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Gardenview",
+"rang": "304",
+"adresse": "700 Rue Brunet, Saint-Laurent, QC H4M 1Y2"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.68918942071149,
+45.50073278088694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Étoile-Filante",
+"rang": "305",
+"adresse": "5619 Chem. de la Côte-Saint-Antoine, Montreal, QC H4A 1R5"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.61692674652,
+45.472631964886375
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Gentilly, Édifice Fenelon",
+"rang": "306",
+"adresse": "355 Bd Fenelon, Dorval, QC H9S 1M2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7492779,
+45.444876
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Academie Saint-Clement",
+"rang": "307",
+"adresse": "1345 Chem. Regent, Mont-Royal, QC H3P 2K8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6428,
+45.5178736
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Gentilly, Édifice de la Presentation",
+"rang": "308",
+"adresse": "244 Av. de la Presentation, Dorval, QC H9S 1R1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7366612,
+45.4418997
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Terry Fox",
+"rang": "309",
+"adresse": "13350 Rue Purcell, Pierrefonds, QC H8Z 1P7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8460696,
+45.5026441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "La Mennais",
+"rang": "310",
+"adresse": "6521 R. Saint-Denis, Montreal, QC H2S 2S1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6057824,
+45.5347008
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint Anthony",
+"rang": "313",
+"adresse": "17750 Rue Meloche, Pierrefonds, QC H9J 3P9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.88347615735718,
+45.45826306930619
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Clement-Est",
+"rang": "314",
+"adresse": "1560 Boul Laird, Mont-Royal, QC H3P 2T5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6448014,
+45.5194977
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Émile",
+"rang": "315",
+"adresse": "3450 Rue Davidson, Montreal, QC H1W 2Z5, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5573933,
+45.5459805
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Louis",
+"rang": "316",
+"adresse": "151 Av. Winthrop, Pointe-Claire, QC H9R 3W8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.808319,
+45.464398
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Andre-Apôtre, Annexe",
+"rang": "317",
+"adresse": "215 Rue Prieur O, Montreal, QC H3L 1R7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6703267,
+45.54650609999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint Patrick",
+"rang": "318",
+"adresse": "261 Rue Shamrock, Pincourt, QC J7W 3W5"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.985049230562,
+45.37828231725435
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Andre-Apôtre",
+"rang": "319",
+"adresse": "215 Rue Prieur O, Montreal, QC H3L 1R7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6703267,
+45.54650609999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Dorval",
+"rang": "320",
+"adresse": "355 Bd Fenelon, Dorval, QC H9S 1M2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7492779,
+45.444876
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Beechwood",
+"rang": "321",
+"adresse": "13155 Rue Shelborne, Pierrefonds - Roxboro, QC H9A 1L4"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.83647083847545,
+45.495170014100026
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Marc",
+"rang": "322",
+"adresse": "6365 Av. 1re, Montreal, QC H1Y 3A9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5887592,
+45.5498038
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Louis-Hippolyte-Lafontaine",
+"rang": "323",
+"adresse": "4245 Rue Berri, Montreal, QC H2J 2P9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5779986,
+45.5234029
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Helène-Boulle",
+"rang": "324",
+"adresse": "8050 Av. de Gaspe, Montreal, QC H2R 2A7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6294595,
+45.5402596
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint-Germain-d'Outremont",
+"rang": "325",
+"adresse": "46 Av. Vincent-D'Indy, Outremont, QC H2V 2S9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.6132674,
+45.5109678
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Dorset",
+"rang": "326",
+"adresse": "106 Rue Dorset, Baie-d'Urfe, QC H9X 2Z6"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.920226607842,
+45.41380457758906
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Victor-Therien",
+"rang": "327",
+"adresse": "305 43e Avenue, Lachine, QC H8T 1V2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7034742,
+45.4376375
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Pointe-Claire",
+"rang": "328",
+"adresse": "93 Av. Douglas-Shand, Pointe-Claire, QC H9R 2A7, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8145394,
+45.4512914
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Wilder Penfield",
+"rang": "329",
+"adresse": "551 Rue Westminster, Dollard-des-Ormeaux, QC H9G 1E8"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.84674920829443,
+45.47193534065386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Joseph-Henrico",
+"rang": "330",
+"adresse": "20 Rue Maughan, Baie-d'Urfe, QC H9X 3C9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.9085293,
+45.4140103
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Christmas Park",
+"rang": "331",
+"adresse": "422 Bd Beaconsfield, Beaconsfield, QC H9W 4B7"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.87671508278974,
+45.419544217063546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Clearpoint",
+"rang": "332",
+"adresse": "17 Av. Cedar, Pointe-Claire, QC H9S 4X9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.815177,
+45.4354552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Birchwood",
+"rang": "333",
+"adresse": "1325 Rue Jolicoeur, Saint-Lazare, QC J7T 1Z4"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-74.11107785238781,
+45.39220176860406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Evergreen",
+"rang": "334",
+"adresse": "2625 Rue du Bordelais, Saint-Lazare, QC J7T 2Z9"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-74.14793094587432,
+45.43011274606331
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint John Fisher Junior",
+"rang": "335",
+"adresse": "121 Av. Summerhill, Pointe-Claire, QC H9R 2L8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7952894,
+45.4563192
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Laurier",
+"rang": "336",
+"adresse": "505 Avenue Laurier E, Montreal, QC H2J 1E9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.588587,
+45.5285749
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Jacques-Bizard",
+"rang": "337",
+"adresse": "515 Mnt de l'Église, L'Île-Bizard, QC H9C 1H1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8810882,
+45.4889023
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Au Tresor-du-Boise",
+"rang": "338",
+"adresse": "3925 Rue Claude-Henri-Grignon, Saint-Laurent, QC H4R 3K2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7182527,
+45.5091518
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Westpark",
+"rang": "339",
+"adresse": "6 Rue Howard, Dollard-des-Ormeaux, QC H9A 2L2"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.82466120484476,
+45.497373298812
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Edgewater",
+"rang": "340",
+"adresse": "220 Bd Cardinal Leger, Pincourt, QC J7W 3Y5"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.9903429501087,
+45.38015395566589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Saint John Fisher Senior",
+"rang": "341",
+"adresse": "121 Av. Summerhill, Pointe-Claire, QC H9R 2L8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7952894,
+45.4563192
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Forest Hill Senior",
+"rang": "342",
+"adresse": "1449 Av. Bedard, Saint-Lazare, QC J7T 3B4"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-74.13984853940414,
+45.39796591804488
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Lanaudière",
+"rang": "344",
+"adresse": "4300 R.de Lanaudière, Montreal, QC H2J 3N9, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.57417880000001,
+45.5288062
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Marguerite-Bourgeoys",
+"rang": "345",
+"adresse": "2070 Rue Plessis, Montreal, QC H2L 2Y3, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.561949,
+45.52395019999999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Émile-Nelligan",
+"rang": "346",
+"adresse": "101 Rue Charlevoix, Kirkland, QC H9J 3E2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.8804012,
+45.4494075
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Paul-Bruchesi",
+"rang": "347",
+"adresse": "1310 Bd Saint-Joseph E, Montreal, QC H2J 1M2, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5818792,
+45.5321878
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Mount Pleasant",
+"rang": "348",
+"adresse": "97 Rue Mount Pleasant, Hudson, Quebec J0P 1H0"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-74.14163291557067,
+45.45132846868713
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Catherine-Soumillard",
+"rang": "349",
+"adresse": "250 48e Avenue, Lachine, QC H8T 2R8, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.7093685,
+45.4402591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"nom": "Des Coquelicots",
+"rang": "350",
+"adresse": "7301 Rue Churchill, Verdun, QC H4H 2L1, Canada"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.5873847,
+45.4378214
+]
+}
+}
 ]
 }

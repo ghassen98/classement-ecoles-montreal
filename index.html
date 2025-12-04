@@ -118,7 +118,7 @@
                     }
                 }).addTo(map);
 
-                // Ajouter un contrôle de recherche avec correspondance partielle
+                // Ajouter un contrôle de recherche avec correspondance partielle (insensible à la casse)
                 const searchControl = new L.Control.Search({
                     layer: ecolesLayer,
                     propertyName: 'nom', // Recherche par nom d'école
@@ -130,7 +130,7 @@
                     },
                     filterData: function(text, records) {
                         const filteredData = {};
-                        const searchText = text.toLowerCase();
+                        const searchText = text.toLowerCase(); // Convertir en minuscules
 
                         for (const key in records) {
                             if (key.toLowerCase().includes(searchText)) {
