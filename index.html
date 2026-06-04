@@ -4,23 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carte des Écoles</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.css"/>
-    <script src="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="anonymous"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="anonymous"/>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.css" crossorigin="anonymous"/>
+    <script src="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.js" crossorigin="anonymous"></script>
     <style>
+        body { margin: 0; }
         #map { width: 100%; height: 95vh; }
+        .status-banner {
+            position: absolute;
+            top: 12px;
+            left: 50px;
+            z-index: 1000;
+            padding: 8px 12px;
+            border-radius: 6px;
+            color: #111;
+            background: rgba(255, 255, 255, 0.92);
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        .status-banner.error {
+            background: rgba(209, 36, 36, 0.92);
+            color: #fff;
+        }
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            left: 50px;
+            z-index: 999;
+            background: rgba(255, 255, 255, 0.94);
+            border-radius: 6px;
+            padding: 12px 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            line-height: 1.8;
+            color: #333;
+        }
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 6px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 6px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 4px;
+        }
+        .legend-circle {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        .school-count {
+            margin-top: 8px;
+            padding-top: 6px;
+            border-top: 1px solid #ddd;
+            font-size: 12px;
+        }
         .popup-content { font-family: Arial, sans-serif; font-size: 14px; color: #333; }
         .popup-title { font-weight: bold; font-size: 16px; margin-bottom: 5px; }
         .rank-circle { display: inline-block; width: 24px; height: 24px; border-radius: 50%; color: white; font-size: 14px; text-align: center; line-height: 24px; }
     </style>
 </head>
 <body>
+    <div id="status" class="status-banner">Chargement des écoles...</div>
+    <div id="legend" class="legend" style="display: none;">
+        <div class="legend-title">Classes de rang</div>
+        <div class="legend-item">
+            <div class="legend-circle" style="background-color: green;"></div>
+            <span>Rang 1–99 (Vert)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-circle" style="background-color: orange;"></div>
+            <span>Rang 100–220 (Orange)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-circle" style="background-color: red;"></div>
+            <span>Rang 221+ (Rouge)</span>
+        </div>
+        <div class="school-count">Total écoles: <span id="school-count">0</span></div>
+    </div>
     <div id="map"></div>
     <script>
         // Initialisation de la carte
         const map = L.map('map').setView([45.5, -73.6], 12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+        const markerCluster = L.markerClusterGroup();
+
+        const statusEl = document.getElementById('status');
+
+        function setStatus(message, isError) {
+            statusEl.textContent = message;
+            statusEl.classList.toggle('error', !!isError);
+        }
+
+        function clearStatus() {
+            statusEl.style.display = 'none';
+        }
+
+        function showLegend(totalCount) {
+            document.getElementById('legend').style.display = 'block';
+            document.getElementById('school-count').textContent = totalCount;
+        }
+
+        function normalizeText(value) {
+            return String(value || '')
+                .toLowerCase()
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/[‐‑‒–—−-]/g, '-')
+                .trim();
+        }
+
+        function createPopupContent(nom, rang, adresse) {
+            const container = document.createElement('div');
+            container.className = 'popup-content';
+
+            const title = document.createElement('div');
+            title.className = 'popup-title';
+            title.textContent = nom;
+
+            const rankLine = document.createElement('div');
+            const rankLabel = document.createElement('b');
+            rankLabel.textContent = 'Rang: ';
+            rankLine.appendChild(rankLabel);
+            rankLine.appendChild(document.createTextNode(String(rang)));
+
+            const addressLine = document.createElement('div');
+            const addressLabel = document.createElement('b');
+            addressLabel.textContent = 'Adresse: ';
+            addressLine.appendChild(addressLabel);
+            addressLine.appendChild(document.createTextNode(adresse));
+
+            container.appendChild(title);
+            container.appendChild(rankLine);
+            container.appendChild(addressLine);
+            return container;
+        }
 
         // Fonction pour styliser les points selon le rang
         function getColor(rang) {
@@ -31,7 +160,7 @@
 
         // Fonction pour créer un marqueur avec le rang au centre
         function createRankMarker(feature, latlng) {
-            const rank = feature.properties.rang;
+            const rank = Number(feature.properties.rang);
             const rankColor = getColor(rank);
             const iconHtml = `<div class="rank-circle" style="background-color: ${rankColor};">${rank}</div>`;
             const icon = L.divIcon({
@@ -45,51 +174,96 @@
 
         // Charger les données GeoJSON depuis le fichier externe
         fetch('ecoles.geojson')
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status} - ${response.statusText}`);
+                }
+                return response.json();
+            })
             .then(data => {
+                const schoolsIndex = [];
+                const searchResultsToLayer = {};
+
                 const ecolesLayer = L.geoJSON(data, {
                     pointToLayer: createRankMarker,
                     onEachFeature: function (feature, layer) {
-                        const nom = feature.properties.nom;
-                        const rang = feature.properties.rang;
+                        const nom = String(feature.properties.nom || 'École sans nom');
+                        const rang = Number(feature.properties.rang);
                         const adresse = feature.properties.adresse || 'Adresse non disponible';
-                        const popupContent = `
-                            <div class="popup-content">
-                                <div class="popup-title">${nom}</div>
-                                <div><b>Rang:</b> ${rang}</div>
-                                <div><b>Adresse:</b> ${adresse}</div>
-                            </div>
-                        `;
-                        layer.bindPopup(popupContent);
+                        layer.bindPopup(createPopupContent(nom, rang, adresse));
+                        schoolsIndex.push({
+                            nom: nom,
+                            nomNormalized: normalizeText(nom),
+                            rang: rang,
+                            latlng: layer.getLatLng(),
+                            layer: layer
+                        });
                     }
-                }).addTo(map);
+                });
+
+                markerCluster.addLayer(ecolesLayer);
+                map.addLayer(markerCluster);
+
+                const bounds = ecolesLayer.getBounds();
+                if (bounds.isValid()) {
+                    map.fitBounds(bounds, { padding: [24, 24] });
+                }
 
                 // Ajouter un contrôle de recherche avec correspondance partielle
                 const searchControl = new L.Control.Search({
-                    layer: ecolesLayer,
-                    propertyName: 'nom', // Recherche par nom d'école
                     marker: false,
                     textPlaceholder: 'Rechercher une école...',
                     initial: false,
-                    moveToLocation: function(latlng, title, map) {
-                        map.setView(latlng, 14); // Zoom sur le résultat trouvé
-                    },
-                    filterData: function(text, records) {
-                        const filteredData = {};
-                        const searchText = text.toLowerCase();
+                    sourceData: function(text, callResponse) {
+                        const query = normalizeText(text);
+                        const records = {};
+                        Object.keys(searchResultsToLayer).forEach(key => delete searchResultsToLayer[key]);
 
-                        for (const key in records) {
-                            if (key.toLowerCase().includes(searchText)) {
-                                filteredData[key] = records[key];
+                        if (!query) {
+                            callResponse(records);
+                            return;
+                        }
+
+                        let duplicateCounter = 0;
+                        for (const school of schoolsIndex) {
+                            if (school.nomNormalized.includes(query)) {
+                                let displayKey = `${school.nom} (rang ${school.rang})`;
+                                if (records[displayKey]) {
+                                    duplicateCounter += 1;
+                                    displayKey = `${displayKey} #${duplicateCounter}`;
+                                }
+                                records[displayKey] = school.latlng;
+                                searchResultsToLayer[displayKey] = school.layer;
                             }
                         }
-                        return filteredData;
+
+                        callResponse(records);
+                    },
+                    moveToLocation: function(latlng, title, map) {
+                        map.setView(latlng, 14); // Zoom sur le résultat trouvé
                     }
                 });
 
                 map.addControl(searchControl);
+
+                map.on('search:locationfound', function(event) {
+                    const layer = searchResultsToLayer[event.text];
+                    if (!layer) {
+                        return;
+                    }
+
+                    markerCluster.zoomToShowLayer(layer, function() {
+                        layer.openPopup();
+                    });
+                });
+
+                showLegend(schoolsIndex.length);
+                clearStatus();
             })
-            .catch(error => console.error("Erreur de chargement du fichier GeoJSON :", error));
+            .catch(error => {
+                console.error('Erreur de chargement du fichier GeoJSON :', error);
+                setStatus('Impossible de charger les données des écoles. Vérifie le fichier ecoles.geojson.', true);
+            });
     </script>
 </body>
 </html>

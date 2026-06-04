@@ -66,3 +66,50 @@ Les données des écoles et de leur classement proviennent du rapport officiel :
 ## Auteur
 
 Créé par **Ghassen Aouinti** dans le cadre d'un projet open source.
+
+## Validation et Qualité des Données
+
+Un script de validation automatisé est fourni pour vérifier l'intégrité du fichier GeoJSON:
+
+```bash
+python3 validate_geojson.py ecoles.geojson
+```
+
+Le script rapporte:
+- Erreurs structurelles (géométrie invalide, champs manquants, types incorrects)
+- Avertissements (doublons de noms, points superposés, rangs hors plage)
+- Distribution des rangs et statistiques générales
+
+### Résultats actuels
+- **346 écoles** valides
+- **6 doublons** de noms (écoles avec annexes portant le même nom)
+- **33 points superposés** (écoles partageant la même coordonnée, notamment annexes)
+
+## Mise à Jour des Données
+
+### Source primaire
+Les données proviennent du rapport officiel de la Commission de gouvernance et de vérification du rendement:
+- Document: [Classification des écoles 2022](https://www.cgtsim.qc.ca/wp-content/uploads/2023/02/2022_EMD_Classification-des-ecoles-1.pdf)
+- Autorité: Centre de gestion et de technologies de l'information scolaire de Montréal (CGTSIM)
+
+### Processus de mise à jour
+1. **Récupérer la source** : Télécharger le dernier rapport PDF du classement des écoles.
+2. **Extraire les données** : Convertir le PDF en format tabulaire (Excel/CSV) avec colonnes: nom, rang, adresse, longitude, latitude.
+3. **Valider** : Exécuter le script `validate_geojson.py` pour contrôler la cohérence.
+4. **Remplacer** : Substituer le fichier `ecoles.geojson` avec les nouvelles données.
+5. **Tester** : Ouvrir `http://localhost:8000/index.html` pour vérifier le rendu et la recherche.
+6. **Committer** : Créer un commit avec le message `chore: update school rankings from CGTSIM YYYY`.
+
+### Fréquence recommandée
+- Vérification mensuelle de la source officielle
+- Mise à jour complète annuelle (généralement février/mars)
+
+## Améliorations Récentes (v2.0)
+
+- ✅ **Sécurité CDN**: Leaflet 1.9.4 avec SRI et crossorigin
+- ✅ **Robustesse**: Gestion d'erreur HTTP + message utilisateur
+- ✅ **Sécurité popup**: Contenu échappé (pas d'injection HTML)
+- ✅ **Recherche**: Insensible aux accents et tirets + gestion des doublons
+- ✅ **Superpositions**: Clustering automatique des points proches
+- ✅ **UX**: Légende interactive + compteur d'écoles + fitBounds sur les données
+- ✅ **Validation**: Script de QA automatisé pour les données
