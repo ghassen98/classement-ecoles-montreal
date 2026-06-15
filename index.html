@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="anonymous"/>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster.spiderfy@2.0.0/dist/MarkerCluster.SpiderfyOn.css" crossorigin="anonymous"/>
-    <script src="https://unpkg.com/leaflet.markercluster.spiderfy@2.0.0/dist/leaflet.markercluster.spiderfy.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.css" crossorigin="anonymous"/>
     <script src="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.js" crossorigin="anonymous"></script>
     <style>
@@ -75,6 +73,34 @@
         .popup-content { font-family: Arial, sans-serif; font-size: 14px; color: #333; }
         .popup-title { font-weight: bold; font-size: 16px; margin-bottom: 5px; }
         .rank-circle { display: inline-block; width: 24px; height: 24px; border-radius: 50%; color: white; font-size: 14px; text-align: center; line-height: 24px; }
+        .cluster-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            font-family: "Trebuchet MS", Arial, sans-serif;
+            font-weight: 700;
+            position: relative;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.9);
+            border: 1.5px solid #666;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+        .cluster-icon-sm {
+            width: 36px;
+            height: 36px;
+            font-size: 13px;
+        }
+        .cluster-icon-md {
+            width: 46px;
+            height: 46px;
+            font-size: 14px;
+        }
+        .cluster-icon-lg {
+            width: 56px;
+            height: 56px;
+            font-size: 15px;
+        }
         .spiderfy-info {
             position: absolute;
             top: 12px;
@@ -125,24 +151,26 @@
             animateAddingMarkers: true,
             iconCreateFunction: function(cluster) {
                 const count = cluster.getChildCount();
-                const c = ' marker-cluster-';
-                if (count < 10) {
-                    return new L.Icon.Default();
-                } else if (count < 100) {
-                    return L.divIcon({
-                        html: '<div style="background-color: #ff7800; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;">' + count + '</div>',
-                        className: '',
-                        iconSize: [40, 40],
-                        iconAnchor: [20, 20]
-                    });
-                } else {
-                    return L.divIcon({
-                        html: '<div style="background-color: #d50000; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;">' + count + '</div>',
-                        className: '',
-                        iconSize: [40, 40],
-                        iconAnchor: [20, 20]
-                    });
+                let variant = 'cluster-icon-sm';
+                let iconSize = [36, 36];
+                let anchor = [18, 18];
+
+                if (count >= 100) {
+                    variant = 'cluster-icon-lg';
+                    iconSize = [56, 56];
+                    anchor = [28, 28];
+                } else if (count >= 25) {
+                    variant = 'cluster-icon-md';
+                    iconSize = [46, 46];
+                    anchor = [23, 23];
                 }
+
+                return L.divIcon({
+                    html: '<div class="cluster-icon ' + variant + '">' + count + '</div>',
+                    className: '',
+                    iconSize: iconSize,
+                    iconAnchor: anchor
+                });
             }
         });
 
@@ -336,17 +364,9 @@
                         return;
                     }
 
-                    // Point 9, 10: Utiliser spiderfyZoomToShowLayer pour séparer les points superposés
-                    if (markerCluster.spiderfyZoomToShowLayer) {
-                        markerCluster.spiderfyZoomToShowLayer(layer, function() {
-                            layer.openPopup();
-                        });
-                    } else {
-                        // Fallback si spiderfy n'est pas disponible
-                        markerCluster.zoomToShowLayer(layer, function() {
-                            layer.openPopup();
-                        });
-                    }
+                    markerCluster.zoomToShowLayer(layer, function() {
+                        layer.openPopup();
+                    });
                 });
 
                 showLegend(schoolsIndex.length);
