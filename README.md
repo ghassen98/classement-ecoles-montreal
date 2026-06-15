@@ -11,6 +11,9 @@ Cette application est un outil SIG Web basé sur [Leaflet.js](https://leafletjs.
   - **Vert** pour un rang inférieur à 100.
   - **Orange** pour un rang entre 101 et 220.
   - **Rouge** pour un rang supérieur à 220.
+- **Clustering intelligent** : Regroupe les écoles superposées avec un clic pour les séparer (spiderfy).
+- **Recherche avancée** : Insensible aux accents, tirets, avec distinction des homonymes par adresse et rang.
+- **Légende interactive** : Affiche les classes de rang et le total d'écoles visibles.
 
 ## Installation
 
@@ -52,21 +55,6 @@ Les données GeoJSON des écoles sont structurées comme suit :
 }
 ```
 
-## Source des Données
-
-Les données des écoles et de leur classement proviennent du rapport officiel :  
-[Classification des écoles, CGTSIM 2022](https://www.cgtsim.qc.ca/wp-content/uploads/2023/02/2022_EMD_Classification-des-ecoles-1.pdf).
-
-## Technologies Utilisées
-
-- **Leaflet.js** : Bibliothèque JavaScript pour la création de cartes interactives.
-- **Leaflet Search** : Extension Leaflet pour intégrer la recherche par nom d'école.
-- **HTML, CSS, JavaScript** : Technologies de base pour le front-end.
-
-## Auteur
-
-Créé par **Ghassen Aouinti** dans le cadre d'un projet open source.
-
 ## Validation et Qualité des Données
 
 Un script de validation automatisé est fourni pour vérifier l'intégrité du fichier GeoJSON:
@@ -85,10 +73,9 @@ Le script rapporte:
 - **6 doublons** de noms (écoles avec annexes portant le même nom)
 - **33 points superposés** (écoles partageant la même coordonnée, notamment annexes)
 
-## Mise à Jour des Données
+## Source des Données
 
-### Source primaire
-Les données proviennent du rapport officiel de la Commission de gouvernance et de vérification du rendement:
+Les données des écoles et de leur classement proviennent du rapport officiel de la Commission de gouvernance et de vérification du rendement:
 - Document: [Classification des écoles 2022](https://www.cgtsim.qc.ca/wp-content/uploads/2023/02/2022_EMD_Classification-des-ecoles-1.pdf)
 - Autorité: Centre de gestion et de technologies de l'information scolaire de Montréal (CGTSIM)
 
@@ -104,12 +91,36 @@ Les données proviennent du rapport officiel de la Commission de gouvernance et 
 - Vérification mensuelle de la source officielle
 - Mise à jour complète annuelle (généralement février/mars)
 
-## Améliorations Récentes (v2.0)
+## Technologies Utilisées
 
-- ✅ **Sécurité CDN**: Leaflet 1.9.4 avec SRI et crossorigin
+- **Leaflet.js 1.9.4** : Bibliothèque JavaScript pour cartes interactives (sécurisée avec crossorigin).
+- **Leaflet MarkerCluster** : Clustering automatique des écoles superposées.
+- **Leaflet MarkerCluster Spiderfy** : Séparation des points au clic (spiderfy).
+- **Leaflet Search** : Recherche par nom d'école avec filtrage avancé.
+- **HTML5, CSS3, JavaScript ES6** : Technologies front-end modernes.
+
+## Historique des Améliorations
+
+### v1.0 (initiale)
+- Affichage basique des écoles sur carte Leaflet
+- Popup simple avec nom, rang, adresse
+- Recherche basique par nom
+
+### v2.0 
+- ✅ **Sécurité CDN**: Leaflet 1.9.4 avec crossorigin
 - ✅ **Robustesse**: Gestion d'erreur HTTP + message utilisateur
 - ✅ **Sécurité popup**: Contenu échappé (pas d'injection HTML)
-- ✅ **Recherche**: Insensible aux accents et tirets + gestion des doublons
+- ✅ **Recherche**: Insensible aux accents et tirets
 - ✅ **Superpositions**: Clustering automatique des points proches
-- ✅ **UX**: Légende interactive + compteur d'écoles + fitBounds sur les données
+- ✅ **UX**: Légende interactive + compteur d'écoles + fitBounds
 - ✅ **Validation**: Script de QA automatisé pour les données
+
+### v3.0
+- ✅ **Affichage homonymes**: Liste enrichie avec adresse et rang pour distinguer les écoles portant le même nom
+- ✅ **Clustering amélioré**: Configuration fine avec `disableClusteringAtZoom`, `maxClusterRadius`, icônes personnalisées
+- ✅ **Spiderfy avancé**: Séparation automatique des points superposés au clic avec hint utilisateur
+- ✅ **Zoom intelligent**: Navigation fluide via `spiderfyZoomToShowLayer` pour recherche/homonymes
+
+## Auteur
+
+Créé par **Ghassen Aouinti** dans le cadre d'un projet open source.

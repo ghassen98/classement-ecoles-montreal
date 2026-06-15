@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="anonymous"/>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster.spiderfy@2.0.0/dist/MarkerCluster.SpiderfyOn.css" crossorigin="anonymous"/>
+    <script src="https://unpkg.com/leaflet.markercluster.spiderfy@2.0.0/dist/leaflet.markercluster.spiderfy.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.css" crossorigin="anonymous"/>
     <script src="https://unpkg.com/leaflet-search@3.0.2/dist/leaflet-search.min.js" crossorigin="anonymous"></script>
     <style>
@@ -73,10 +75,24 @@
         .popup-content { font-family: Arial, sans-serif; font-size: 14px; color: #333; }
         .popup-title { font-weight: bold; font-size: 16px; margin-bottom: 5px; }
         .rank-circle { display: inline-block; width: 24px; height: 24px; border-radius: 50%; color: white; font-size: 14px; text-align: center; line-height: 24px; }
+        .spiderfy-info {
+            position: absolute;
+            top: 12px;
+            right: 50px;
+            z-index: 1000;
+            padding: 6px 10px;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.85);
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            color: #333;
+            display: none;
+        }
     </style>
 </head>
 <body>
     <div id="status" class="status-banner">Chargement des écoles...</div>
+    <div id="spiderfy-hint" class="spiderfy-info">💡 Cliquez sur un groupe pour séparer les écoles superposées</div>
     <div id="legend" class="legend" style="display: none;">
         <div class="legend-title">Classes de rang</div>
         <div class="legend-item">
@@ -98,9 +114,40 @@
         // Initialisation de la carte
         const map = L.map('map').setView([45.5, -73.6], 12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
-        const markerCluster = L.markerClusterGroup();
+
+        // Configuration avancée du clustering avec Spiderfy
+        const markerCluster = L.markerClusterGroup({
+            disableClusteringAtZoom: 17,
+            maxClusterRadius: 50,
+            spiderfyOnMaxZoom: true,
+            showCoverageOnHover: true,
+            zoomToBoundsOnClick: true,
+            animateAddingMarkers: true,
+            iconCreateFunction: function(cluster) {
+                const count = cluster.getChildCount();
+                const c = ' marker-cluster-';
+                if (count < 10) {
+                    return new L.Icon.Default();
+                } else if (count < 100) {
+                    return L.divIcon({
+                        html: '<div style="background-color: #ff7800; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;">' + count + '</div>',
+                        className: '',
+                        iconSize: [40, 40],
+                        iconAnchor: [20, 20]
+                    });
+                } else {
+                    return L.divIcon({
+                        html: '<div style="background-color: #d50000; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;">' + count + '</div>',
+                        className: '',
+                        iconSize: [40, 40],
+                        iconAnchor: [20, 20]
+                    });
+                }
+            }
+        });
 
         const statusEl = document.getElementById('status');
+        const spiderfyHint = document.getElementById('spiderfy-hint');
 
         function setStatus(message, isError) {
             statusEl.textContent = message;
@@ -114,6 +161,13 @@
         function showLegend(totalCount) {
             document.getElementById('legend').style.display = 'block';
             document.getElementById('school-count').textContent = totalCount;
+        }
+
+        function showSpiderfyHint() {
+            spiderfyHint.style.display = 'block';
+            setTimeout(() => {
+                spiderfyHint.style.display = 'none';
+            }, 5000);
         }
 
         function normalizeText(value) {
@@ -183,6 +237,7 @@
             .then(data => {
                 const schoolsIndex = [];
                 const searchResultsToLayer = {};
+                const schoolsByName = {};
 
                 const ecolesLayer = L.geoJSON(data, {
                     pointToLayer: createRankMarker,
@@ -191,12 +246,25 @@
                         const rang = Number(feature.properties.rang);
                         const adresse = feature.properties.adresse || 'Adresse non disponible';
                         layer.bindPopup(createPopupContent(nom, rang, adresse));
+                        
                         schoolsIndex.push({
                             nom: nom,
                             nomNormalized: normalizeText(nom),
                             rang: rang,
+                            adresse: adresse,
                             latlng: layer.getLatLng(),
                             layer: layer
+                        });
+
+                        // Indexer par nom pour détecter les homonymes
+                        if (!schoolsByName[nom]) {
+                            schoolsByName[nom] = [];
+                        }
+                        schoolsByName[nom].push({
+                            rang: rang,
+                            adresse: adresse,
+                            layer: layer,
+                            latlng: layer.getLatLng()
                         });
                     }
                 });
@@ -208,6 +276,15 @@
                 if (bounds.isValid()) {
                     map.fitBounds(bounds, { padding: [24, 24] });
                 }
+
+                // Événement pour afficher hint spiderfy à la première utilisation
+                let clusterClickedOnce = false;
+                markerCluster.on('clusterclick', function() {
+                    if (!clusterClickedOnce) {
+                        clusterClickedOnce = true;
+                        showSpiderfyHint();
+                    }
+                });
 
                 // Ajouter un contrôle de recherche avec correspondance partielle
                 const searchControl = new L.Control.Search({
@@ -224,14 +301,21 @@
                             return;
                         }
 
-                        let duplicateCounter = 0;
                         for (const school of schoolsIndex) {
                             if (school.nomNormalized.includes(query)) {
-                                let displayKey = `${school.nom} (rang ${school.rang})`;
-                                if (records[displayKey]) {
-                                    duplicateCounter += 1;
-                                    displayKey = `${displayKey} #${duplicateCounter}`;
+                                const schoolGroup = schoolsByName[school.nom];
+                                let displayKey;
+
+                                // Point 8: Afficher plusieurs résultats homonymes explicitement
+                                if (schoolGroup.length > 1) {
+                                    // Pour les homonymes, afficher rang et première ligne d'adresse
+                                    const addr = school.adresse.split(',')[0];
+                                    displayKey = `${school.nom} - Rang ${school.rang} (${addr})`;
+                                } else {
+                                    // Pour les écoles uniques, format simplifié
+                                    displayKey = `${school.nom} (Rang ${school.rang})`;
                                 }
+
                                 records[displayKey] = school.latlng;
                                 searchResultsToLayer[displayKey] = school.layer;
                             }
@@ -240,7 +324,7 @@
                         callResponse(records);
                     },
                     moveToLocation: function(latlng, title, map) {
-                        map.setView(latlng, 14); // Zoom sur le résultat trouvé
+                        map.setView(latlng, 15);
                     }
                 });
 
@@ -252,9 +336,17 @@
                         return;
                     }
 
-                    markerCluster.zoomToShowLayer(layer, function() {
-                        layer.openPopup();
-                    });
+                    // Point 9, 10: Utiliser spiderfyZoomToShowLayer pour séparer les points superposés
+                    if (markerCluster.spiderfyZoomToShowLayer) {
+                        markerCluster.spiderfyZoomToShowLayer(layer, function() {
+                            layer.openPopup();
+                        });
+                    } else {
+                        // Fallback si spiderfy n'est pas disponible
+                        markerCluster.zoomToShowLayer(layer, function() {
+                            layer.openPopup();
+                        });
+                    }
                 });
 
                 showLegend(schoolsIndex.length);
