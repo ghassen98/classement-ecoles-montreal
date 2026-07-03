@@ -69,16 +69,26 @@ Un nouveau script permet de fusionner:
 - le classement CGTSIM (rang, nom)
 - les données ouvertes Montréal (coordonnées, adresse)
 
+Dataset Montréal branché (URL exacte):
+- `https://donnees.montreal.ca/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/5ca7cdb8-f86f-4038-b5a8-657446c75427/download/lieux_d_interet.geojson`
+- filtre recommandé: `Catégorie = Établissement scolaire`
+
 Pré-requis:
 - convertir la source CGTSIM en CSV tabulaire (colonnes minimales: nom + rang)
 - récupérer un CSV ou GeoJSON Montréal contenant nom + longitude + latitude
+
+Note pipeline:
+- si `data/cgtsim_classement.csv` est absent, le script one-shot le génère automatiquement depuis la source CGTSIM en ligne (PDF officiel), via `extract_cgtsim_pdf_to_csv.py`.
 
 Exemple d'exécution:
 
 ```bash
 python3 build_cgtsim_montreal_geojson.py \
   --cgtsim data/cgtsim_classement.csv \
-  --montreal data/montreal_ecoles.geojson \
+  --montreal "https://donnees.montreal.ca/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/5ca7cdb8-f86f-4038-b5a8-657446c75427/download/lieux_d_interet.geojson" \
+  --montreal-filter-field "Catégorie" \
+  --montreal-filter-value "Établissement scolaire" \
+  --montreal-filter-mode equals \
   --out ecoles.geojson \
   --unmatched-out unmatched_cgtsim_montreal.csv
 ```
@@ -107,6 +117,32 @@ Pipeline recommandé:
 python3 build_cgtsim_montreal_geojson.py --cgtsim <csv_cgtsim> --montreal <csv_ou_geojson_montreal>
 python3 validate_geojson.py ecoles.geojson
 python3 control_data_quality.py ecoles.geojson --report-json qa_report.json
+```
+
+### Commande unique (script shell)
+
+Un script one-shot exécute extraction + validation + contrôle:
+
+```bash
+./run_cgtsim_montreal_pipeline.sh data/cgtsim_classement.csv ecoles.geojson qa_report.json
+```
+
+Forcer une autre URL CGTSIM (ex: nouvelle année):
+
+```bash
+CGTSIM_PDF_URL="https://www.cgtsim.qc.ca/.../classification.pdf" \
+./run_cgtsim_montreal_pipeline.sh data/cgtsim_classement.csv
+```
+
+Variables d'environnement optionnelles:
+
+```bash
+MONTREAL_SOURCE="https://donnees.montreal.ca/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/5ca7cdb8-f86f-4038-b5a8-657446c75427/download/lieux_d_interet.geojson" \
+MONTREAL_FILTER_FIELD="Catégorie" \
+MONTREAL_FILTER_VALUE="Établissement scolaire" \
+MONTREAL_FILTER_MODE="equals" \
+FUZZY_THRESHOLD="0.86" \
+./run_cgtsim_montreal_pipeline.sh data/cgtsim_classement.csv
 ```
 
 Le script rapporte:

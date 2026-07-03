@@ -1,0 +1,493 @@
+nom,rang,adresse,ordre_ens
+Barclay,1,,Primaire
+Venture,1,,Secondaire
+Barthélemy-Vimont annexe,2,,Primaire
+Lucien-Pagé,2,,Secondaire
+Barthélemy-Vimont,3,,Primaire
+Pierre-Dupuy,3,,Secondaire
+Camille-Laurin,4,,Primaire
+Louis-Joseph-Papineau,4,,Secondaire
+"Saint-Noël-Chabanel, Pav. des Découvreurs",5,,Primaire
+Chomedey-De Maisonneuve,5,,Secondaire
+"Saint-Noël-Chabanel, Pav. des Bâtisseurs",6,,Primaire
+Dalbé-Viau,6,,Secondaire
+Paul-Jarry,7,,Primaire
+Saint-Henri,7,,Secondaire
+"Martin-Bélanger, édifice Bélanger",8,,Primaire
+James Lyng,8,,Secondaire
+JULES-VERNE,9,,Primaire
+HENRI-BOURASSA,9,,Secondaire
+Saint-Simon-Apôtre,10,,Primaire
+Jeanne-Mance,10,,Secondaire
+Marguerite-Bourgeoys,11,,Primaire
+Nouvelle école secondaire LaSalle,11,,Secondaire
+Martin-Bélanger. Édifice Martin,12,,Primaire
+Options High,12,,Secondaire
+Sinclair Laird,13,,Primaire
+Eulalie-Durocher,13,,Secondaire
+Sainte-Lucie,14,,Primaire
+Georges-Vanier,14,,Secondaire
+Champlain,15,,Primaire
+"Saint-Henri, transitoire",15,,Secondaire
+ADÉLARD-DESROSIERS,16,,Primaire
+Académie Dunton,16,,Secondaire
+"Très-Saint-Sacrement, édifice du Savoir",17,,Primaire
+Honoré-Mercier,17,,Secondaire
+"JEAN-NICOLET, annexe",18,,Primaire
+Edouard-Montpetit,18,,Secondaire
+Garneau,19,,Primaire
+CALIXA-LAVALLÉE,19,,Secondaire
+Saint-Anselme,20,,Primaire
+"Joseph-François-Perrault, annexe",20,,Secondaire
+"Marie-Rivier, pav. Louvain",21,,Primaire
+Marie-Anne,21,,Secondaire
+Saint-Zotique,22,,Primaire
+AUX MILLE-VOIX,22,,Secondaire
+Jean-Baptiste-Meilleur,23,,Primaire
+Vezina,23,,Secondaire
+JEAN-NICOLET,24,,Primaire
+Joseph-François-Perrault,24,,Secondaire
+Saint-Raymond,25,,Primaire
+FACE (secondaire),25,,Secondaire
+Victor-Rousselot,26,,Primaire
+Beurling Academy,26,,Secondaire
+De La Petite-Bourgogne,27,,Primaire
+Perspectives II,27,,Secondaire
+"Marie-Rivier, pav. Legendre",28,,Primaire
+SECONDAIRE -  AMOS,28,,Secondaire
+Saint-Nom-de-Jésus,29,,Primaire
+Marguerite-De Lajemmerais,29,,Secondaire
+Saint-François-d'Assise,30,,Primaire
+"Saint-Luc, annexe Terrebone",30,,Secondaire
+Jeanne-LeBer,31,,Primaire
+John F. Kennedy,31,,Secondaire
+Armand-Lavergne,32,,Primaire
+FOCUS,32,,Secondaire
+Saint-Bernardin,33,,Primaire
+Marymount Academy International,33,,Secondaire
+Notre-Dame-de-l'Assomption,34,,Primaire
+"Saint-Luc, annexe",34,,Secondaire
+Maisonneuve,35,,Primaire
+DANIEL-JOHNSON,35,,Secondaire
+Bienville,36,,Primaire
+Westmount High School,36,,Secondaire
+"Saint-Bernardin, annexe",37,,Primaire
+Lakeside Academy,37,,Secondaire
+Terre-des-Jeunes,38,,Primaire
+Cavelier-De LaSalle,38,,Secondaire
+Saint-Clément,39,,Primaire
+Louise-Trichet,39,,Secondaire
+SAINTE-COLETTE,40,,Primaire
+"Lasalle Community Comp. High 
+School",40,,Secondaire
+Notre-Dame-du-Perpétuel-Secours,41,,Primaire
+La Voie,41,,Secondaire
+"Au Pied-de-la-Montagne,pav. Jean-Jacques-
+Olier",42,,Primaire
+Le Vitrail,42,,Secondaire
+Westmount Park,43,,Primaire
+Académie De Roberval,43,,Secondaire
+MONTMARTRE,44,,Primaire
+Perspectives I,44,,Secondaire
+Notre-Dame-des-Victoires,45,,Primaire
+Horizon High School,45,,Secondaire
+Montcalm,46,,Primaire
+Père-Marquette,46,,Secondaire
+Notre-Dame-des-Neiges annexe,47,,Primaire
+Saint-Luc,47,,Secondaire
+Saint-Mathieu,48,,Primaire
+De la Pointe-aux-Trembles,48,,Secondaire
+Laurendeau-Dunton,49,,Primaire
+Louis-Riel,49,,Secondaire
+Saint-Jean-Baptiste-de-la-Salle,50,,Primaire
+LA DAUVERSIÈRE,50,,Secondaire
+Chanoine-Joseph-Théorêt,51,,Primaire
+Rosemount High School,51,,Secondaire
+Bedford,52,,Primaire
+"Internationale de Montréal 
+(seconda",52,,Secondaire
+Du Petit-Collège,53,,Primaire
+Monseigneur-Richard,53,,Secondaire
+Charles-Lemoyne,54,,Primaire
+Evangéline,54,,Secondaire
+LAMBERT-CLOSSE,55,,Primaire
+M.I.N.D.,55,,Secondaire
+Au Pied-de-la-Montagne,56,,Primaire
+Robert-Gravel,56,,Secondaire
+"Très-Saint-Sacrement, édifice de l'avenir",57,,Primaire
+"Du Sas, édifice Carson",57,,Secondaire
+SAINT-OCTAVE,58,,Primaire
+LaurenHill Academy,58,,Secondaire
+SAINTE-MARGUERITE-BOURGEOYS,59,,Primaire
+ANTOINE-DE-ST-EXUPÉRY,59,,Secondaire
+Saint-Albert-le-Grand,60,,Primaire
+Programme Mile End,60,,Secondaire
+Ludger-Duvernay,61,,Primaire
+Du Sas,61,,Secondaire
+Lucille-Teasdale,62,,Primaire
+F.A.C.E. High School,62,,Secondaire
+Saint-Léon-de-Westmount,63,,Primaire
+Pierre-Laporte,63,,Secondaire
+"SAINTE-COLETTE, annexe",64,,Primaire
+Paul-Gérin-Lajoie-d'Outremont,64,,Secondaire
+St. Gabriel,65,,Primaire
+"Sophie-Barat, annexe",65,,Secondaire
+Notre-Dame-des-Sept-Douleurs,66,,Primaire
+IRMA-LEVASSEUR,66,,Secondaire
+ALPHONSE-PESANT,67,,Primaire
+"Westwood High School Junior 
+Campus",67,,Secondaire
+CARDINAL-LÉGER,68,,Primaire
+"ANTOINE-DE-ST-EXUPÉRY, annexe",68,,Secondaire
+Louisbourg,69,,Primaire
+Laurier MacDonald,69,,Secondaire
+"Saint-Mathieu, annexe",70,,Primaire
+"Westwood High School Senior 
+Campus",70,,Secondaire
+Le Plateau,71,,Primaire
+De l'Altitude,71,,Secondaire
+Nesbitt,72,,Primaire
+"Dorval-Jean-XXIII, édifice Dorval",72,,Secondaire
+Notre-Dame-des-Victoires annexe,73,,Primaire
+"Saint-Laurent,édifice Saint-
+Germain",73,,Secondaire
+Maple Grove Elementary School,74,,Primaire
+Vincent Massey Collegiate,74,,Secondaire
+LE CARIGNAN,75,,Primaire
+"Saint-Laurent,édifice Émile-
+Legault",75,,Secondaire
+"Saint-Laurent,édifice Émile-Legault",75,,Secondaire
+"Léonard-De Vinci, Annexe",76,,Primaire
+Macdonald High School,76,,Secondaire
+FRANÇOIS-LA BERNARDE,77,,Primaire
+ANJOU,77,,Secondaire
+Lévis-Sauvé,78,,Primaire
+Sophie-Barat,78,,Secondaire
+Léonard-De Vinci,79,,Primaire
+"Dorval-Jean-XXIII,édifice Jean-XXIII",79,,Secondaire
+Baril,80,,Primaire
+"Pierrefonds Community High 
+School",80,,Secondaire
+SAINTE-GERTRUDE,81,,Primaire
+JEAN-GROU,81,,Secondaire
+LaSalle Elementary Senior,82,,Primaire
+Lester B. Pearson High School,82,,Secondaire
+SAINTE-GERTRUDE Annexe,83,,Primaire
+Royal Vale School,83,,Secondaire
+LaSalle Elementary Junior,84,,Primaire
+"Pierre-Laporte, édifice Côte-Vertu",84,,Secondaire
+Elan,85,,Primaire
+Saint-Georges,85,,Secondaire
+RENÉ-GUÉNETTE,86,,Primaire
+Des Sources,86,,Secondaire
+Sainte-Catherine-Labouré,87,,Primaire
+Félix-Leclerc,87,,Secondaire
+DE LA FRATERNITÉ,88,,Primaire
+Royal West Academy,88,,Secondaire
+F.A.C.E. Elementary School,89,,Primaire
+Collège Saint-Louis,89,,Secondaire
+John Caboto Academy,90,,Primaire
+Mont-Royal,90,,Secondaire
+Saint-Jean-de-la-Lande,91,,Primaire
+John Rennie High School,91,,Secondaire
+Nouvelle-Querbes,92,,Primaire
+Beaconsfield High School,92,,Secondaire
+SAINT-VINCENT-MARIE,93,,Primaire
+St. Thomas High School,93,,Secondaire
+Pierre-Rémy,94,,Primaire
+Outreach,94,,Secondaire
+DE LA FRATERNITÉ Annexe,95,,Primaire
+"Jean-Paul-Riopelle, bât Jean-Paul-Rioppelle",96,,Primaire
+Philippe-Morin,97,,Primaire
+Pierre Elliott Trudeau,98,,Primaire
+FACE (primaire),99,,Primaire
+Saint-François-Solano,100,,Primaire
+Saint-Donat,101,,Primaire
+Louis-Dupire,102,,Primaire
+Arc-en-ciel,103,,Primaire
+Edward Murphy,104,,Primaire
+L'Eau-Vive,105,,Primaire
+Sainte-Claire,106,,Primaire
+"DE LA BELLE-RIVE, pav de la Pointe",107,,Primaire
+Saint-Grégoire-le-Grand,108,,Primaire
+Notre-Dame-de-la-Paix,109,,Primaire
+Saint-Benoît,110,,Primaire
+Riverview,111,,Primaire
+Lajoie,112,,Primaire
+Dollard-des-Ormeaux,113,,Primaire
+"Saint-Jean-de-la-Lande, annexe",114,,Primaire
+Notre-Dame-des-Rapides,115,,Primaire
+Sans-Frontières,116,,Primaire
+De l’Orée-du-Parc,117,,Primaire
+Saint-Antoine-Marie-Claret,118,,Primaire
+Coronation,119,,Primaire
+Boucher-De La Bruère,120,,Primaire
+Bancroft,121,,Primaire
+Sainte-Catherine-de-Sienne,122,,Primaire
+Marie-de-l'Incarnation,123,,Primaire
+Marie-Favery,124,,Primaire
+Saint-Émile,125,,Primaire
+PIERRE-DE-COUBERTIN,126,,Primaire
+"SAINT-RÉMI, annexe",127,,Primaire
+LA DAUVERSIÈRE,128,,Primaire
+"Jean-Paul-Riopelle, bât Saint-Louis-de 
+Gonzague",129,,Primaire
+Des Nations,130,,Primaire
+Carlyle,131,,Primaire
+Sainte-Jeanne-d'Arc,132,,Primaire
+SAINT-RÉMI,133,,Primaire
+Des Berges-de-Lachine,134,,Primaire
+"Bois-Franc-Aquarelle,édifice Bois-Franc",135,,Primaire
+Our Lady of Pompei,136,,Primaire
+"DE LA BELLE-RIVE, pav. des Trembles",137,,Primaire
+SAINT-JOSEPH,138,,Primaire
+Saint-Ambroise,139,,Primaire
+Sainte-Bernadette-Soubirous,140,,Primaire
+Saint-Jean-de-Matha,141,,Primaire
+Philippe-Labarre,142,,Primaire
+"Des Cinq-Continents, pa.Saint-Antonin",143,,Primaire
+"Sainte-Bernadette-Soubirous, annexe",144,,Primaire
+Gerald McShane,145,,Primaire
+Children's World,146,,Primaire
+Dalkeith,147,,Primaire
+"Bois-Franc-Aquarelle,édifice Aquarelle",148,,Primaire
+SAINTE-GERMAINE-COUSIN,149,,Primaire
+Du Grand-Chêne,150,,Primaire
+Jardin-des-Saints-Anges,151,,Primaire
+Verdun Elementary,152,,Primaire
+"Sainte-Odile,annexe",153,,Primaire
+La Mennais,154,,Primaire
+"Des Cinq-Continents, pav. Dupuis",155,,Primaire
+FÉLIX-LECLERC,156,,Primaire
+Du Bois-de-Liesse,157,,Primaire
+Louis-Hippolyte-Lafontaine,158,,Primaire
+Des Saules-Rieurs,159,,Primaire
+Saint-Étienne,160,,Primaire
+"Saint-Justin, annexe",161,,Primaire
+"FÉLIX-LECLERC,transitoire",162,,Primaire
+Notre-Dame-de-Lourdes,163,,Primaire
+Guy-Drummond,164,,Primaire
+"Des Monarques, Annexe St-Jean-Vianney",165,,Primaire
+Alice-Parizeau,166,,Primaire
+Saint-Barthélemy - Des Érables,167,,Primaire
+Internationale de Montréal (primair,168,,Primaire
+Allion,169,,Primaire
+FERNAND-GAUTHIER,170,,Primaire
+Ahuntsic,171,,Primaire
+La Vérendrye,172,,Primaire
+St. Patrick,173,,Primaire
+Hampstead,174,,Primaire
+Saint-Pierre-Claver,175,,Primaire
+Dollard-des Ormeaux,176,,Primaire
+Jean-Grou,177,,Primaire
+WILFRID-BASTIEN,178,,Primaire
+Enfant-Soleil,179,,Primaire
+Saint-Justin,180,,Primaire
+Roslyn,181,,Primaire
+Pierre Elliott Trudeau,182,,Primaire
+Judith-Jasmin,183,,Primaire
+Du Grand-Héron,184,,Primaire
+Sainte-Bibiane,185,,Primaire
+Sainte-Geneviève Ouest,186,,Primaire
+St. Monica,187,,Primaire
+"Saint-Justin, annexe temporaire",188,,Primaire
+Les-Enfants-du-Monde,189,,Primaire
+Paul-Bruchési,190,,Primaire
+Evergreen,191,,Primaire
+Lanaudière,192,,Primaire
+Marc-Favreau,193,,Primaire
+"Des Monarques, Annexe Marie-Rollet ( 36e av)",194,,Primaire
+Cedarcrest,195,,Primaire
+"Sainte-Louise-de-Marillac, annexe",196,,Primaire
+Le Vitrail-Primaire,197,,Primaire
+La Visitation,198,,Primaire
+Saint-Barthélemy - Sagard,199,,Primaire
+"Marc-Favreau, annexe",200,,Primaire
+François-de-Laval,201,,Primaire
+Saint-Enfant-Jésus,202,,Primaire
+"Des Monarques, Annexe Marie-Rollet ( 
+Beaubien)",203,,Primaire
+Saint-Ambroise Annexe,204,,Primaire
+Notre-Dame-des-Neiges,205,,Primaire
+Guillaume-Couture,206,,Primaire
+Saint-Marc,207,,Primaire
+Dante,208,,Primaire
+Dorset,209,,Primaire
+NOTRE-DAME,210,,Primaire
+Des Découvreurs,211,,Primaire
+Iona,212,,Primaire
+Saint-Jean-de-Brébeuf,213,,Primaire
+SAINT-MARCEL,214,,Primaire
+Rose-des-Vents,215,,Primaire
+Forest Hill Jr.,216,,Primaire
+ALBATROS,217,,Primaire
+Laurier,218,,Primaire
+Forest Hill Sr.,219,,Primaire
+Elizabeth Ballantyne,220,,Primaire
+Notre-Dame-de-Grâce,221,,Primaire
+FERLAND,222,,Primaire
+Du Petit-Chapiteau,223,,Primaire
+"Fernand-Seguin, pavillon Hubert-Reeves",224,,Primaire
+JACQUES-ROUSSEAU,225,,Primaire
+Notre-Dame-de-Grâce annexe,226,,Primaire
+Birchwood,227,,Primaire
+Sainte-Odile,228,,Primaire
+GÉNÉRAL VANIER,229,,Primaire
+DENISE-PELLETIER,230,,Primaire
+Pierre-de-Coubertin,231,,Primaire
+Petits chanteurs du Mont-Royal,232,,Primaire
+"François-de-Laval, annexe",233,,Primaire
+Atelier,234,,Primaire
+"Saint-Donat, annexe",235,,Primaire
+Willingdon,236,,Primaire
+Royal Vale Elementary,237,,Primaire
+Saint-Fabien,238,,Primaire
+Cardinal-Léger,239,,Primaire
+Sunshine Academy,240,,Primaire
+"MARC-AURÈLE-FORTIN, annexe",241,,Primaire
+Saint-Arsène,242,,Primaire
+Pointe-Claire,243,,Primaire
+FÉLIX-LECLERC,244,,Primaire
+"Ahuntsic, annexe",245,,Primaire
+Parkdale,246,,Primaire
+Des Grands-Êtres,247,,Primaire
+Beaconsfield,248,,Primaire
+"Gilles-Vigneault, annexe temporaire",249,,Primaire
+Saint-Paul-de-la-Croix,250,,Primaire
+Lalande,251,,Primaire
+Gilles-Vigneault,252,,Primaire
+Henri-Forest,253,,Primaire
+Simonne-Monet,254,,Primaire
+Joseph-Henrico,255,,Primaire
+Honoré Mercier,256,,Primaire
+Murielle-Dumont,257,,Primaire
+Saint-Gabriel-Lalemant,258,,Primaire
+Dunrae Gardens,259,,Primaire
+MARC-AURÈLE-FORTIN,260,,Primaire
+Springdale Elementary,261,,Primaire
+Saint-Gérard,262,,Primaire
+Etoile filante,263,,Primaire
+LAMBERT-CLOSSE,264,,Primaire
+Saint-Pascal-Baylon,265,,Primaire
+"Saints-Martyrs-Canadiens, pav. Sauvé",266,,Primaire
+"Beau-Séjour,édifice Nord",267,,Primaire
+Terry Fox,268,,Primaire
+Coeur-Immaculé-de-Marie,269,,Primaire
+"Ahuntsic, transitoire",270,,Primaire
+DES ROSERAIES,271,,Primaire
+"Harfang-des-Neiges, édifice Lauzon",272,,Primaire
+St. John Fisher Sr.,273,,Primaire
+Perce-Neige,274,,Primaire
+Madeleine-de-Verchères,275,,Primaire
+Sainte-Cécile,276,,Primaire
+Sainte-Louise-de-Marillac,277,,Primaire
+Saint-Gérard,278,,Primaire
+SIMONE-DESJARDINS,279,,Primaire
+Alphonse-Desjardins,280,,Primaire
+Laurentide,281,,Primaire
+CHÉNIER,282,,Primaire
+Soulanges,283,,Primaire
+Alphonse-Desjardins annexe temporaire,284,,Primaire
+"SIMONE-DESJARDINS, pav. Perras",285,,Primaire
+"Saint-Fabien, annexe Rosalie-Jetté",286,,Primaire
+GABRIELLE-ROY,287,,Primaire
+"Gentilly, édifice de la Présentation",288,,Primaire
+"Saints-Martyrs-Canadiens, pav. Sauriol",289,,Primaire
+Sainte-Geneviève Sud,290,,Primaire
+Michelangelo International Elementa,291,,Primaire
+Des Amis-du-Monde,292,,Primaire
+De la Mosaïque,293,,Primaire
+Notre-Dame-du-Foyer,294,,Primaire
+Henri-Beaulieu,295,,Primaire
+"Harfang-des-Neiges,édifice Gouin",296,,Primaire
+Notre-Dame-de-la-Garde,297,,Primaire
+Saint-Isaac-Jogues,298,,Primaire
+Christmas Park,299,,Primaire
+VICTOR-LAVIGNE,300,,Primaire
+St. John Fisher Jr.,301,,Primaire
+Kingsdale Academy,302,,Primaire
+Mount Pleasant,303,,Primaire
+Leonardo da Vinci,304,,Primaire
+NOTRE-DAME-DE-FATIMA,305,,Primaire
+Merton,306,,Primaire
+Saint-Clément-Ouest,307,,Primaire
+Jonathan,308,,Primaire
+Dorval Elementary,309,,Primaire
+WILFRID-PELLETIER,310,,Primaire
+Saint-Louis,311,,Primaire
+"Beau-Séjour,édifice Sud",312,,Primaire
+"La Petite-Patrie, pav. NDD",313,,Primaire
+"Gentilly, édifice Fénelon",314,,Primaire
+Katimavik,315,,Primaire
+Ile-des-Soeurs,316,,Primaire
+Wilder Penfield,317,,Primaire
+St. Anthony,318,,Primaire
+Edgewater,319,,Primaire
+Edouard-Laurin,320,,Primaire
+Académie Saint-Clément,321,,Primaire
+Saint-André-Apôtre,322,,Primaire
+"WILFRID-PELLETIER, annexe",323,,Primaire
+East Hill,324,,Primaire
+St. Charles,325,,Primaire
+"Notre-Dame-de-la-Garde,édifice Richard",326,,Primaire
+De l'Odyssée,327,,Primaire
+Saint-Luc,328,,Primaire
+Saint-Clément-Est,329,,Primaire
+Jacques-Bizard,330,,Primaire
+Des Marguerite,331,,Primaire
+Christ-Roi,332,,Primaire
+Margaret Manson Elementary School,333,,Primaire
+Louis-Colin,334,,Primaire
+Clearpoint Elementary,335,,Primaire
+Beechwood,336,,Primaire
+Catherine-Soumillard,337,,Primaire
+"Saint-André-Apôtre, annexe",338,,Primaire
+"Gardenview 0,87364 95-
+100%",339,,Primaire
+"Edinburgh 0,87407 95-
+100%",340,,Primaire
+Marguerite-Bourgeoys,341,,Primaire
+"Marguerite-Bourgeoys 0,87464 95-
+100%",341,,Primaire
+"Sherbrooke Academy Junior 0,87465 95-
+100%",342,,Primaire
+Victor-Thérien,343,,Primaire
+"Victor-Thérien 0,87475 95-
+100%",343,,Primaire
+PIE XII,344,,Primaire
+"PIE XII 0,87482 95-
+100%",344,,Primaire
+"Westpark 0,87528 95-
+100%",345,,Primaire
+Au Trésor-du-Boisé,346,,Primaire
+"Au Trésor-du-Boisé 0,87546 95-
+100%",346,,Primaire
+"St. Edmund 0,87559 95-
+100%",347,,Primaire
+Saint-Rémi,348,,Primaire
+"Saint-Rémi 0,87624 95-
+100%",348,,Primaire
+"Hélène-Boullé 0,87639 95-
+100%",349,,Primaire
+"Beacon Hill 0,87650 95-
+100%",350,,Primaire
+"Sherbrooke Academy Senior 0,87833 95-
+100%",351,,Primaire
+Emile-Nelligan,352,,Primaire
+"Emile-Nelligan 0,87854 95-
+100%",352,,Primaire
+Des Coquelicots,353,,Primaire
+"Des Coquelicots 0,87902 95-
+100%",353,,Primaire
+Jonathan-Wilson,354,,Primaire
+"Jonathan-Wilson 0,87960 95-
+100%",354,,Primaire
+Enfants-du-Monde,355,,Primaire
+"Enfants-du-Monde 0,88045 95-
+100%",355,,Primaire
+Saint-Germain-d'Outremont,356,,Primaire
+"Saint-Germain-d'Outremont 0,88181 95-
+100%",356,,Primaire
+Du Bout-de-l'Isle,357,,Primaire
+"Du Bout-de-l'Isle 0,88253 95-
+100%",357,,Primaire
