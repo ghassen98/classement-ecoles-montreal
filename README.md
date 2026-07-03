@@ -63,6 +63,52 @@ Un script de validation automatisé est fourni pour vérifier l'intégrité du f
 python3 validate_geojson.py ecoles.geojson
 ```
 
+### Extraction multi-sources (CGTSIM + Données Montréal)
+
+Un nouveau script permet de fusionner:
+- le classement CGTSIM (rang, nom)
+- les données ouvertes Montréal (coordonnées, adresse)
+
+Pré-requis:
+- convertir la source CGTSIM en CSV tabulaire (colonnes minimales: nom + rang)
+- récupérer un CSV ou GeoJSON Montréal contenant nom + longitude + latitude
+
+Exemple d'exécution:
+
+```bash
+python3 build_cgtsim_montreal_geojson.py \
+  --cgtsim data/cgtsim_classement.csv \
+  --montreal data/montreal_ecoles.geojson \
+  --out ecoles.geojson \
+  --unmatched-out unmatched_cgtsim_montreal.csv
+```
+
+Le script produit:
+- `ecoles.geojson` (fusion finale)
+- `unmatched_cgtsim_montreal.csv` (écoles CGTSIM sans correspondance)
+
+### Contrôle des données (nouveau)
+
+Un second script complète la validation structurelle avec des contrôles métier:
+- cohérence des rangs (doublons, trous)
+- doublons de noms exacts et normalisés
+- points superposés
+- coordonnées invalides
+
+Commande:
+
+```bash
+python3 control_data_quality.py ecoles.geojson --report-json qa_report.json
+```
+
+Pipeline recommandé:
+
+```bash
+python3 build_cgtsim_montreal_geojson.py --cgtsim <csv_cgtsim> --montreal <csv_ou_geojson_montreal>
+python3 validate_geojson.py ecoles.geojson
+python3 control_data_quality.py ecoles.geojson --report-json qa_report.json
+```
+
 Le script rapporte:
 - Erreurs structurelles (géométrie invalide, champs manquants, types incorrects)
 - Avertissements (doublons de noms, points superposés, rangs hors plage)
