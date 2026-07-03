@@ -1,0 +1,30 @@
+name: ci-template
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pypdf
+
+      - name: Validate GeoJSON
+        run: python scripts/validate_geojson.py data/processed/ecoles.geojson
+
+      - name: Data quality report
+        run: python scripts/control_data_quality.py data/processed/ecoles.geojson --report-json data/reports/qa_report.json

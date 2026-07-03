@@ -15,6 +15,23 @@ Cette application est un outil SIG Web basé sur [Leaflet.js](https://leafletjs.
 - **Recherche avancée** : Insensible aux accents, tirets, avec distinction des homonymes par adresse et rang.
 - **Légende interactive** : Affiche les classes de rang et le total d'écoles visibles.
 
+## Structure du Repo
+
+```text
+.
+├── data/
+│   ├── raw/         # sources brutes (PDF/CSV)
+│   ├── processed/   # GeoJSON finaux
+│   └── reports/     # rapports QA + unmatched
+├── devops/
+│   └── ci/          # templates et docs CI/CD
+├── docs/            # analyses et documentation projet
+├── scripts/
+│   ├── pipelines/   # orchestration shell
+│   └── *.py         # extraction, fusion, validation
+└── webapp/          # application Leaflet
+```
+
 ## Installation
 
 1. **Clonez le dépôt** :
@@ -22,14 +39,14 @@ Cette application est un outil SIG Web basé sur [Leaflet.js](https://leafletjs.
    git clone https://github.com/votre-utilisateur/nom-du-repo.git
    ```
 
-2. **Placez les données** : Assurez-vous que le fichier `ecoles.geojson` est dans le même répertoire que `index.html`.
+2. **Placez les données** : Assurez-vous que le fichier `data/processed/ecoles.geojson` existe.
 
 3. **Lancez un serveur local** : Utilisez Python pour démarrer un serveur local :
     ```bash
     python -m http.server 8000
     ```
 
-4. **Accédez à l'application** : Ouvrez un navigateur et allez à [http://localhost:8000/index.html](http://localhost:8000/index.html).
+4. **Accédez à l'application** : Ouvrez un navigateur et allez à [http://localhost:8000/webapp/index.html](http://localhost:8000/webapp/index.html).
 
 ## Exemple de Données GeoJSON
 
@@ -60,7 +77,7 @@ Les données GeoJSON des écoles sont structurées comme suit :
 Un script de validation automatisé est fourni pour vérifier l'intégrité du fichier GeoJSON:
 
 ```bash
-python3 validate_geojson.py ecoles.geojson
+python3 scripts/validate_geojson.py data/processed/ecoles.geojson
 ```
 
 ### Extraction multi-sources (CGTSIM + Données Montréal)
@@ -78,24 +95,24 @@ Pré-requis:
 - récupérer un CSV ou GeoJSON Montréal contenant nom + longitude + latitude
 
 Note pipeline:
-- si `data/cgtsim_classement.csv` est absent, le script one-shot le génère automatiquement depuis la source CGTSIM en ligne (PDF officiel), via `extract_cgtsim_pdf_to_csv.py`.
+- si `data/raw/cgtsim_classement.csv` est absent, le script one-shot le génère automatiquement depuis la source CGTSIM en ligne (PDF officiel), via `scripts/extract_cgtsim_pdf_to_csv.py`.
 
 Exemple d'exécution:
 
 ```bash
-python3 build_cgtsim_montreal_geojson.py \
-  --cgtsim data/cgtsim_classement.csv \
+python3 scripts/build_cgtsim_montreal_geojson.py \
+  --cgtsim data/raw/cgtsim_classement.csv \
   --montreal "https://donnees.montreal.ca/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/5ca7cdb8-f86f-4038-b5a8-657446c75427/download/lieux_d_interet.geojson" \
   --montreal-filter-field "Catégorie" \
   --montreal-filter-value "Établissement scolaire" \
   --montreal-filter-mode equals \
-  --out ecoles.geojson \
-  --unmatched-out unmatched_cgtsim_montreal.csv
+  --out data/processed/ecoles.geojson \
+  --unmatched-out data/reports/unmatched_cgtsim_montreal.csv
 ```
 
 Le script produit:
-- `ecoles.geojson` (fusion finale)
-- `unmatched_cgtsim_montreal.csv` (écoles CGTSIM sans correspondance)
+- `data/processed/ecoles.geojson` (fusion finale)
+- `data/reports/unmatched_cgtsim_montreal.csv` (écoles CGTSIM sans correspondance)
 
 ### Contrôle des données (nouveau)
 
@@ -108,15 +125,15 @@ Un second script complète la validation structurelle avec des contrôles métie
 Commande:
 
 ```bash
-python3 control_data_quality.py ecoles.geojson --report-json qa_report.json
+python3 scripts/control_data_quality.py data/processed/ecoles.geojson --report-json data/reports/qa_report.json
 ```
 
 Pipeline recommandé:
 
 ```bash
-python3 build_cgtsim_montreal_geojson.py --cgtsim <csv_cgtsim> --montreal <csv_ou_geojson_montreal>
-python3 validate_geojson.py ecoles.geojson
-python3 control_data_quality.py ecoles.geojson --report-json qa_report.json
+python3 scripts/build_cgtsim_montreal_geojson.py --cgtsim <csv_cgtsim> --montreal <csv_ou_geojson_montreal>
+python3 scripts/validate_geojson.py data/processed/ecoles.geojson
+python3 scripts/control_data_quality.py data/processed/ecoles.geojson --report-json data/reports/qa_report.json
 ```
 
 ### Commande unique (script shell)
@@ -124,14 +141,14 @@ python3 control_data_quality.py ecoles.geojson --report-json qa_report.json
 Un script one-shot exécute extraction + validation + contrôle:
 
 ```bash
-./run_cgtsim_montreal_pipeline.sh data/cgtsim_classement.csv ecoles.geojson qa_report.json
+./scripts/pipelines/run_cgtsim_montreal_pipeline.sh data/raw/cgtsim_classement.csv data/processed/ecoles.geojson data/reports/qa_report.json
 ```
 
 Forcer une autre URL CGTSIM (ex: nouvelle année):
 
 ```bash
 CGTSIM_PDF_URL="https://www.cgtsim.qc.ca/.../classification.pdf" \
-./run_cgtsim_montreal_pipeline.sh data/cgtsim_classement.csv
+./scripts/pipelines/run_cgtsim_montreal_pipeline.sh data/raw/cgtsim_classement.csv
 ```
 
 Variables d'environnement optionnelles:
@@ -142,7 +159,7 @@ MONTREAL_FILTER_FIELD="Catégorie" \
 MONTREAL_FILTER_VALUE="Établissement scolaire" \
 MONTREAL_FILTER_MODE="equals" \
 FUZZY_THRESHOLD="0.86" \
-./run_cgtsim_montreal_pipeline.sh data/cgtsim_classement.csv
+./scripts/pipelines/run_cgtsim_montreal_pipeline.sh data/raw/cgtsim_classement.csv
 ```
 
 Le script rapporte:
@@ -164,9 +181,9 @@ Les données des écoles et de leur classement proviennent du rapport officiel d
 ### Processus de mise à jour
 1. **Récupérer la source** : Télécharger le dernier rapport PDF du classement des écoles.
 2. **Extraire les données** : Convertir le PDF en format tabulaire (Excel/CSV) avec colonnes: nom, rang, adresse, longitude, latitude.
-3. **Valider** : Exécuter le script `validate_geojson.py` pour contrôler la cohérence.
-4. **Remplacer** : Substituer le fichier `ecoles.geojson` avec les nouvelles données.
-5. **Tester** : Ouvrir `http://localhost:8000/index.html` pour vérifier le rendu et la recherche.
+3. **Valider** : Exécuter le script `scripts/validate_geojson.py` pour contrôler la cohérence.
+4. **Remplacer** : Substituer le fichier `data/processed/ecoles.geojson` avec les nouvelles données.
+5. **Tester** : Ouvrir `http://localhost:8000/webapp/index.html` pour vérifier le rendu et la recherche.
 6. **Committer** : Créer un commit avec le message `chore: update school rankings from CGTSIM YYYY`.
 
 ### Fréquence recommandée

@@ -171,7 +171,12 @@ def print_report(report: Dict[str, object]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Controle qualite du GeoJSON ecoles")
-    parser.add_argument("geojson", nargs="?", default="ecoles.geojson", help="Fichier GeoJSON a controler")
+    parser.add_argument(
+        "geojson",
+        nargs="?",
+        default="data/processed/ecoles.geojson",
+        help="Fichier GeoJSON a controler",
+    )
     parser.add_argument(
         "--report-json",
         default="",

@@ -494,12 +494,12 @@ def main() -> int:
     )
     parser.add_argument(
         "--out",
-        default="ecoles.geojson",
+        default="data/processed/ecoles.geojson",
         help="Fichier GeoJSON de sortie",
     )
     parser.add_argument(
         "--unmatched-out",
-        default="unmatched_cgtsim_montreal.csv",
+        default="data/reports/unmatched_cgtsim_montreal.csv",
         help="Fichier CSV des lignes CGTSIM non associees",
     )
     parser.add_argument(

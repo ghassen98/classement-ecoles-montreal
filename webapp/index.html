@@ -254,8 +254,8 @@
             return L.marker(latlng, { icon: icon });
         }
 
-        // Charger les données GeoJSON depuis le fichier externe
-        fetch('ecoles.geojson')
+        // Charger les données GeoJSON depuis le dossier data/processed
+        fetch('../data/processed/ecoles.geojson')
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status} - ${response.statusText}`);
@@ -374,7 +374,7 @@
             })
             .catch(error => {
                 console.error('Erreur de chargement du fichier GeoJSON :', error);
-                setStatus('Impossible de charger les données des écoles. Vérifie le fichier ecoles.geojson.', true);
+                setStatus('Impossible de charger les données des écoles. Vérifie le fichier data/processed/ecoles.geojson.', true);
             });
     </script>
 </body>

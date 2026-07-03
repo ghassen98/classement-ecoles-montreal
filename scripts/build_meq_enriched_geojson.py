@@ -5,7 +5,7 @@ Construit un GeoJSON enrichi des ecoles de Montreal a partir de deux sources MEQ
 2) Indices de defavorisation 2025-2026 (IMSE/SFR/deciles/annee)
 
 Sortie par defaut:
-- meq_ecoles_montreal_enrichi.geojson
+- data/processed/meq_ecoles_montreal_enrichi.geojson
 """
 
 from __future__ import annotations
@@ -249,7 +249,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Fusionner les donnees MEQ en un GeoJSON enrichi")
     parser.add_argument(
         "--out",
-        default="meq_ecoles_montreal_enrichi.geojson",
+        default="data/processed/meq_ecoles_montreal_enrichi.geojson",
         help="Chemin de sortie GeoJSON",
     )
     parser.add_argument(

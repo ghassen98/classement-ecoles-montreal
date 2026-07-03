@@ -135,6 +135,6 @@ def validate_geojson(filepath):
 
 
 if __name__ == '__main__':
-    filepath = sys.argv[1] if len(sys.argv) > 1 else 'ecoles.geojson'
+    filepath = sys.argv[1] if len(sys.argv) > 1 else 'data/processed/ecoles.geojson'
     success = validate_geojson(filepath)
     sys.exit(0 if success else 1)

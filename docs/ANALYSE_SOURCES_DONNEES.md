@@ -127,14 +127,14 @@ out geom;
 ## ✅ Implémentation démarrée dans le repo
 
 ### Intégration Source 1 + Source 2 (script d'extraction)
-- Script ajouté: `build_cgtsim_montreal_geojson.py`
-- Script ajouté: `extract_cgtsim_pdf_to_csv.py` (génération CSV depuis la source CGTSIM en ligne)
+- Script ajouté: `scripts/build_cgtsim_montreal_geojson.py`
+- Script ajouté: `scripts/extract_cgtsim_pdf_to_csv.py` (génération CSV depuis la source CGTSIM en ligne)
 - Objectif: fusionner un classement CGTSIM (CSV) avec un dataset Montréal (CSV/GeoJSON)
 - URL Montréal branchée: `https://donnees.montreal.ca/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/5ca7cdb8-f86f-4038-b5a8-657446c75427/download/lieux_d_interet.geojson`
 - Filtre appliqué: `Catégorie = Établissement scolaire`
 - Sorties:
-   - `ecoles.geojson` (fusion)
-   - `unmatched_cgtsim_montreal.csv` (non-correspondances à corriger)
+   - `data/processed/ecoles.geojson` (fusion)
+   - `data/reports/unmatched_cgtsim_montreal.csv` (non-correspondances à corriger)
 
 ### Contrôle des données (script dédié)
 - Script ajouté: `control_data_quality.py`
@@ -148,12 +148,12 @@ out geom;
 
 ### Commandes de base
 ```bash
-python3 build_cgtsim_montreal_geojson.py --cgtsim <csv_cgtsim> --montreal "https://donnees.montreal.ca/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/5ca7cdb8-f86f-4038-b5a8-657446c75427/download/lieux_d_interet.geojson" --montreal-filter-field "Catégorie" --montreal-filter-value "Établissement scolaire" --montreal-filter-mode equals
-python3 validate_geojson.py ecoles.geojson
-python3 control_data_quality.py ecoles.geojson --report-json qa_report.json
+python3 scripts/build_cgtsim_montreal_geojson.py --cgtsim <csv_cgtsim> --montreal "https://donnees.montreal.ca/dataset/763fe3b8-cdc3-4b8a-bbbd-a0a9bc587c56/resource/5ca7cdb8-f86f-4038-b5a8-657446c75427/download/lieux_d_interet.geojson" --montreal-filter-field "Catégorie" --montreal-filter-value "Établissement scolaire" --montreal-filter-mode equals --out data/processed/ecoles.geojson --unmatched-out data/reports/unmatched_cgtsim_montreal.csv
+python3 scripts/validate_geojson.py data/processed/ecoles.geojson
+python3 scripts/control_data_quality.py data/processed/ecoles.geojson --report-json data/reports/qa_report.json
 
 # Commande unique
-./run_cgtsim_montreal_pipeline.sh <csv_cgtsim> ecoles.geojson qa_report.json
+./scripts/pipelines/run_cgtsim_montreal_pipeline.sh <csv_cgtsim> data/processed/ecoles.geojson data/reports/qa_report.json
 
 # Si <csv_cgtsim> est absent: génération automatique depuis le PDF CGTSIM en ligne
 # URL configurable via variable d'environnement CGTSIM_PDF_URL
